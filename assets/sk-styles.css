@@ -50,6 +50,7 @@ h4 {
 }
 .image-with-text__media-item--33vw {
   width: 33vw;
+  height: 33vw;
 }
 @media screen and (min-width: 990px) {
   .header {
