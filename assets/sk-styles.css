@@ -21,6 +21,9 @@ h4 {
   display: flex;
   gap: 16px;
 }
+.button {
+  border-width: 1px;
+}
 .button::after,
 .button::before {
   display: none;
