@@ -28,7 +28,7 @@
               {{ section.settings.caption | escape }}
             </p>
           {% endif %}
-          {%- if section.settings.heading != blank -%}
+          {%- if section.settings.heading != blank and section.settings.image == blank -%}
             <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
