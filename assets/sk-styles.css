@@ -48,6 +48,9 @@ h4 {
   background-color: #3c534a;
   border-color: #3c534a;
 }
+.image-with-text__media-item--33vw {
+  width: 33vw;
+}
 @media screen and (min-width: 990px) {
   .header {
     grid-template-columns: 220px auto 220px;
