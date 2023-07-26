@@ -89,6 +89,33 @@
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
+             {%- when 'double-button' -%}
+              {%- if block.settings.button_label-1 != blank -%}
+                <a
+                  {% if block.settings.button_link-1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link-1 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary-1 %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label-1 | escape }}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.button_label-2 != blank -%}
+                <a
+                  {% if block.settings.button_link-2 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link-2 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label-2 | escape }}
+                </a>
+              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -421,7 +448,7 @@
     {
       "type": "button",
       "name": "t:sections.image-with-text.blocks.button.name",
-      "limit": 2,
+      "limit": 1,
       "settings": [
         {
           "type": "text",
@@ -438,6 +465,49 @@
         {
           "type": "checkbox",
           "id": "button_style_secondary",
+          "default": false,
+          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        }
+      ]
+    },
+    {
+      "type": "double-button",
+      "name": "Double Button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label-1",
+          "default": "Button 1 label",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link-1",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary-1",
+          "default": false,
+          "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label-2",
+          "default": "Button 1 label",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_label.label",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link-2",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary-2",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
         }
