@@ -98,6 +98,15 @@
   </div>
 </div>
 
+{% style %}
+@media screen and (max-width: 989px) {
+.image-text-section {
+  padding: {{section.settings.padding_mb}}px;
+}
+}
+
+{% endstyle %}
+
 {% schema %}
 {
   "name": "Custom Image with Text",
