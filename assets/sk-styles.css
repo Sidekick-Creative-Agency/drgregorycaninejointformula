@@ -8,5 +8,5 @@
   grid-template-columns: 220px auto 220px;
 }
 .list-menu {
-  margin: auto;
+  margin: auto !important;
 }
