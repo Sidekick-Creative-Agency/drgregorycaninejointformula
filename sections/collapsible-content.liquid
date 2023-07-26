@@ -28,7 +28,7 @@
               {{ section.settings.caption | escape }}
             </p>
           {% endif %}
-          {%- if section.settings.heading != blank -%}
+          {%- if section.settings.heading != blank and section.settings.image == blank -%}
             <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
@@ -70,6 +70,11 @@
             </div>
           {% endif %}
           <div class="grid__item">
+            {%- if section.settings.heading != blank and section.settings.image != blank -%}
+              <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
+                {{ section.settings.heading }}
+              </h2>
+            {%- endif -%}
             {%- for block in section.blocks -%}
               <div
                 class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
