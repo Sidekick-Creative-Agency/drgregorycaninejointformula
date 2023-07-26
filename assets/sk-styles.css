@@ -4,6 +4,9 @@ h3,
 h4 {
   line-height: 100%;
 }
+h3 {
+  font-family: poppins, sans-serif !important;
+}
 
 .header__icon .icon {
   fill: #70846f !important;

@@ -65,10 +65,78 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle.svg",
+            "title": "Natural Ingredients​",
+            "text": "<p>Packed with human-grade, natural ingredients to reduce joint pain and keep your dog happy and active​<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_8500d860-a124-45c2-922c-06dd32a712ff.svg",
+            "title": "No Preservatives",
+            "text": "<p>Contains only 6 powerful ingredients, all free from any potentially harmful inactive ingredients​<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_44f69dca-75b2-4b10-9e8e-a7a8abce267a.svg",
+            "title": "Proven by Research",
+            "text": "<p>Created with a patented blend of research-backed ingredients proven to alleviate joint pain and promote joint health in dogs<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "940cce37-d33f-43eb-980a-2b312c2d7189": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_eef9720b-6901-4e5f-b4d5-f6333d1cb9c1.svg",
+            "title": "Veterinarian Backed",
+            "text": "<p>Developed by a veterinarian with over 40 years of experience, our formula meets the highest standards of safety and quality<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-1",
+        "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-2",
+        "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-3",
+        "940cce37-d33f-43eb-980a-2b312c2d7189"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner",
-    "b1f07172-cb1c-4df0-a958-9f50dcb8a818"
+    "b1f07172-cb1c-4df0-a958-9f50dcb8a818",
+    "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f"
   ]
 }
