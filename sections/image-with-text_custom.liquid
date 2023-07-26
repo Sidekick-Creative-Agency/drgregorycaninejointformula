@@ -19,7 +19,7 @@
   <div class="image-text-container">
     <div class="image-text-image-container">
       {%- if section.settings.show_bg_circle -%}
-        <div class="image-text-circle-bg"></div>
+        <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
       {%- endif -%}
       <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-radius: 50%" {% endif %}/>
     </div>
@@ -66,6 +66,11 @@
       "id": "show_bg_circle",
       "label": "Show circle behind image?",
       "default": false
+    },
+    {
+      "type": "color",
+      "id": "circle_bg_color",
+      "label": "Circle Color"
     },
     {
       "type": "select",
