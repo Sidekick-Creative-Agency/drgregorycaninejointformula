@@ -75,3 +75,8 @@ p {
     justify-content: center;
   }
 }
+@media screen and (max-width: 749px) {
+  .multicolumn-list {
+    gap: 32px;
+  }
+}
