@@ -64,8 +64,7 @@ p {
   font-size: 1.6rem;
 }
 .multicolumn-card__info {
-  padding-top: 1rem;
-  padding-bottom: 0;
+  padding: 1rem !important;
 }
 @media screen and (min-width: 990px) {
   .header {
