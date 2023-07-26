@@ -36,7 +36,8 @@
                 class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                 {{ block.shopify_attributes }}
               >
-                {{ block.settings.heading }}
+                <span style="color: {{block.settings.heading_color-1}}">{{ block.settings.dual_heading-1 }}
+                <span style="color: {{block.settings.heading_color-2}}">{{ block.settings.dual_heading-2 }} 
               </h2>
             {%- when 'caption' -%}
               <p
