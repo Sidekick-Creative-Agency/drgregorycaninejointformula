@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}
-<div class="image-text-section" style="background-color: {{section.settings.bg_color}}">
+<div class="image-text-section" style="background-color: {{section.settings.bg_color}}; padding: {{section.settings.padding}}">
   <div class="image-text-container">
     <div class="image-text-image-container">
       {%- if section.settings.show_bg_circle -%}
