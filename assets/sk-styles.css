@@ -107,10 +107,8 @@ p {
 }
 @media screen and (max-width: 989px) {
   .image-text-container {
-    margin: auto;
-    max-width: var(--site-width);
-    display: flex;
-    gap: 64px;
+    flex-direction: column;
+    gap: 32px;
     align-items: center;
   }
   .multicolumn-card__image-wrapper--third-width {
