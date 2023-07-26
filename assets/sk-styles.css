@@ -84,6 +84,8 @@ p {
 .image-text-container {
   margin: auto;
   max-width: var(--site-width);
+  display: flex;
+  gap: 64px;
 }
 @media screen and (min-width: 990px) {
   .header {
