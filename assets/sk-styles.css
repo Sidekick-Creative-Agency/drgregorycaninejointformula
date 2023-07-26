@@ -53,7 +53,7 @@ h4 {
   height: 33vw;
 }
 .image-with-text__media-item--33vw .image-with-text__media {
-  padding: 0 !important;
+  /* padding: 0 !important; */
 }
 @media screen and (min-width: 990px) {
   .header {
