@@ -76,10 +76,12 @@ p {
   }
 }
 @media screen and (max-width: 989px) {
-  .multicolumn-list {
-    gap: 32px;
-  }
   .multicolumn-card__image-wrapper--third-width {
     max-width: 300px;
+  }
+}
+@media screen and (max-width: 749px) {
+  .multicolumn-list {
+    gap: 32px;
   }
 }
