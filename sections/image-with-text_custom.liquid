@@ -15,8 +15,10 @@
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}
+
 <div class="image-text-section color-{{ section.settings.color_scheme }}">
   <div class="image-text-container" style="max-width: {{settings.page_width}}px">
+    {%- if section.settings.layout == "image_first " -%}
     <div class="image-text-column">
       <div class="image-text-image-container">
         <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %}/>
@@ -95,6 +97,87 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
+      {%- else -%}
+      
+    <div
+        id="ImageWithText--{{ section.id }}"
+        class="image-text-column image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
+      >
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'heading' -%}
+              <h2
+                class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+                {{ block.shopify_attributes }}
+              >
+                <span style="color: {{block.settings.heading_color-1}}">{{ block.settings.dual_heading-1 }} <span style="color: {{block.settings.heading_color-2}}">{{ block.settings.dual_heading-2 }} 
+              </h2>
+            {%- when 'caption' -%}
+              <p
+                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.caption | escape }}
+              </p>
+            {%- when 'text' -%}
+              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                {{ block.settings.text }}
+              </div>
+            {%- when 'button' -%}
+              {%- if block.settings.button_label != blank -%}
+                <a
+                  {% if block.settings.button_link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
+            {%- when 'double-button' -%}
+              <div class="double-button-container">
+              {%- if block.settings.button_label-1 != blank -%}
+                <a
+                  {% if block.settings.button_link-1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link-1 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary-1 %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label-1 | escape }}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.button_label-2 != blank -%}
+                <a
+                  {% if block.settings.button_link-2 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link-2 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label-2 | escape }}
+                </a>
+              {%- endif -%}
+            </div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+      <div class="image-text-column">
+        <div class="image-text-image-container">
+          <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %}/>
+          {%- if section.settings.show_bg_circle -%}
+            <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
