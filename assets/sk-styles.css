@@ -52,11 +52,11 @@ p {
   border-color: #3c534a;
 }
 .image-text-image-container {
-  width: 33vw;
-  height: 33vw;
-  /* width: 100%;
+  /* width: 33vw;
+  height: 33vw; */
+  width: 100%;
   height: auto;
-  aspect-ratio: 1/1; */
+  /* aspect-ratio: 1/1; */
   position: relative;
 }
 .image-text-column {
