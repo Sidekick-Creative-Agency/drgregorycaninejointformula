@@ -96,6 +96,9 @@ p {
 .image-with-text__heading {
   line-height: 100%;
 }
+.image-with-text__content {
+  padding: 0;
+}
 @media screen and (min-width: 990px) {
   .header {
     grid-template-columns: 220px auto 220px;
