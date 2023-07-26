@@ -90,14 +90,14 @@ p {
   margin: auto;
   max-width: var(--site-width);
   display: flex;
-  gap: 64px;
+  gap: 96px;
   align-items: center;
 }
 .image-with-text__heading {
   line-height: 100%;
 }
 .image-with-text__content {
-  padding: 0;
+  padding: 0 !important;
 }
 @media screen and (min-width: 990px) {
   .header {
