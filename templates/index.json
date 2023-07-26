@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/dr-gregorys-canine-joint-formula",
             "button_style_secondary": true
           }
         }
