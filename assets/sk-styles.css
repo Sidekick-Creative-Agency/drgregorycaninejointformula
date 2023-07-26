@@ -15,7 +15,7 @@ h4 {
 }
 .subtitle {
   line-height: 125%;
-  opacity: 1;
+  color: rgba(var(--color-foreground));
 }
 
 @media screen and (min-width: 990px) {
