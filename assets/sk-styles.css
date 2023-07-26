@@ -3,3 +3,7 @@
   height: 2.5rem !important;
   fill: #1a2320 !important;
 }
+
+.header {
+  grid-template-columns: 220px auto 220px;
+}
