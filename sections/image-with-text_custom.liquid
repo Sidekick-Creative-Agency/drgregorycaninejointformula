@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}
-<div class="image-text-section" style="background-color: {{section.settings.bg_color}}; padding: {{section.settings.padding}}px">
+<div class="image-text-section color-{{ section.settings.color_scheme }}" style="padding: {{section.settings.padding}}px">
   <div class="image-text-container">
     <div class="image-text-column">
       <div class="image-text-image-container">
