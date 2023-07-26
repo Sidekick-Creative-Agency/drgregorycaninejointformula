@@ -64,6 +64,33 @@
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
+            {%- when 'double-button' -%}
+              {%- if block.settings.button_label-1 != blank -%}
+                <a
+                  {% if block.settings.button_link-1 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link-1 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary-1 %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label-1 | escape }}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.button_label-2 != blank -%}
+                <a
+                  {% if block.settings.button_link-2 == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link-2 }}"
+                  {% endif %}
+                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.button_label-2 | escape }}
+                </a>
+              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>
