@@ -52,6 +52,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-dog-2-e1688571201477.png",
+        "radius": 50,
         "height": "adapt",
         "desktop_image_width": "33vw",
         "layout": "image_first",
