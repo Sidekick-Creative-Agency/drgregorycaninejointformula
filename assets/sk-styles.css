@@ -51,7 +51,7 @@ p {
   background-color: #3c534a;
   border-color: #3c534a;
 }
-.image-with-text__media-item--33vw {
+.image-text-image-container {
   width: 33vw !important;
   height: 33vw;
 }
