@@ -18,11 +18,10 @@
 <div class="image-text-section" style="background-color: {{section.settings.bg_color}}; padding: {{section.settings.padding}}px">
   <div class="image-text-container">
     <div class="image-text-image-container">
-      
-      <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-radius: 50%" {% endif %}/>
       {%- if section.settings.show_bg_circle -%}
         <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
       {%- endif -%}
+      <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-radius: 50%" {% endif %}/>
     </div>
   </div>
 </div>
