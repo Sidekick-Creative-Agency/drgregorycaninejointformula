@@ -79,4 +79,7 @@ p {
   .multicolumn-list {
     gap: 32px;
   }
+  .multicolumn-card__image-wrapper--third-width {
+    max-width: 300px;
+  }
 }
