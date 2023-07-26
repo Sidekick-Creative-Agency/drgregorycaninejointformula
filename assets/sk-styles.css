@@ -52,6 +52,9 @@ h4 {
   width: 33vw !important;
   height: 33vw;
 }
+.image-with-text__media-item--33vw .image-with-text__media {
+  padding: 0 !important;
+}
 @media screen and (min-width: 990px) {
   .header {
     grid-template-columns: 220px auto 220px;
