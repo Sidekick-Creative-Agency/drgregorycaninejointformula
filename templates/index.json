@@ -156,7 +156,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Contains EXACTLY what the label says",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>The product is guaranteed to contain exactly what the label says it contains. There is no governmental oversight or regulation ensuring quality control of supplements. One study found that 81% of randomly selected supplement products did not meet label claims, with some of the products containing 0% of the labeled ingredient ! It is important to choose a product from a reliable source, be confident of what is in the product, and consider evidence and facts, not just claims.<\/p>",
             "page": ""
           }
@@ -165,7 +165,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "High-quality ingredients supported by research",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
             "page": ""
           }
@@ -174,7 +174,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "No fillers, additives, chemicals, preservatives",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
             "page": ""
           }
@@ -190,7 +190,7 @@
         "caption": "",
         "heading": "Friendly ingredients for your furry friends",
         "heading_size": "h1",
-        "heading_alignment": "right",
+        "heading_alignment": "left",
         "layout": "row",
         "color_scheme": "",
         "container_color_scheme": "background-1",
