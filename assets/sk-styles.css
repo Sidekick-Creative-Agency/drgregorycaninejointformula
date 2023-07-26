@@ -76,7 +76,7 @@ p {
   bottom: 0;
   left: 0;
   display: block !important;
-  transform: translateY(-9px);
+  transform: translateY(-9.5px);
 }
 .multicolumn-card__info h3 {
   font-family: poppins, sans-serif !important;
