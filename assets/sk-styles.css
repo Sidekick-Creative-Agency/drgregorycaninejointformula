@@ -7,6 +7,7 @@
 .header {
   grid-template-columns: 220px auto 220px;
 }
-.list-menu {
-  margin: auto !important;
+.header__inline-menu {
+  display: flex;
+  justify-content: center;
 }
