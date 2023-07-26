@@ -13,13 +13,13 @@
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 1,
-    "variant_pills_border_opacity": 55,
+    "variant_pills_border_opacity": 100,
     "variant_pills_radius": 40,
     "variant_pills_shadow_opacity": 0,
     "variant_pills_shadow_horizontal_offset": 0,
@@ -144,12 +144,12 @@
       },
       "background-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#a4b494",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#f3f3f3",
-          "secondary_button_label": "#121212",
+          "text": "#edede8",
+          "button": "#3c534a",
+          "button_label": "#f6f6f4",
+          "secondary_button_label": "#f6f6f4",
           "shadow": "#121212"
         }
       },
