@@ -146,36 +146,36 @@
         "template--16784424272117__43947498-e867-4204-bfc7-1450b92cc319-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "The math has been done for you",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
             "page": ""
           }
         },
         "template--16784424272117__43947498-e867-4204-bfc7-1450b92cc319-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Contains EXACTLY what the label says",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>The product is guaranteed to contain exactly what the label says it contains. There is no governmental oversight or regulation ensuring quality control of supplements. One study found that 81% of randomly selected supplement products did not meet label claims, with some of the products containing 0% of the labeled ingredient ! It is important to choose a product from a reliable source, be confident of what is in the product, and consider evidence and facts, not just claims.<\/p>",
             "page": ""
           }
         },
         "template--16784424272117__43947498-e867-4204-bfc7-1450b92cc319-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "High-quality ingredients supported by research",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
             "page": ""
           }
         },
         "template--16784424272117__43947498-e867-4204-bfc7-1450b92cc319-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "No fillers, additives, chemicals, preservatives",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
             "page": ""
           }
         }
