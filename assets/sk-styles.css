@@ -45,8 +45,8 @@ h4 {
 .button--secondary:focus-visible,
 .button--secondary:focus,
 .button--secondary.focused {
-  background-color: rgba(var(--color-button));
-  border-color: rgba(var(--color-button));
+  background-color: #3c534a;
+  border-color: #3c534a;
 }
 @media screen and (min-width: 990px) {
   .header {
