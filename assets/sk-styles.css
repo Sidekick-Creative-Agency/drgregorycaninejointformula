@@ -90,6 +90,7 @@ p {
   max-width: var(--site-width);
   display: flex;
   gap: 64px;
+  align-items: center;
 }
 .image-with-text__heading {
   line-height: 100%;
