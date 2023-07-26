@@ -26,7 +26,7 @@ h4 {
 }
 .button::after,
 .button::before {
-  display: none;
+  /* display: none; */
 }
 .button:hover,
 .button:focus-visible,
