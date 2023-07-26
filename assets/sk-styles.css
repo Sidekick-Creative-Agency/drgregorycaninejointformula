@@ -56,6 +56,11 @@ p {
   height: 33vw;
   position: relative;
 }
+.image-text-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .image-with-text__media-item--33vw .image-with-text__media {
   /* padding: 0 !important; */
 }
