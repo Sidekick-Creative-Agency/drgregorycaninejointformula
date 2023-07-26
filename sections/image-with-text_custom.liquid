@@ -18,7 +18,7 @@
 
 <div class="image-text-section color-{{ section.settings.color_scheme }}">
   <div class="image-text-container" style="max-width: {{settings.page_width}}px">
-    {%- if section.settings.layout == "image_first " -%}
+    {%- if section.settings.layout == "image_first" -%}
     <div class="image-text-column">
       <div class="image-text-image-container">
         <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %}/>
