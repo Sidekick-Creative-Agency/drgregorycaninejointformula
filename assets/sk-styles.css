@@ -24,6 +24,7 @@ h4 {
 .button {
   border-width: var(--buttons-border-width);
   border-color: var(--color-button);
+  border-style: solid;
 }
 .button::after,
 .button::before {
