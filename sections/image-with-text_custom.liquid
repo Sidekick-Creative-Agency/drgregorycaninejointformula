@@ -65,6 +65,7 @@
                 </a>
               {%- endif -%}
             {%- when 'double-button' -%}
+              <div class="double-button-container">
               {%- if block.settings.button_label-1 != blank -%}
                 <a
                   {% if block.settings.button_link-1 == blank %}
@@ -91,6 +92,7 @@
                   {{ block.settings.button_label-2 | escape }}
                 </a>
               {%- endif -%}
+            </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
