@@ -22,7 +22,7 @@ h4 {
   gap: 16px;
 }
 .button {
-  border-width: 1px;
+  border-width: var(--buttons-border-width);
 }
 .button::after,
 .button::before {
