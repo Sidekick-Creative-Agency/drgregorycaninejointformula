@@ -26,9 +26,12 @@ h4 {
   border-color: rgba(var(--color-button));
   border-style: solid;
 }
+.button--secondary {
+  border-color: rgba(var(--color-button-text));
+}
 .button::after,
 .button::before {
-  /* display: none; */
+  display: none;
 }
 .button:hover,
 .button:focus-visible,
