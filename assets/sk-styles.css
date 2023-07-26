@@ -122,4 +122,8 @@ p {
   }
 }
 @media screen and (max-width: 749px) {
+  .double-button-container {
+    flex-direction: column;
+    justify-content: stretch;
+  }
 }
