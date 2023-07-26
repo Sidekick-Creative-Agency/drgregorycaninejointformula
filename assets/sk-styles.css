@@ -23,7 +23,7 @@ h4 {
 }
 .button {
   border-width: var(--buttons-border-width);
-  border-color: var(--color-button);
+  border-color: rgba(var(--color-button));
   border-style: solid;
   box-shadow: none;
 }
@@ -36,14 +36,14 @@ h4 {
 .button:focus,
 .button.focused {
   background-color: transparent;
-  border-color: var(--color-button-text);
+  border-color: rgba(var(--color-button-text));
 }
 .button--secondary:hover,
 .button--secondary:focus-visible,
 .button--secondary:focus,
 .button--secondary.focused {
-  background-color: var(--color-button);
-  border-color: var(--color-button);
+  background-color: rgba(var(--color-button));
+  border-color: rgba(var(--color-button));
 }
 @media screen and (min-width: 990px) {
   .header {
