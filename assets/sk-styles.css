@@ -17,6 +17,10 @@ h4 {
   line-height: 125%;
   color: rgba(var(--color-foreground));
 }
+.double-button-container {
+  display: flex;
+  gap: 16px;
+}
 
 @media screen and (min-width: 990px) {
   .header {

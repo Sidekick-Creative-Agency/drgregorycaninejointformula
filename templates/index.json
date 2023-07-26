@@ -40,12 +40,24 @@
             "button_link": "shopify:\/\/products\/dr-gregorys-canine-joint-formula",
             "button_style_secondary": true
           }
+        },
+        "d4835f46-aa7e-49bd-8f9b-1a9cb87314ac": {
+          "type": "double-button",
+          "settings": {
+            "button_label-1": "test",
+            "button_link-1": "",
+            "button_style_secondary-1": false,
+            "button_label-2": "Button 1 label",
+            "button_link-2": "",
+            "button_style_secondary-2": false
+          }
         }
       },
       "block_order": [
         "template--16784424272117__b1f07172-cb1c-4df0-a958-9f50dcb8a818-heading-1",
         "template--16784424272117__b1f07172-cb1c-4df0-a958-9f50dcb8a818-text-1",
-        "template--16784424272117__b1f07172-cb1c-4df0-a958-9f50dcb8a818-button-1"
+        "template--16784424272117__b1f07172-cb1c-4df0-a958-9f50dcb8a818-button-1",
+        "d4835f46-aa7e-49bd-8f9b-1a9cb87314ac"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-dog-2-e1688571201477.png",
