@@ -101,6 +101,9 @@ p {
 .accordion.content-container {
   border-bottom: 1px solid #1a2320 !important;
 }
+.collapsible-content summary:hover {
+  background: transparent;
+}
 @media screen and (min-width: 990px) {
   .header {
     grid-template-columns: 220px auto 220px;
