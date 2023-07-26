@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}
-<div class="image-text-section color-{{ section.settings.color_scheme }}" style="padding: {{section.settings.padding}}px">
+<div class="image-text-section color-{{ section.settings.color_scheme }}">
   <div class="image-text-container">
     <div class="image-text-column">
       <div class="image-text-image-container">
@@ -99,6 +99,9 @@
 </div>
 
 {% style %}
+.image-text-section {
+  padding: {{section.settings.padding}}px;
+}
 @media screen and (max-width: 989px) {
 .image-text-section {
   padding: {{section.settings.padding_mb}}px;
