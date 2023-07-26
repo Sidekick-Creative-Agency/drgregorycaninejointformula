@@ -23,10 +23,11 @@ h4 {
 }
 .button {
   border-width: var(--buttons-border-width);
+  border-color: var(--color-button);
 }
 .button::after,
 .button::before {
-  /* display: none; */
+  display: none;
 }
 .button:hover,
 .button:focus-visible,
