@@ -52,8 +52,9 @@ p {
   border-color: #3c534a;
 }
 .image-text-image-container {
-  width: 33vw !important;
+  width: 33vw;
   height: 33vw;
+  position: relative;
 }
 .image-with-text__media-item--33vw .image-with-text__media {
   /* padding: 0 !important; */
