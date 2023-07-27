@@ -257,7 +257,7 @@ p {
   }
   .contact-custom-section {
     padding: 24px;
-    flex-direction: vertical;
+    flex-direction: column;
     gap: 16px;
   }
   .contact__button .button {
