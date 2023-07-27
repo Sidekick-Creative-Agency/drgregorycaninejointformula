@@ -305,6 +305,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dr-Gregory-17_1.jpg",
+        "border-radius": 20,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -314,8 +315,8 @@
         "color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding": 64,
+        "padding_mb": 24
       }
     }
   },
