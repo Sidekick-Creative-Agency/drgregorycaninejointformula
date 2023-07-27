@@ -97,6 +97,7 @@ p {
   display: flex;
   gap: 96px;
   align-items: center;
+  position: relative;
 }
 .image-with-text__heading {
   line-height: 100%;
