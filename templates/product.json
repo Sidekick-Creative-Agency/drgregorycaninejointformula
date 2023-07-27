@@ -48,7 +48,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "heart",
-            "content": "<p>Active Ingredients Per 1.23 Grams<\/p><ul><li><em>Perma canaliculus<\/em> (Green Lipped Mussel) Powder<\/li><li>Eggshell Membrane Collagen Powder<\/li><li>Green Tea Leaf Extract<\/li><li>CurcuWIN Tumeric Root Extract<\/li><li>AvoVida Avocado Fruit\/Soy Seet Extract<\/li><li>UC-II Chicken Collogen Powder<\/li><\/ul><p>Inactive ingredients<\/p><ul><li>Natural Flavor<\/li><li>Silicon Dioxide<\/li><\/ul>",
+            "content": "<p>Active Ingredients Per 1.23 Grams<\/p><ul><li><em>Perna canaliculus<\/em> (Green Lipped Mussel) Powder<\/li><li>Eggshell Membrane Collagen Powder<\/li><li>Green Tea Leaf Extract<\/li><li>CurcuWIN Turmeric Root Extract<\/li><li>AvoVida Avocado Fruit\/Soy Seed Extract<\/li><li>UC-II Chicken Collagen Powder<\/li><\/ul><p>Inactive ingredients<\/p><ul><li>Natural Flavor<\/li><li>Silicon Dioxide<\/li><\/ul>",
             "page": ""
           }
         }
@@ -96,10 +96,53 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "57f7c980-5398-418e-9215-7bd5b51580fe": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16784424337653__57f7c980-5398-418e-9215-7bd5b51580fe-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "row_content": "<p>Active Ingredients Per 1.23 Grams<\/p><ul><li><em>Perna canaliculus<\/em> (Green Lipped Mussel) Powder<\/li><li>Eggshell Membrane Collagen Powder<\/li><li>Green Tea Leaf Extract<\/li><li>CurcuWIN Turmeric Root Extract<\/li><li>AvoVida Avocado Fruit\/Soy Seed Extract<\/li><li>UC-II Chicken Collagen Powder<\/li><\/ul><p>Inactive ingredients<\/p><ul><li>Natural Flavor<\/li><li>Silicon Dioxide<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--16784424337653__57f7c980-5398-418e-9215-7bd5b51580fe-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Directions for use",
+            "icon": "none",
+            "row_content": "<p>Mix one 1.23g scoop with canned food or sprinkle directly on moistened dry food.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424337653__57f7c980-5398-418e-9215-7bd5b51580fe-collapsible_row-1",
+        "template--16784424337653__57f7c980-5398-418e-9215-7bd5b51580fe-collapsible_row-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Nurturing the playful spirit of active dogs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
+        "container_color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/ralu-gal-G8cB8hY3yvU-unsplash-e1688591638945.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding": 64,
+        "padding_mb": 24
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "57f7c980-5398-418e-9215-7bd5b51580fe"
   ]
 }
