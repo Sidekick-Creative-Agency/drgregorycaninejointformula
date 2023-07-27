@@ -47,8 +47,7 @@ p {
 .button:focus,
 .button.focused {
   background-color: transparent;
-  border-color: rgba(var(--color-button));
-  color: rgba(var(--color-button));
+  border-color: rgba(var(--color-button-text));
 }
 .button--secondary:hover,
 .button--secondary:focus-visible,

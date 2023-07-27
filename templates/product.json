@@ -303,6 +303,11 @@
         "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-text-1",
         "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-button-1"
       ],
+      "custom_css": [
+        ".image-with-text__grid {gap: 48px;}",
+        ".image-with-text__grid .grid__item {width: calc(50% - 48px \/ 2);}",
+        "@media screen and (max-width: 989px) {.image-with-text__grid {gap: 16px;}.image-with-text__grid .grid__item {width: 100%}}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dr-Gregory-17_1.jpg",
         "border-radius": 20,
