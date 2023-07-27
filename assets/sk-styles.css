@@ -178,7 +178,7 @@ p {
 .contact__fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  column-gap: 16px;
 }
 .field::after,
 .field::before {
@@ -199,6 +199,9 @@ p {
 }
 .text-area {
   min-height: 4.5rem;
+}
+.contact__button {
+  margin-top: 15px;
 }
 
 @media screen and (min-width: 990px) {
