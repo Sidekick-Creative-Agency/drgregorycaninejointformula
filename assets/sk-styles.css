@@ -166,10 +166,10 @@ p {
   }
   .collapsible-content__grid {
     gap: 16px;
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .collapsible-content__grid .grid__item {
-    width: calc(50% - 16px / 2);
+    width: 100% !important;
   }
   #bg {
     display: none;
