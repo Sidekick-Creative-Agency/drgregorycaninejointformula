@@ -103,7 +103,7 @@ p {
   position: relative;
 }
 .image-with-text {
-  background-color: rgba(var(--gradient-background));
+  background-color: rgba(var(--color-background));
 }
 .image-with-text__heading {
   line-height: 100%;
