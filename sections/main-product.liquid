@@ -33,10 +33,16 @@
       border: 1px solid #1A2320;
       border-radius: 8px; */
     }
+      .quantity::after {
+        display: none;
+      }
     .quantity::before {
       /* display: none; */
       background-color: transparent;
       border: 1px solid #1A2320;
+    }
+    .quantity__input, .quantity__button svg {
+      color: #1A2320;
     }
     @media screen and (max-width: 989px) {
       .section-{{ section.id }}-padding {
