@@ -172,6 +172,9 @@ p {
   width: 3.5rem !important;
   height: 3.5rem !important;
 }
+.list-social__link {
+  padding: 0.7rem !important;
+}
 
 @media screen and (min-width: 990px) {
   .header {
