@@ -197,6 +197,9 @@ p {
   left: 0;
   color: #1a2320;
 }
+.text-area {
+  min-height: 4.5rem;
+}
 
 @media screen and (min-width: 990px) {
   .header {
