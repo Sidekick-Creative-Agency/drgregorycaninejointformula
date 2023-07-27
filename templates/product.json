@@ -73,7 +73,9 @@
         "image_zoom": "lightbox",
         "mobile_thumbnails": "show",
         "hide_variants": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "padding": 64,
+        "padding_mb": 24
       }
     },
     "related-products": {
