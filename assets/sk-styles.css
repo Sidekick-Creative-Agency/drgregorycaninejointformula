@@ -211,6 +211,9 @@ p {
   .image-with-text__grid .grid__item {
     width: 100%;
   }
+  .contact-custom-section {
+    padding: 24px;
+  }
 }
 @media screen and (max-width: 749px) {
   .image-text-container {
