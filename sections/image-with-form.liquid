@@ -116,7 +116,7 @@
             >
             <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.last_name' | t }}</label>
           </div>
-          <div class="field field--with-error full-field">
+          <div class="field field--with-error email-field">
             <input
               autocomplete="email"
               type="email"
@@ -148,7 +148,7 @@
               </small>
             {%- endif -%}
           </div>
-          <div class="field full-field">
+          <div class="field">
             <input
               type="tel"
               id="ContactForm-phone"
@@ -161,7 +161,7 @@
             >
             <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
           </div>
-          <div class="field full-field">
+          <div class="field">
             <textarea
               rows="4"
               id="ContactForm-body"
@@ -175,7 +175,7 @@
               {{- 'templates.contact.form.comment' | t -}}
             </label>
           </div>
-          <div class="contact__button full-field">
+          <div class="contact__button">
             <button type="submit" class="button">
               {{ 'templates.contact.form.send' | t }}
             </button>
