@@ -166,7 +166,7 @@ p {
     display: block;
   }
   .order-reverse-mb {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
 }
 @media screen and (max-width: 749px) {
