@@ -14,7 +14,7 @@ p {
   z-index: 10;
 }
 .list-menu {
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
 }
 .list-menu li {
   white-space: nowrap;
