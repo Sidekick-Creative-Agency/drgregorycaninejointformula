@@ -118,8 +118,9 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 @media screen and (min-width: 750px) {
+  /* CODE EDITED BY SIDEKICK AGENCY */
   .page-width {
-    padding: 0 5rem;
+    /* padding: 0 5rem; */
   }
 
   .header.page-width,

@@ -118,7 +118,7 @@ p {
   text-decoration: none !important;
 }
 .collapsible-content__grid {
-  gap: 48px;
+  gap: 64px;
   flex-wrap: nowrap;
 }
 .collapsible-content__grid .grid__item {
@@ -164,7 +164,7 @@ p {
     /* justify-content: stretch; */
   }
   .collapsible-content__grid {
-    gap: 16px;
+    gap: 24px;
     flex-direction: column;
   }
   #bg {
