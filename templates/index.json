@@ -250,7 +250,9 @@
         "open_first_collapsible_row": false,
         "image": "shopify:\/\/shop_images\/product-jar-layout6-noBG-1-e1688576114888.png",
         "image_ratio": "adapt",
-        "desktop_layout": "image_first"
+        "desktop_layout": "image_first",
+        "padding": 64,
+        "padding_mb": 32
       }
     }
   },
