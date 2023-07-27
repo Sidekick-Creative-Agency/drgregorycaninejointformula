@@ -28,6 +28,8 @@
             {%- endif -%}
           </div>
         </div>
+      {%- else -%}
+        {{ block.settings.custom_liquid }}
       {%- endif -%}
     <div
         id="ImageWithText--{{ section.id }}"
