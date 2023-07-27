@@ -151,6 +151,9 @@
         "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-3",
         "2a8a9437-7ca2-448a-9327-78ceeeb86b65"
       ],
+      "custom_css": [
+        "p {line-height: 150%;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -250,8 +253,8 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3"
       ],
       "custom_css": [
-        ".multicolumn.background-primary .multicolumn-card {background: #FFFFFF !important; color: #1A2320 !important; padding: 64px 32px; border-radius: 16px !important; }",
-        " .multicolumn.background-primary .multicolumn-card h3 {color: #1A2320 !important; }",
+        ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 64px 32px; border-radius: 16px !important;}",
+        ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
         "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
         "h2 {text-align: center;}",
         "h3 {font-weight: 600;}",
