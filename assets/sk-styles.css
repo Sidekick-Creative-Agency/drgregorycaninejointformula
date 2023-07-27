@@ -123,6 +123,7 @@ p {
   height: 100%;
   z-index: 10;
   max-width: 1400px !important;
+  max-height: 641px !important;
 }
 @media screen and (min-width: 990px) {
   .header {
