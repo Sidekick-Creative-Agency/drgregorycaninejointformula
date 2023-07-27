@@ -175,6 +175,12 @@ p {
 .list-social__link {
   padding: 0.7rem !important;
 }
+.field__input::after {
+  display: none;
+}
+.field__input {
+  border-bottom: 1px solid #1a2320;
+}
 
 @media screen and (min-width: 990px) {
   .header {
