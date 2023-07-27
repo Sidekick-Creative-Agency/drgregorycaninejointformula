@@ -50,6 +50,9 @@ p {
   background-color: #3c534a;
   border-color: #3c534a;
 }
+.image-text-section {
+  position: relative;
+}
 .image-text-image-container {
   width: 100%;
   height: auto;
