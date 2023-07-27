@@ -176,10 +176,11 @@ p {
   padding: 0.7rem !important;
 }
 .field__input::after {
-  display: none;
+  display: none !important;
 }
 .field__input {
   border-bottom: 1px solid #1a2320;
+  border-radius: 0;
 }
 
 @media screen and (min-width: 990px) {
