@@ -53,12 +53,35 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3c96a6e8-8536-401f-a43a-e042b165ab59": {
+      "type": "image-with-form",
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "image": "shopify:\/\/shop_images\/Dr-Gregory-12-scaled-e1688668687700.jpg",
+        "border-radius": 20,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 64,
+        "padding_mb": 24,
+        "heading": "Reach out for more info",
+        "heading_size": "h2"
+      }
     }
   },
   "order": [
     "main",
     "8a5f0eb7-5987-4c85-8b14-2d3d32e336e4",
     "663cb8b3-6bce-46f9-a19c-eb49a4c17022",
-    "form"
+    "form",
+    "3c96a6e8-8536-401f-a43a-e042b165ab59"
   ]
 }
