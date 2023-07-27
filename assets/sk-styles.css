@@ -16,7 +16,7 @@ p {
   height: 2.5rem !important;
 }
 .subtitle {
-  line-height: 125%;
+  line-height: 150%;
   color: rgba(var(--color-foreground));
 }
 .double-button-container {
