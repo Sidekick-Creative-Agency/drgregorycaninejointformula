@@ -187,8 +187,9 @@
             {%- endif -%}
           </div>
           {%- else -%}
-          <div class="image-text-image-container">
         {{ section.settings.custom_liquid }}
+
+          <div class="image-text-image-container">
         {%- if section.settings.show_bg_circle -%}
               <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
             {%- endif -%}
