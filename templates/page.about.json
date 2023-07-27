@@ -31,11 +31,13 @@
         "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-text-1"
       ],
       "custom_css": [
+        "h1 {color: #edede8;}",
         ".image-with-text {background-color: #3c534a;}",
-        "p {color: #ffffff; font-size: 16px;}"
+        "p {color: #edede8; font-size: 16px;}"
       ],
       "settings": {
         "section_heading": "Meet Dr. Gregory",
+        "section_heading_tag": "h1",
         "image": "shopify:\/\/shop_images\/Dr-Gregory-10-scaled-e1688653763256.jpg",
         "border-radius": 20,
         "height": "adapt",
