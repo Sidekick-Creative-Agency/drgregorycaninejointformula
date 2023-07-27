@@ -108,6 +108,9 @@ p {
 .image-with-text__grid {
   gap: 48px !important;
 }
+.image-with-text__grid .grid__item {
+  width: calc(50% - 48px / 2);
+}
 .image-with-text__heading {
   line-height: 100%;
 }
