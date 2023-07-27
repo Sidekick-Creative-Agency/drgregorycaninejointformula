@@ -35,6 +35,7 @@
         "p {color: #ffffff; font-size: 16px;}"
       ],
       "settings": {
+        "section_heading": "Meet Dr. Gregory",
         "image": "shopify:\/\/shop_images\/Dr-Gregory-10-scaled-e1688653763256.jpg",
         "border-radius": 20,
         "height": "adapt",
