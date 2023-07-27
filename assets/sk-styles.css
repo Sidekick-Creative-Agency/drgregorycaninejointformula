@@ -178,7 +178,7 @@ p {
 .contact__fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 16px;
+  gap: 16px;
 }
 .field::after,
 .field::before {
