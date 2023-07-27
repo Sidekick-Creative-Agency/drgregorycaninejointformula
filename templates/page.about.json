@@ -154,12 +154,65 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "23feaaa6-d3ad-48c3-a753-f2e27f276d26": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get the best solution for canine joint relief.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Relieve your dog's joint pain with our effective and research-based dog joint formula. Developed by a licensed veterinarian and expert in the field, our product contains ingredients proven to alleviate joint pain in dogs. Click here to learn more and get the best solution for your canine's joint relief.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "See Product",
+            "button_link": "shopify:\/\/products\/canine-joint-formula",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-heading-1",
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-text-1",
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-button-1"
+      ],
+      "custom_css": [
+        ".button:hover,.button:focus-visible,.button:focus,.button.focused {background-color: transparent; border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "image": "shopify:\/\/shop_images\/chewy-fGxiRXr2oZg-unsplash_1.jpg",
+        "border-radius": 20,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-b6fa4ee4-3b43-484a-b4b4-6f2cf6737096",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 64,
+        "padding_mb": 24
+      }
     }
   },
   "order": [
     "main",
     "d72c591a-ede2-40e6-9fef-cb301a205c91",
     "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d",
-    "6099085f-83f0-40f3-9c63-5888e7fd05d8"
+    "6099085f-83f0-40f3-9c63-5888e7fd05d8",
+    "23feaaa6-d3ad-48c3-a753-f2e27f276d26"
   ]
 }
