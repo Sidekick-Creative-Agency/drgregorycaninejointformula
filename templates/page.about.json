@@ -126,11 +126,40 @@
         "padding": 64,
         "padding_mb": 24
       }
+    },
+    "6099085f-83f0-40f3-9c63-5888e7fd05d8": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16785202675957__6099085f-83f0-40f3-9c63-5888e7fd05d8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "“Potentially beneficial ingredients may be worthless if not provided in the right dosage”",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__6099085f-83f0-40f3-9c63-5888e7fd05d8-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chang-qing-8oPubUm97Cc-unsplash_1.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
     "main",
     "d72c591a-ede2-40e6-9fef-cb301a205c91",
-    "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d"
+    "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d",
+    "6099085f-83f0-40f3-9c63-5888e7fd05d8"
   ]
 }
