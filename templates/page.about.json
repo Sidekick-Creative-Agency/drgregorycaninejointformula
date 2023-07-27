@@ -52,10 +52,85 @@
         "padding": 64,
         "padding_mb": 24
       }
+    },
+    "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-hearthand.png",
+            "title": "Integrity",
+            "text": "<p>Our product is developed with transparency, using only evidence-based research to ensure efficacy<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-holdingheart.png",
+            "title": "Honesty",
+            "text": "<p>We believe in providing a solution that actually works, always free from any harmful additives<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-handshake.png",
+            "title": "Professionalism",
+            "text": "<p>Dr. Gregory is a licensed veterinarian with ample experience, dedicated to improving the lives of dogs<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "de33c8f0-2fd6-41be-aa9e-9ae3ff03f56d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shield-dog-thin_1.png",
+            "title": "Product Purity",
+            "text": "<p>Our formula uses only 6 ingredients because, in the right dosage, that is all it takes<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-1",
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-2",
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-3",
+        "de33c8f0-2fd6-41be-aa9e-9ae3ff03f56d"
+      ],
+      "custom_css": [
+        "p {line-height: 150%;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding": 64,
+        "padding_mb": 24
+      }
     }
   },
   "order": [
     "main",
-    "d72c591a-ede2-40e6-9fef-cb301a205c91"
+    "d72c591a-ede2-40e6-9fef-cb301a205c91",
+    "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d"
   ]
 }
