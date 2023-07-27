@@ -203,6 +203,9 @@ p {
 .contact__button {
   margin-top: 15px;
 }
+.contact {
+  padding: 0;
+}
 
 @media screen and (min-width: 990px) {
   .header {
