@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -16,10 +17,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "8a5f0eb7-5987-4c85-8b14-2d3d32e336e4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16785240555765__8a5f0eb7-5987-4c85-8b14-2d3d32e336e4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16785240555765__8a5f0eb7-5987-4c85-8b14-2d3d32e336e4-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "663cb8b3-6bce-46f9-a19c-eb49a4c17022": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"contact-custom-section\">\n<div class=\"contact-custom-column\">\n<h3>Dr. Gregory's<\/h3>\n<p>PO Box 463<\/p>\n<p>China Spring, Texas, 76633<\/p>\n<p>USA<\/p><\/div>\n<div class=\"contact-custom-column icon-column\">\n <a href=\"{{ settings.social_instagram_link }}\" class=\"link list-social__link\">\n        {%- render 'icon-instagram' -%}\n        <span class=\"visually-hidden\">{{ 'general.social.links.instagram' | t }}<\/span>\n      <\/a>\n<\/div>\n<\/div>",
+        "color_scheme": "accent-1",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "8a5f0eb7-5987-4c85-8b14-2d3d32e336e4",
+    "663cb8b3-6bce-46f9-a19c-eb49a4c17022"
   ]
 }
