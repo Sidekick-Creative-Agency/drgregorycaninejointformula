@@ -17,7 +17,7 @@
 {% assign scheme1 = settings.color_schemes | first %}
 
 <div class="image-text-section color-{{ section.settings.color_scheme }}">
-  <div class="image-text-container" style="max-width: {{settings.page_width}}px">
+  <div class="image-text-container {% if section.settings.order_reverse_mb %} order-reverse-mb {% endif %}" style="max-width: {{settings.page_width}}px">
     {%- if section.settings.layout == "image_first" -%}
       
         <div class="image-text-column">
