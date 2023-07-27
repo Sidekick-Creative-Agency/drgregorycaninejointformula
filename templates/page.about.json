@@ -39,6 +39,9 @@
         "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-text-1",
         "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-button-1"
       ],
+      "custom_css": [
+        ".image-with-text {background-color: #}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dr-Gregory-10-scaled-e1688653763256.jpg",
         "border-radius": 20,
