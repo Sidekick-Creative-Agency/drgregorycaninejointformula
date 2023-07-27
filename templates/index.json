@@ -126,6 +126,9 @@
         "template--16784424272117__d3f9d0d9-f10c-4484-9a46-220bd37c0a0f-column-3",
         "940cce37-d33f-43eb-980a-2b312c2d7189"
       ],
+      "custom_css": [
+        "p {line-height: 150%;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h0",
@@ -139,8 +142,8 @@
         "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding": 64,
+        "padding_mb": 24
       }
     },
     "2521f441-f335-4783-bca0-b42cd2194b05": {
