@@ -239,7 +239,7 @@
       "settings": {
         "bg_color": "",
         "use_custom_liquid": true,
-        "custom_liquid": "<canvas id=\"bg\"><\/canvas>",
+        "custom_liquid": "<html><canvas id=\"bg\"><\/canvas><\/html>",
         "layout": "image_first",
         "show_bg_circle": false,
         "circle_bg_color": "",
