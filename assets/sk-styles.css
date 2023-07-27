@@ -102,6 +102,9 @@ p {
   align-items: center;
   position: relative;
 }
+.image-with-text {
+  background-color: rgba(var(--gradient-background));
+}
 .image-with-text__heading {
   line-height: 100%;
 }
