@@ -122,7 +122,7 @@
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding": 64,
         "padding_mb": 24
       }
