@@ -125,7 +125,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: calc(50% - 48px / 2);
 }
 #bg {
   left: 0;
