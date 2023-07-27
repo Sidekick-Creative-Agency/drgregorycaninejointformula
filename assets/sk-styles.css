@@ -254,6 +254,9 @@ p {
     flex-direction: vertical;
     gap: 16px;
   }
+  .contact__button .button {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 749px) {
   .image-text-container {
