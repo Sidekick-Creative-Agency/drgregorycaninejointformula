@@ -119,6 +119,7 @@ p {
 }
 .collapsible-content__grid {
   gap: 64px;
+  flex-wrap: nowrap;
 }
 .collapsible-content__grid .grid__item {
   display: flex;
