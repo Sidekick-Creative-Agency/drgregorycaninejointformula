@@ -137,6 +137,7 @@ p {
 .hide-lg {
   display: none;
 }
+
 @media screen and (min-width: 990px) {
   .header {
     grid-template-columns: 220px auto 220px;
@@ -163,6 +164,9 @@ p {
   }
   .hide-lg {
     display: block;
+  }
+  .order-reverse-mb {
+    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 749px) {
