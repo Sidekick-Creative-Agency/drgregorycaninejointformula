@@ -217,6 +217,9 @@ p {
     display: flex;
     justify-content: space-between;
   }
+  .image-with-form {
+    align-items: center;
+  }
 }
 @media screen and (max-width: 989px) {
   .multicolumn-card__image-wrapper--third-width {
