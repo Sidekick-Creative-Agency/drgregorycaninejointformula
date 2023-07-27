@@ -211,7 +211,7 @@
           "type": "heading",
           "settings": {
             "dual_heading-1": "A natural pain relief formula backed by science with proven results",
-            "heading_color-1": "",
+            "heading_color-1": "#fff",
             "dual_heading-2": "",
             "heading_color-2": "",
             "heading_size": "h1"
