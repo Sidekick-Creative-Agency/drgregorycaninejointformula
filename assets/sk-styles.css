@@ -105,6 +105,9 @@ p {
 .image-with-text {
   background-color: rgba(var(--color-background));
 }
+.image-with-text__grid {
+  gap: 48px;
+}
 .image-with-text__heading {
   line-height: 100%;
 }
