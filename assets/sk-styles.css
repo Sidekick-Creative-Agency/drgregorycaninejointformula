@@ -198,7 +198,7 @@ p {
   color: #1a2320;
 }
 .text-area {
-  min-height: 4.5rem;
+  /* min-height: 4.5rem; */
 }
 .contact__button {
   margin-top: 15px;
