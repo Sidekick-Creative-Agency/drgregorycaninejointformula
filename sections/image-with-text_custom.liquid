@@ -169,6 +169,7 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
+      {%- if section.settings.use_custom_liquid != true -%}
       <div class="image-text-column">
         <div class="image-text-image-container">
           <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy"/>
@@ -177,6 +178,8 @@
           {%- endif -%}
         </div>
       </div>
+    {%- endif -%}
+
     {%- endif -%}
   </div>
 </div>
@@ -205,6 +208,18 @@
       "type": "color",
       "id": "bg_color",
       "label": "Section Background Color"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_custom_liquid",
+      "label": "Use custom liquid instead of image?",
+      "default": false
+    },
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+      "info": "t:sections.custom-liquid.settings.custom_liquid.info"
     },
     {
       "type": "image_picker",
