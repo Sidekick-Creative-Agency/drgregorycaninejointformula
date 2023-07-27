@@ -175,6 +175,10 @@ p {
 .list-social__link {
   padding: 0.7rem !important;
 }
+.contact__fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .field::after,
 .field::before {
   display: none !important;
