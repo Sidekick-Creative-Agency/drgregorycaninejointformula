@@ -197,8 +197,8 @@ p {
   left: 0 !important;
   color: #1a2320;
 }
-.text-area {
-  /* min-height: 4.5rem; */
+.full-field {
+  grid-column: 1 / span 2;
 }
 .contact__button {
   margin-top: 15px;

@@ -48,7 +48,6 @@
       "type": "image-with-form",
       "custom_css": [
         "h2 {color: #70846f;}",
-        ".full-field {grid-column: 1 \/ span 2;}",
         ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}"
       ],
       "settings": {
