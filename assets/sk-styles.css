@@ -10,6 +10,9 @@ p {
 .subtitle p {
   line-height: 150%;
 }
+.header {
+  z-index: 11;
+}
 .header__icon .icon {
   fill: #70846f !important;
   color: #70846f !important;
