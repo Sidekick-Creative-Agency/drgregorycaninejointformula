@@ -162,6 +162,9 @@ p {
 .hide-lg {
   display: none;
 }
+.contact-custom-section {
+  padding: 64px;
+}
 
 @media screen and (min-width: 990px) {
   .header {
