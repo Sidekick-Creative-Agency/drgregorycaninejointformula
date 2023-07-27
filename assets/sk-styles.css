@@ -115,7 +115,9 @@ p {
   text-decoration: none !important;
 }
 .collapsible-content__grid .grid__item {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #bg {
   left: 0;
