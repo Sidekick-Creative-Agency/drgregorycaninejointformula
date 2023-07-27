@@ -223,6 +223,8 @@ p {
   }
   .contact-custom-section {
     padding: 24px;
+    flex-direction: vertical;
+    gap: 16px;
   }
 }
 @media screen and (max-width: 749px) {
