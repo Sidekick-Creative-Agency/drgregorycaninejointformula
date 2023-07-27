@@ -216,8 +216,8 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Stacy Clark",
+            "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
             "desc_spacing": 8,
             "link_label": "",
             "link": ""
@@ -226,8 +226,8 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Dr. Dodson",
+            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
             "desc_spacing": 8,
             "link_label": "",
             "link": ""
@@ -236,8 +236,8 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Tammy Kleine",
+            "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
             "desc_spacing": 8,
             "link_label": "",
             "link": ""
@@ -250,7 +250,7 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3"
       ],
       "custom_css": [
-        ".multicolumn-list__item {background-color: #FFFFFF; }"
+        ".multicolumn-list__item {background-color: #ffffff;}"
       ],
       "settings": {
         "title": "Hear what our customers have to say!",
@@ -260,11 +260,11 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "accent-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding": 64,
         "padding_mb": 24
       }
