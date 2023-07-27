@@ -265,7 +265,7 @@ p {
     width: 100%;
   }
   .image-with-form {
-    gap: 32px;
+    gap: 32px !important;
   }
 }
 @media screen and (max-width: 749px) {
