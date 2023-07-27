@@ -250,7 +250,7 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3"
       ],
       "custom_css": [
-        ".multicolumn-list__item {background-color: #ffffff !important;}"
+        ".multicolumn-list__item {background-color: #FFFFFF; }"
       ],
       "settings": {
         "title": "Hear what our customers have to say!",
