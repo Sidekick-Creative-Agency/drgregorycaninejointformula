@@ -3,12 +3,12 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding: {{ section.settings.padding }}px;
+    padding: {{ section.settings.padding }}px !important;
   }
 
   @media screen and (max-width: 989px) {
     .section-{{ section.id }}-padding {
-      padding: {{ section.settings.padding_mb }}px;
+      padding: {{ section.settings.padding_mb }}px !important;
     }
   }
 {%- endstyle -%}
