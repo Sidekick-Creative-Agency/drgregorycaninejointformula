@@ -132,6 +132,7 @@ p {
   z-index: 1;
   max-width: 1400px !important;
   max-height: 652px !important;
+  display: block;
 }
 .hide-lg {
   display: none;
