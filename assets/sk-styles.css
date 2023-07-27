@@ -112,7 +112,7 @@ p {
   width: calc(50% - 48px / 2);
 }
 .image-with-text-section-heading {
-  color: rgba(var(--color-text));
+  color: rgba(var(--color-foreground));
   text-align: center;
 }
 .image-with-text__heading {
