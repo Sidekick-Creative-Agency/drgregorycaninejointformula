@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8a5f0eb7-5987-4c85-8b14-2d3d32e336e4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16785240555765__8a5f0eb7-5987-4c85-8b14-2d3d32e336e4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16785240555765__8a5f0eb7-5987-4c85-8b14-2d3d32e336e4-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "663cb8b3-6bce-46f9-a19c-eb49a4c17022": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "h3 {margin-bottom: 8px; margin-top: 0; font-family: Poppins, sans-serif; font-weight: 600; font-size: 40px;}",
+        "p {color: #f6f6f4; margin: 0; font-size: 24px; line-height: 135%;}",
+        "@media screen and (max-width: 989px) {h3 {font-size: 28px; } p {font-size: 18px; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"contact-custom-section\">\n<div class=\"contact-custom-column\">\n<h3>Dr. Gregory's<\/h3>\n<p>PO Box 463<\/p>\n<p>China Spring, Texas, 76633<\/p>\n<p>USA<\/p><\/div>\n<div class=\"contact-custom-column icon-column\">\n  <ul class=\"list list-social list-unstyled\" role=\"list\">\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_facebook_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-facebook' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.facebook' | t }}<\/span>\n                  <\/a>\n                <\/li>\n\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_instagram_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-instagram' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.instagram' | t }}<\/span>\n                  <\/a>\n                <\/li>\n<\/ul>\n<\/div>\n<\/div>",
+        "color_scheme": "accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3c96a6e8-8536-401f-a43a-e042b165ab59": {
+      "type": "image-with-form",
+      "custom_css": [
+        "h2 {color: #70846f;}",
+        ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "image": "shopify:\/\/shop_images\/Dr-Gregory-12-scaled-e1688668687700.jpg",
+        "border-radius": 20,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 64,
+        "padding_mb": 24,
+        "heading": "Reach out for more info",
+        "heading_size": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8a5f0eb7-5987-4c85-8b14-2d3d32e336e4",
+    "663cb8b3-6bce-46f9-a19c-eb49a4c17022",
+    "3c96a6e8-8536-401f-a43a-e042b165ab59"
+  ]
+}

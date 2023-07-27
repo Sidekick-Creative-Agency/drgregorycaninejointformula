@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding"
+  class="page-width section-{{ section.id }}-padding main-product"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -16,14 +16,46 @@
 
   {%- style -%}
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      padding: {{ section.settings.padding }}px;
     }
-
-    @media screen and (min-width: 750px) {
+    #MainContent {
+      background-color: #FFFFFF;
+      color: #1A2320;
+    }
+    .product__title h1 {
+      font-family: Poppins, sans-serif;
+      color: #1A2320;
+      font-weight: 600;
+    }
+      .quantity::after {
+        display: none;
+      }
+    .quantity::before {
+      /* display: none; */
+      background-color: transparent;
+      border: 1px solid #1A2320;
+    }
+    .quantity__input, .quantity__button svg, .quantity__button path {
+      color: #1A2320;
+      fill: #1A2320;
+    }
+    .product-form__submit {
+      background-color: #1A2320;
+      color: #FFFFFF;
+    }
+    .product-form__submit:hover {
+      background-color: transparent;
+      color: #1A2320;
+    }
+    .shopify-payment-button__button:hover {
+      background-color: transparent !important;
+      color: #A4B494 !important;
+    }
+    
+    
+    @media screen and (max-width: 989px) {
       .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+        padding: {{ section.settings.padding_mb }}px;
       }
     }
   {%- endstyle -%}
@@ -2128,22 +2160,22 @@
     },
     {
       "type": "range",
-      "id": "padding_top",
+      "id": "padding",
       "min": 0,
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
+      "label": "Padding",
       "default": 36
     },
     {
       "type": "range",
-      "id": "padding_bottom",
+      "id": "padding_mb",
       "min": 0,
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
+      "label": "Mobile Padding",
       "default": 36
     }
   ]

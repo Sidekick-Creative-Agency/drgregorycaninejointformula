@@ -27,7 +27,7 @@
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 8,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -35,7 +35,7 @@
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "background-2",
+    "card_color_scheme": "background-1",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -96,8 +96,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/drgregoryscaninejointformula",
+    "social_instagram_link": "https:\/\/www.instagram.com\/drgregorys_caninejointformula\/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -109,7 +109,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
@@ -166,11 +166,11 @@
       },
       "accent-1": {
         "settings": {
-          "background": "#121212",
+          "background": "#3c534a",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#121212",
+          "button": "#a4b494",
+          "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
@@ -183,6 +183,28 @@
           "button": "#ffffff",
           "button_label": "#a4b494",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d": {
+        "settings": {
+          "background": "#f6f6f4",
+          "background_gradient": "",
+          "text": "#1a2320",
+          "button": "#a4b494",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#a4b494",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-b6fa4ee4-3b43-484a-b4b4-6f2cf6737096": {
+        "settings": {
+          "background": "#edede8",
+          "background_gradient": "",
+          "text": "#1a2320",
+          "button": "#a4b494",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }

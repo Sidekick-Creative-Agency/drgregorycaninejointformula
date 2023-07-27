@@ -1,0 +1,219 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d72c591a-ede2-40e6-9fef-cb301a205c91": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Layne Gregory is a licensed veterinarian in Waco, Texas. He started Hewitt Veterinary Hospital in 1983, which developed into one of Waco’s most reputable small animal veterinary medical centers. Several years ago, after 37 years of practicing veterinary medicine and surgery, it became his passion to determine the best answer for a question he was hearing over and over again from his clients: “What can I give my dog for joint pain?” Most of his clients who asked that question had already tried glucosamine and chondroitin supplements, with mostly disappointing results. He then decided to research available supplements for joint pain in dogs, and determine which supplements were showing the most benefit.<br\/><br\/>He relentlessly studied published research articles, studies, and clinical trials on supplements and nutraceuticals used for joint pain in dogs; spending countless hours studying information from a professional veterinary information network, and reading published articles and recommendations from board-certified Canine Sports Medicine and Rehabilitation veterinary specialists. His primary interest was discovering which supplements were most likely to help joint pain in dogs, based on FACTS and EVIDENCE, disregarding non-scientifically-based information, claims, and opinions.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-heading-1",
+        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-text-1"
+      ],
+      "custom_css": [
+        "h1 {color: #edede8;}",
+        ".image-with-text {background-color: #3c534a;}",
+        "p {color: #edede8; font-size: 16px;}"
+      ],
+      "settings": {
+        "section_heading": "Meet Dr. Gregory",
+        "section_heading_tag": "h1",
+        "image": "shopify:\/\/shop_images\/Dr-Gregory-10-scaled-e1688653763256.jpg",
+        "border-radius": 20,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 64,
+        "padding_mb": 24
+      }
+    },
+    "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-hearthand.png",
+            "title": "Integrity",
+            "text": "<p>Our product is developed with transparency, using only evidence-based research to ensure efficacy<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-holdingheart.png",
+            "title": "Honesty",
+            "text": "<p>We believe in providing a solution that actually works, always free from any harmful additives<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-handshake.png",
+            "title": "Professionalism",
+            "text": "<p>Dr. Gregory is a licensed veterinarian with ample experience, dedicated to improving the lives of dogs<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "de33c8f0-2fd6-41be-aa9e-9ae3ff03f56d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shield-dog-thin_1.png",
+            "title": "Product Purity",
+            "text": "<p>Our formula uses only 6 ingredients because, in the right dosage, that is all it takes<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-1",
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-2",
+        "template--16785202675957__e6b0e9ee-5371-4fd7-af8c-33a897f96e4d-column-3",
+        "de33c8f0-2fd6-41be-aa9e-9ae3ff03f56d"
+      ],
+      "custom_css": [
+        "h3 {color: #F6F6F4}",
+        "p {line-height: 150%; color: #F6F6F4;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding": 64,
+        "padding_mb": 24
+      }
+    },
+    "6099085f-83f0-40f3-9c63-5888e7fd05d8": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16785202675957__6099085f-83f0-40f3-9c63-5888e7fd05d8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "“Potentially beneficial ingredients may be worthless if not provided in the right dosage”",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__6099085f-83f0-40f3-9c63-5888e7fd05d8-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/chang-qing-8oPubUm97Cc-unsplash_1.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "23feaaa6-d3ad-48c3-a753-f2e27f276d26": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get the best solution for canine joint relief.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Relieve your dog's joint pain with our effective and research-based dog joint formula. Developed by a licensed veterinarian and expert in the field, our product contains ingredients proven to alleviate joint pain in dogs. Click here to learn more and get the best solution for your canine's joint relief.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "See Product",
+            "button_link": "shopify:\/\/products\/canine-joint-formula",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-heading-1",
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-text-1",
+        "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-button-1"
+      ],
+      "custom_css": [
+        ".button:hover,.button:focus-visible,.button:focus,.button.focused {background-color: transparent; border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "image": "shopify:\/\/shop_images\/chewy-fGxiRXr2oZg-unsplash_1.jpg",
+        "border-radius": 20,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-b6fa4ee4-3b43-484a-b4b4-6f2cf6737096",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 64,
+        "padding_mb": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d72c591a-ede2-40e6-9fef-cb301a205c91",
+    "e6b0e9ee-5371-4fd7-af8c-33a897f96e4d",
+    "6099085f-83f0-40f3-9c63-5888e7fd05d8",
+    "23feaaa6-d3ad-48c3-a753-f2e27f276d26"
+  ]
+}
