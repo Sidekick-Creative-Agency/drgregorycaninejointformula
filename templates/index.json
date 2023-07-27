@@ -201,12 +201,64 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2521f441-f335-4783-bca0-b42cd2194b05": {
+      "type": "image-with-text_custom",
+      "blocks": {
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1": {
+          "type": "heading",
+          "settings": {
+            "dual_heading-1": "Image with text",
+            "heading_color-1": "",
+            "dual_heading-2": "Image with text",
+            "heading_color-2": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1",
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1",
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1"
+      ],
+      "settings": {
+        "bg_color": "",
+        "use_custom_liquid": true,
+        "custom_liquid": "<h1>hello<\/h1>",
+        "layout": "image_first",
+        "show_bg_circle": false,
+        "circle_bg_color": "",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 36,
+        "padding_mb": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "6fac245f-af7a-4c8b-b9be-b0020b2648dc",
     "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f",
-    "43947498-e867-4204-bfc7-1450b92cc319"
+    "43947498-e867-4204-bfc7-1450b92cc319",
+    "2521f441-f335-4783-bca0-b42cd2194b05"
   ]
 }
