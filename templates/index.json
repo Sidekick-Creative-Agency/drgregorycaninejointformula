@@ -142,6 +142,57 @@
         "padding_bottom": 64
       }
     },
+    "2521f441-f335-4783-bca0-b42cd2194b05": {
+      "type": "image-with-text_custom",
+      "blocks": {
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1": {
+          "type": "heading",
+          "settings": {
+            "dual_heading-1": "A natural pain relief formula backed by science with proven results",
+            "heading_color-1": "#ffffff",
+            "dual_heading-2": "",
+            "heading_color-2": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Gregory's supplement is the result of thorough research, providing a scientifically proven combination of 6 powerful ingredients in the correct dosages to effectively reduce joint pain and improve joint function in dogs.<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "See Product",
+            "button_link": "shopify:\/\/products\/dr-gregorys-canine-joint-formula",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1",
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1",
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1"
+      ],
+      "settings": {
+        "bg_color": "",
+        "use_custom_liquid": true,
+        "custom_liquid": "<canvas id=\"bg\"><\/canvas>\n<script type=\"module\">\n\nimport { GLTFLoader } from 'https:\/\/cdn.skypack.dev\/three@0.133.1\/examples\/jsm\/loaders\/GLTFLoader.js';\n\nconst scene = new THREE.Scene();\t\n\nvar w = document.getElementById('bg').offsetWidth;\nvar h = document.getElementById('bg').offsetHeight;\nvar viewSize = 1000;\n\nconst camera = new THREE.OrthographicCamera( w \/ (- 2 * viewSize), w \/ (2 * viewSize), h \/ (2 * viewSize), h \/ (- 2 * viewSize), -1, 100 );\t\ncamera.zoom = document.getElementById('bg').offsetWidth \/ 1300;\nscene.add( camera );\n\t\nvar aspectRatio = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nvar originalAspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nconst canvas = document.getElementById('bg');\nconst renderer = new THREE.WebGLRenderer({\n  canvas: canvas,\n\talpha: true,\n\tantialias: true\n});\nrenderer.setPixelRatio(window.devicePixelRatio);\nrenderer.setSize(document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\nrenderer.shadowMap.enabled = true;\nrenderer.shadowMap.type = THREE.PCFSoftShadowMap;\nrenderer.outputEncoding = THREE.sRGBEncoding;\ncamera.position.set(-.55,0,0);\ncamera.lookAt(0,0,0);\ncamera.updateProjectionMatrix();\nrenderer.render(scene,camera);\nwindow.addEventListener( 'resize', onWindowResize);\nfunction onWindowResize(){\nconsole.log(document.getElementById('bg').offsetWidth);\n    var aspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\n    var change = originalAspect \/ aspect;\n    var newSize = viewSize * change;\n    camera.left = -aspect * newSize \/ 2250;\n    camera.right = aspect * newSize  \/ 2250;\n    camera.top = newSize \/ 2250;\n    camera.bottom = -newSize \/ 2250;\n    camera.updateProjectionMatrix();\n    renderer.setSize( document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\n}\nvar rightLight = new THREE.DirectionalLight(0xffffff, 0.1);\nrightLight.position.set(-50,0,50);\nrightLight.target.position.set(0,0,0);\nconst directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );\ndirectionalLight.position.set(-1, 0, 0);\ndirectionalLight.target.position.set(0,0,0);\ndirectionalLight.castShadow = true;\nscene.add( directionalLight );\nconst loader = new GLTFLoader();\n\tlet product;\nloader.load( 'https:\/\/cdn.shopify.com\/s\/files\/1\/0649\/7524\/1461\/files\/dr_gregory_product_final_new.glb?v=1690469865', function ( gltf ) {\n\tproduct = gltf.scene;\n \tproduct.position.set(0,-.175,.34);\n\tscene.add( product );\n}, undefined, function ( error ) {\n\tconsole.error( error );\n} );\nfunction animate() {\n\trenderer.render( scene, camera );\n\tif (product) {\n\tproduct.rotation.y -= .005;\n\t}\n\trequestAnimationFrame( animate );\n}\nanimate();\n<\/script>",
+        "layout": "text_first",
+        "show_bg_circle": true,
+        "circle_bg_color": "#a4b494",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 32,
+        "padding_mb": 32
+      }
+    },
     "43947498-e867-4204-bfc7-1450b92cc319": {
       "type": "collapsible-content",
       "blocks": {
@@ -203,64 +254,13 @@
         "padding_top": 32,
         "padding_bottom": 32
       }
-    },
-    "2521f441-f335-4783-bca0-b42cd2194b05": {
-      "type": "image-with-text_custom",
-      "blocks": {
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1": {
-          "type": "heading",
-          "settings": {
-            "dual_heading-1": "A natural pain relief formula backed by science with proven results",
-            "heading_color-1": "#ffffff",
-            "dual_heading-2": "",
-            "heading_color-2": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dr. Gregory's supplement is the result of thorough research, providing a scientifically proven combination of 6 powerful ingredients in the correct dosages to effectively reduce joint pain and improve joint function in dogs.<\/p>",
-            "text_style": "subtitle"
-          }
-        },
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "See Product",
-            "button_link": "shopify:\/\/products\/dr-gregorys-canine-joint-formula",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1",
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1",
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1"
-      ],
-      "settings": {
-        "bg_color": "",
-        "use_custom_liquid": true,
-        "custom_liquid": "<canvas id=\"bg\"><\/canvas>\n<script type=\"module\">\n\nimport { GLTFLoader } from 'https:\/\/cdn.skypack.dev\/three@0.133.1\/examples\/jsm\/loaders\/GLTFLoader.js';\n\nconst scene = new THREE.Scene();\t\n\nvar w = document.getElementById('bg').offsetWidth;\nvar h = document.getElementById('bg').offsetHeight;\nvar viewSize = 1000;\n\nconst camera = new THREE.OrthographicCamera( w \/ (- 2 * viewSize), w \/ (2 * viewSize), h \/ (2 * viewSize), h \/ (- 2 * viewSize), -1, 100 );\t\ncamera.zoom = document.getElementById('bg').offsetWidth \/ 1300;\nscene.add( camera );\n\t\nvar aspectRatio = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nvar originalAspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nconst canvas = document.getElementById('bg');\nconst renderer = new THREE.WebGLRenderer({\n  canvas: canvas,\n\talpha: true,\n\tantialias: true\n});\nrenderer.setPixelRatio(window.devicePixelRatio);\nrenderer.setSize(document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\nrenderer.shadowMap.enabled = true;\nrenderer.shadowMap.type = THREE.PCFSoftShadowMap;\nrenderer.outputEncoding = THREE.sRGBEncoding;\ncamera.position.set(-.55,0,0);\ncamera.lookAt(0,0,0);\ncamera.updateProjectionMatrix();\nrenderer.render(scene,camera);\nwindow.addEventListener( 'resize', onWindowResize);\nfunction onWindowResize(){\nconsole.log(document.getElementById('bg').offsetWidth);\n    var aspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\n    var change = originalAspect \/ aspect;\n    var newSize = viewSize * change;\n    camera.left = -aspect * newSize \/ 2250;\n    camera.right = aspect * newSize  \/ 2250;\n    camera.top = newSize \/ 2250;\n    camera.bottom = -newSize \/ 2250;\n    camera.updateProjectionMatrix();\n    renderer.setSize( document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\n}\nvar rightLight = new THREE.DirectionalLight(0xffffff, 0.1);\nrightLight.position.set(-50,0,50);\nrightLight.target.position.set(0,0,0);\nconst directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );\ndirectionalLight.position.set(-1, 0, 0);\ndirectionalLight.target.position.set(0,0,0);\ndirectionalLight.castShadow = true;\nscene.add( directionalLight );\nconst loader = new GLTFLoader();\n\tlet product;\nloader.load( 'https:\/\/cdn.shopify.com\/s\/files\/1\/0649\/7524\/1461\/files\/dr_gregory_product_final_new.glb?v=1690469865', function ( gltf ) {\n\tproduct = gltf.scene;\n \tproduct.position.set(0,-.175,.34);\n\tscene.add( product );\n}, undefined, function ( error ) {\n\tconsole.error( error );\n} );\nfunction animate() {\n\trenderer.render( scene, camera );\n\tif (product) {\n\tproduct.rotation.y -= .005;\n\t}\n\trequestAnimationFrame( animate );\n}\nanimate();\n<\/script>",
-        "layout": "text_first",
-        "show_bg_circle": true,
-        "circle_bg_color": "#a4b494",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding": 32,
-        "padding_mb": 32
-      }
     }
   },
   "order": [
     "image_banner",
     "6fac245f-af7a-4c8b-b9be-b0020b2648dc",
     "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f",
-    "43947498-e867-4204-bfc7-1450b92cc319",
-    "2521f441-f335-4783-bca0-b42cd2194b05"
+    "2521f441-f335-4783-bca0-b42cd2194b05",
+    "43947498-e867-4204-bfc7-1450b92cc319"
   ]
 }
