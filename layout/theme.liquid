@@ -285,7 +285,9 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      <h1>{{ pages.home.handle }}</h1>
+      {%- for page in pages -%}
+      <h1>{{ page.handle }}</h1>
+      {%- endfor -%}
       {{ content_for_layout }}
     </main>
 
