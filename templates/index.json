@@ -189,7 +189,7 @@
         "color_scheme": "accent-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding": 32,
+        "padding": 64,
         "padding_mb": 32
       }
     },
@@ -250,9 +250,7 @@
         "open_first_collapsible_row": false,
         "image": "shopify:\/\/shop_images\/product-jar-layout6-noBG-1-e1688576114888.png",
         "image_ratio": "adapt",
-        "desktop_layout": "image_first",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "desktop_layout": "image_first"
       }
     }
   },
