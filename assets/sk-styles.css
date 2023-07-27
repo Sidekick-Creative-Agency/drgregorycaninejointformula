@@ -117,6 +117,9 @@ p {
 .collapsible-content summary:hover .accordion__title {
   text-decoration: none !important;
 }
+.collapsible-content__grid {
+  gap: 64px;
+}
 .collapsible-content__grid .grid__item {
   display: flex;
   flex-direction: column;
