@@ -138,11 +138,81 @@
         "padding": 64,
         "padding_mb": 24
       }
+    },
+    "b8d653cc-4353-4994-9513-139f1df7bb57": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_d70cbe08-56b1-4f15-93de-abe8b2cd6b98.svg",
+            "title": "Natural Ingredients",
+            "text": "<p>Packed with human-grade, natural ingredients to reduce joint pain and keep your dog happy and active<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_21063c4b-716d-4126-a22e-2522f8459e67.svg",
+            "title": "No Preservatives",
+            "text": "<p>Contains only 6 powerful ingredients, all free from any potentially harmful inactive ingredients<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_a8107bc3-f769-44ff-90ff-bf3da6e39b24.svg",
+            "title": "Proven by Research",
+            "text": "<p>Created with a patented blend of research-backed ingredients proven to alleviate joint pain and promote joint health in dogs​<\/p>",
+            "desc_spacing": 4,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2a8a9437-7ca2-448a-9327-78ceeeb86b65": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Circle_3d76b932-a693-4782-9773-2c687c9f3fb1.svg",
+            "title": "Veterinarian Backed",
+            "text": "<p>Developed by a veterinarian with over 40 years of experience, our formula meets the highest standards of safety and quality<\/p>",
+            "desc_spacing": 8,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-1",
+        "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-2",
+        "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-3",
+        "2a8a9437-7ca2-448a-9327-78ceeeb86b65"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "57f7c980-5398-418e-9215-7bd5b51580fe"
+    "57f7c980-5398-418e-9215-7bd5b51580fe",
+    "b8d653cc-4353-4994-9513-139f1df7bb57"
   ]
 }
