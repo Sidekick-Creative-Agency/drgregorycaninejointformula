@@ -169,7 +169,7 @@ p {
     flex-direction: column;
   }
   .collapsible-content__grid .grid__item {
-    width: calc(50% - 16px / 2);
+    width: 100%;
   }
   #bg {
     display: none;
