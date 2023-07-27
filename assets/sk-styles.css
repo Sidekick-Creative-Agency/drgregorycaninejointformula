@@ -10,7 +10,7 @@ p {
 .subtitle p {
   line-height: 150%;
 }
-.header {
+.header-wrapper {
   z-index: 11;
 }
 .header__icon .icon {
