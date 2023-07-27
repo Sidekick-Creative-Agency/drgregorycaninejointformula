@@ -108,7 +108,8 @@
         "de33c8f0-2fd6-41be-aa9e-9ae3ff03f56d"
       ],
       "custom_css": [
-        "p {line-height: 150%;}"
+        "h3 {color: #F6F6F4}",
+        "p {line-height: 150%; color: #F6F6F4;}"
       ],
       "settings": {
         "title": "",
