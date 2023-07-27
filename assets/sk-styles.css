@@ -157,6 +157,9 @@ p {
     flex-direction: column;
     /* justify-content: stretch; */
   }
+  #bg {
+    display: none;
+  }
   .hide-lg {
     display: block;
   }
