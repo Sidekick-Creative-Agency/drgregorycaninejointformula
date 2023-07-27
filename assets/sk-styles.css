@@ -189,12 +189,6 @@ p {
   .order-reverse-mb {
     flex-direction: column-reverse !important;
   }
-  .image-with-text__grid {
-    gap: 16px !important;
-  }
-  .image-with-text__grid .grid__item {
-    width: calc(50% - 16px / 2);
-  }
 }
 @media screen and (max-width: 749px) {
   .image-text-container {

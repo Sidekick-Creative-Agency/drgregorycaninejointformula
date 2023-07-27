@@ -24,24 +24,15 @@
             "text": "<p>Dr. Layne Gregory is a licensed veterinarian in Waco, Texas. He started Hewitt Veterinary Hospital in 1983, which developed into one of Waco’s most reputable small animal veterinary medical centers. Several years ago, after 37 years of practicing veterinary medicine and surgery, it became his passion to determine the best answer for a question he was hearing over and over again from his clients: “What can I give my dog for joint pain?” Most of his clients who asked that question had already tried glucosamine and chondroitin supplements, with mostly disappointing results. He then decided to research available supplements for joint pain in dogs, and determine which supplements were showing the most benefit.<br\/><br\/>He relentlessly studied published research articles, studies, and clinical trials on supplements and nutraceuticals used for joint pain in dogs; spending countless hours studying information from a professional veterinary information network, and reading published articles and recommendations from board-certified Canine Sports Medicine and Rehabilitation veterinary specialists. His primary interest was discovering which supplements were most likely to help joint pain in dogs, based on FACTS and EVIDENCE, disregarding non-scientifically-based information, claims, and opinions.<\/p>",
             "text_style": "body"
           }
-        },
-        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-heading-1",
-        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-text-1",
-        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-button-1"
+        "template--16785202675957__d72c591a-ede2-40e6-9fef-cb301a205c91-text-1"
       ],
       "custom_css": [
-        ".image-with-text {background-color: #3C534A;}",
-        "p {color: #FFFFFF;}"
+        ".image-with-text {background-color: #3c534a;}",
+        "p {color: #ffffff; font-size: 16px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dr-Gregory-10-scaled-e1688653763256.jpg",
