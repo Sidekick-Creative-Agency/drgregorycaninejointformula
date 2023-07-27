@@ -264,6 +264,9 @@ p {
   .contact__button .button {
     width: 100%;
   }
+  .image-with-form {
+    gap: 32px;
+  }
 }
 @media screen and (max-width: 749px) {
   .image-text-container {
