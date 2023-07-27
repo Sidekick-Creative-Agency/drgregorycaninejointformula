@@ -7,6 +7,9 @@ h4 {
 p {
   line-height: 125%;
 }
+.subtitle p {
+  line-height: 150%;
+}
 .header__icon .icon {
   fill: #70846f !important;
   color: #70846f !important;
