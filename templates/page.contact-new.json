@@ -56,6 +56,9 @@
     },
     "3c96a6e8-8536-401f-a43a-e042b165ab59": {
       "type": "image-with-form",
+      "custom_css": [
+        ".email-field {grid-column: 1 \/ span 2;}"
+      ],
       "settings": {
         "section_heading": "",
         "section_heading_tag": "h2",
