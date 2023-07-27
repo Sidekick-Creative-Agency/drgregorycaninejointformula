@@ -250,6 +250,8 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3"
       ],
       "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #FFFFFF !important; color: #1A2320 !important; padding: 64px 32px; border-radius: 16px !important; }",
+        " .multicolumn.background-primary .multicolumn-card h3 {color: #1A2320 !important; }",
         "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
         "h2 {text-align: center;}",
         "h3 {font-weight: 600;}",
@@ -304,6 +306,7 @@
         "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-button-1"
       ],
       "custom_css": [
+        ".image-with-text {background-color: #f6f6f4;}",
         ".image-with-text__grid {gap: 48px;}",
         ".image-with-text__grid .grid__item {width: calc(50% - 48px \/ 2);}",
         ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}",
