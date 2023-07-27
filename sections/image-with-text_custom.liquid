@@ -30,6 +30,7 @@
           </div>
            {%- else -%}
         {{ section.settings.custom_liquid }}
+        <img class="image-text-image hide-lg" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy"/>
         {%- if section.settings.show_bg_circle -%}
               <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
             {%- endif -%}
