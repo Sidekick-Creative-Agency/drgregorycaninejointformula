@@ -66,6 +66,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
         "image_behavior": "none",
+        "order_reverse_mb": false,
         "mobile_content_alignment": "left",
         "padding": 64,
         "padding_mb": 36
@@ -189,6 +190,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "accent-1",
         "image_behavior": "none",
+        "order_reverse_mb": true,
         "mobile_content_alignment": "left",
         "padding": 64,
         "padding_mb": 32
