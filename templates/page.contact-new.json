@@ -44,16 +44,6 @@
         "padding_bottom": 0
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Reach Out for more info",
-        "heading_size": "h2",
-        "color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "3c96a6e8-8536-401f-a43a-e042b165ab59": {
       "type": "image-with-form",
       "custom_css": [
@@ -85,7 +75,6 @@
     "main",
     "8a5f0eb7-5987-4c85-8b14-2d3d32e336e4",
     "663cb8b3-6bce-46f9-a19c-eb49a4c17022",
-    "form",
     "3c96a6e8-8536-401f-a43a-e042b165ab59"
   ]
 }
