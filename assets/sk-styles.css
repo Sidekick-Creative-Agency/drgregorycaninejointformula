@@ -175,7 +175,7 @@ p {
 .list-social__link {
   padding: 0.7rem !important;
 }
-.field__input::after {
+.field::after {
   display: none !important;
 }
 .field__input {
