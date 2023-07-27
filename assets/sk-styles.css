@@ -13,6 +13,12 @@ p {
 .header-wrapper {
   z-index: 10;
 }
+.list-menu {
+  flex-wrap: nowrap;
+}
+.list-menu li {
+  white-space: nowrap;
+}
 .header__icon .icon {
   fill: #70846f !important;
   color: #70846f !important;
