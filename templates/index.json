@@ -200,8 +200,8 @@
         "image": "shopify:\/\/shop_images\/product-jar-layout6-noBG-1-e1688576114888.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "2521f441-f335-4783-bca0-b42cd2194b05": {
@@ -211,7 +211,7 @@
           "type": "heading",
           "settings": {
             "dual_heading-1": "A natural pain relief formula backed by science with proven results",
-            "heading_color-1": "#fff",
+            "heading_color-1": "#ffffff",
             "dual_heading-2": "",
             "heading_color-2": "",
             "heading_size": "h1"
