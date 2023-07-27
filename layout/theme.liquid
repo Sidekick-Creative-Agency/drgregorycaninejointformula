@@ -262,6 +262,8 @@
         onload="this.media='all'"
       >
     {%- endif -%}
+    {%- if page.handle == "/" -%}
+    {%- endif -%}
 
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
