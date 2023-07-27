@@ -43,6 +43,9 @@
     },
     "663cb8b3-6bce-46f9-a19c-eb49a4c17022": {
       "type": "custom-liquid",
+      "custom_css": [
+        "p {margin: 0;}"
+      ],
       "settings": {
         "custom_liquid": "<div class=\"contact-custom-section\">\n<div class=\"contact-custom-column\">\n<h3>Dr. Gregory's<\/h3>\n<p>PO Box 463<\/p>\n<p>China Spring, Texas, 76633<\/p>\n<p>USA<\/p><\/div>\n<div class=\"contact-custom-column icon-column\">\n  <ul class=\"list list-social list-unstyled\" role=\"list\">\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_facebook_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-facebook' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.facebook' | t }}<\/span>\n                  <\/a>\n                <\/li>\n\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_instagram_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-instagram' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.instagram' | t }}<\/span>\n                  <\/a>\n                <\/li>\n<\/ul>\n<\/div>\n<\/div>",
         "color_scheme": "accent-1",
