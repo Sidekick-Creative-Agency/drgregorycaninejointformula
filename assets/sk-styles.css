@@ -150,10 +150,6 @@ p {
     display: flex;
     justify-content: center;
   }
-  .collapsible-content__grid {
-    gap: 24px;
-    flex-wrap: nowrap;
-  }
 }
 @media screen and (max-width: 989px) {
   .multicolumn-card__image-wrapper--third-width {
@@ -166,6 +162,10 @@ p {
     width: 100%;
     flex-direction: column;
     /* justify-content: stretch; */
+  }
+  .collapsible-content__grid {
+    gap: 24px;
+    flex-wrap: nowrap;
   }
   #bg {
     display: none;
