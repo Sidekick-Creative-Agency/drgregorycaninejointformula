@@ -218,7 +218,7 @@
           "settings": {
             "title": "Stacy Clark",
             "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
-            "desc_spacing": 8,
+            "desc_spacing": 16,
             "link_label": "",
             "link": ""
           }
@@ -228,7 +228,7 @@
           "settings": {
             "title": "Dr. Dodson",
             "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
-            "desc_spacing": 8,
+            "desc_spacing": 16,
             "link_label": "",
             "link": ""
           }
@@ -238,7 +238,7 @@
           "settings": {
             "title": "Tammy Kleine",
             "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
-            "desc_spacing": 8,
+            "desc_spacing": 16,
             "link_label": "",
             "link": ""
           }
@@ -250,7 +250,9 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3"
       ],
       "custom_css": [
-
+        "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap;}.multicolumn-list li {width: calc(33.33% - 24px \/ 2);}}",
+        "h3 {font-weight: 600;}",
+        "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
       ],
       "settings": {
         "title": "Hear what our customers have to say!",
