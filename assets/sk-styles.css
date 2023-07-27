@@ -114,6 +114,9 @@ p {
 .collapsible-content summary:hover .accordion__title {
   text-decoration: none !important;
 }
+.collapsible-content__grid .grid__item {
+  align-items: center;
+}
 #bg {
   left: 0;
   top: 0;
