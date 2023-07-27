@@ -306,7 +306,8 @@
       "custom_css": [
         ".image-with-text__grid {gap: 48px;}",
         ".image-with-text__grid .grid__item {width: calc(50% - 48px \/ 2);}",
-        "@media screen and (max-width: 989px) {.image-with-text__grid {gap: 16px;}.image-with-text__grid .grid__item {width: 100%}}"
+        ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}",
+        "@media screen and (max-width: 989px) {.image-with-text__grid {gap: 16px; } .image-with-text__grid .grid__item {width: 100%; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dr-Gregory-17_1.jpg",
