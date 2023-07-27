@@ -164,6 +164,9 @@ p {
 }
 .contact-custom-section {
   padding: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (min-width: 990px) {
