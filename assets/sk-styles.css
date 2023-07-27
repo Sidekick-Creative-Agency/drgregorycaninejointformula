@@ -168,6 +168,9 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.list-social__item .link {
+  font-size: 2rem;
+}
 
 @media screen and (min-width: 990px) {
   .header {
