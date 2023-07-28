@@ -235,6 +235,7 @@ p {
   border-top: 2px solid #3c534a;
   border-bottom: 2px solid #3c534a;
   justify-content: space-between;
+  gap: 2rem !important;
 }
 .footer-block__details-content .link {
   padding: 0;
