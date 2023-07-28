@@ -28,16 +28,16 @@
         "p {margin: 0;}"
       ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "scheme-f8250f5b-2106-4e07-89b0-ed4cd13ce10a",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
-        "margin_top": 48,
+        "margin_top": 0,
         "padding": 64,
         "padding_mb": 24
       }
