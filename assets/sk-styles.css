@@ -349,5 +349,7 @@ p {
 @media screen and (max-width: 500px) {
   .footer-row {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
 }
