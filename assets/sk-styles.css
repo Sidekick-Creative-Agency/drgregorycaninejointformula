@@ -237,6 +237,9 @@ p {
   border: none !important;
   padding-top: 2rem !important;
 }
+.footer__content-bottom-wrapper {
+  justify-content: flex-start !important;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
