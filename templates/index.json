@@ -289,7 +289,7 @@
           "settings": {
             "card_bg_color": "#000000",
             "card_bg": "shopify:\/\/shop_images\/anna-dudkova-md2_P9X7t4M-unsplash-1024x576.jpg",
-            "image_position": 35,
+            "image_position": 23,
             "image_fit": "cover",
             "image_height": 100,
             "image_opacity": 60,
