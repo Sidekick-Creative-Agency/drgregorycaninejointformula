@@ -101,23 +101,7 @@
                   </div>
 
 
-                  <script>
-                    const modalButton = document.querySelector('.video-modal-button');
-                    const modalFrame = document.querySelector('.video-modal-container');
-                    modalButton.addEventListener('click', function() {
-                      if (modalFrame.classList.contains('open')) {
-                        modalFrame.classList.remove('open');
-                      } else {
-                        modalFrame.classList.add('open');
-                      }
-                    })
-                    modalButton.addEventListener('keypress', function(event) {
-                      if (event.key === 'Enter') {
-                        event.preventDefault();
-                        modalButton.click();
-                      }
-                    })
-                  </script>
+                 
 
                 {%- else  -%}
                   <a
@@ -270,6 +254,27 @@
                     </div>
                   </div>
                 {%- endif -%}
+
+                 <script>
+                  document.addEventListener('DOMContentLoaded', function() {
+                  const modalButton = document.querySelector('.video-modal-button');
+                    const modalFrame = document.querySelector('.video-modal-container');
+                    modalButton.addEventListener('click', function() {
+                      if (modalFrame.classList.contains('open')) {
+                        modalFrame.classList.remove('open');
+                      } else {
+                        modalFrame.classList.add('open');
+                      }
+                    })
+                    modalButton.addEventListener('keypress', function(event) {
+                      if (event.key === 'Enter') {
+                        event.preventDefault();
+                        modalButton.click();
+                      }
+                    })
+                  })
+                    
+                  </script>
 {% style %}
 .video-modal-container {
   position: fixed;
