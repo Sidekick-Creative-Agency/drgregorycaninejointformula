@@ -253,9 +253,7 @@
       <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
     </div>
   </div>
-{%- endif -%}
-
-                 <script>
+  <script>
                   document.addEventListener('DOMContentLoaded', function() {
                   const modalButton = document.querySelector('.video-modal-button');
                     const modalFrame = document.querySelector('.video-modal-container');
@@ -274,6 +272,9 @@
                     })
                   }) 
                   </script>
+{%- endif -%}
+
+                 
 {% style %}
 .video-modal-container {
   position: fixed;
