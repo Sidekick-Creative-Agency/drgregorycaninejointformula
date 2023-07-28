@@ -198,11 +198,6 @@
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
                 {%- if block.settings.use_video_modal == true -%}
-                  <div class="video-modal-container">
-                    <div class="video-container">
-                      <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
-                    </div>
-                  </div>
                   <div
                     role="button"
                     class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
@@ -272,7 +267,13 @@
     {%- endif -%}
   </div>
 </div>
-
+{%- if block.settings.use_video_modal == true -%}
+                  <div class="video-modal-container">
+                    <div class="video-container">
+                      <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
+                    </div>
+                  </div>
+                {%- endif -%}
 {% style %}
 .video-modal-container {
   position: fixed;
