@@ -238,7 +238,7 @@
     <div class="video-container">
       <iframe src="{{ videoLink }}" allowfullscreen="1" class="video"></iframe>
     </div>
-    <div class="video-modal-close">
+    <div class="video-modal-close" tabindex="0">
       {% render 'icon-close' %}
     </div>
   </div>
@@ -254,6 +254,12 @@
                     })
                     document.querySelector('.video-modal-close').addEventListener('click', function() {
                         document.querySelector('.video-modal-container').classList.remove('open');
+                    })
+                    document.querySelector('.video-modal-close').addEventListener('keypress', function(event) {
+                      if (event.key === 'Enter') {
+                        event.preventDefault();
+                        document.querySelector('.video-modal-close').click();
+                      }
                     })
                     document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
                       if (event.key === 'Enter') {
@@ -307,9 +313,17 @@
   right: 2rem;
   width: 2rem;
   height: 2rem;
+  border: 1px solid transparent;
+  transition: .2s ease;
 }
 .video-modal-close svg {
   color: #FFFFFFF;
+  fill: #FFFFFF;
+}
+.video-modal-close:hover,
+.video-modal-close:focus,
+.video-modal-close:focus-visible {
+  border: 1px solid #ffffff;
 }
 .image-text-section {
   padding: {{section.settings.padding}}px;
