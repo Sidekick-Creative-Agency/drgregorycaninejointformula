@@ -43,7 +43,8 @@
             "button_link-1": "shopify:\/\/products\/canine-joint-formula",
             "button_style_secondary-1": false,
             "button_label-2": "Watch Video",
-            "button_link-2": "shopify:\/\/products\/dr-gregorys-canine-joint-formula",
+            "use_video_modal": true,
+            "button_link-2": "https:\/\/vimeo.com\/847382279\/a5abf80233?share=copy",
             "button_style_secondary-2": true
           }
         }
