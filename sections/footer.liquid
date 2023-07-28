@@ -48,6 +48,20 @@
   -%}
     {%- unless only_empty_brand -%}
       <div class="footer__content-top page-width">
+        {%- if section.settings.footer_logo or block.settings.show_social -%}
+          <div class="footer-row">
+            {%- if section.settings.footer_logo -%}
+              <div class="footer-logo-container">
+                <img src="{{ section.settings.footer_logo.src }}" loading="lazy" width="300" height="56" />
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.show_social and has_social_icons -%}
+              {%- render 'social-icons', class: 'footer__list-social' -%}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        </div>
         {%- if section.blocks.size > 0 -%}
           {%- liquid
             if section.blocks.size == 9
