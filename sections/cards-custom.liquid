@@ -7,7 +7,7 @@
                     <h2 class="custom-card-heading">{{ block.card_heading }}</h2>
                     {%- endif -%}
                     {%- if block.card_subtitle != blank -%}
-                    <h2 class="custom-card-subtitle">{{ block.card_subtitle }}</h2>
+                    <p class="custom-card-subtitle">{{ block.card_subtitle }}</p>
                     {%- endif -%}
                 </div>>
             </div>
@@ -95,6 +95,11 @@
                 "id": "button_text",
                 "label": "Button Text",
                 "default": "Click Here"
+            },
+            {
+                "type": "url",
+                "id": "button_link",
+                "label": "Button Link"
             },
             {
                 "type": "color",
