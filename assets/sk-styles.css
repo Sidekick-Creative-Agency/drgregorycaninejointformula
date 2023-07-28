@@ -224,6 +224,9 @@ p {
 .footer-logo {
   width: 100%;
 }
+.footer-block {
+  width: fit-content;
+}
 .footer__blocks-wrapper {
   padding-top: 2rem;
   padding-bottom: 2rem;
