@@ -316,10 +316,10 @@ p {
 #create_customer button {
   width: 100%;
 }
-.template-404 button:hover,
-.template-404 button:focus,
-.template-404 button:focus-visible,
-.template-404 button.focused {
+.template-404 .button:hover,
+.template-404 .button:focus,
+.template-404 .button:focus-visible,
+.template-404 .button.focused {
   color: rgba(var(--color-button));
   border-color: rgba(var(--color-button));
 }
