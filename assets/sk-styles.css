@@ -256,7 +256,7 @@ p {
 .newsletter-form__field-wrapper .field__button {
   background-color: #70846f !important;
   width: 5rem;
-  height: calc(100% - 2px);
+  height: calc(100% - 1.75px);
   margin-top: 1px;
 }
 .footer-block__heading {
