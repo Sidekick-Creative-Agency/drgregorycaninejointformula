@@ -52,7 +52,7 @@
           <div class="footer-row">
             {%- if section.settings.footer_logo -%}
               <div class="footer-logo-container">
-                <img src="{{ section.settings.footer_logo | image_url }}" loading="lazy" width="{{ section.settings.footer_logo.width }}" height="{{ section.settings.footer_logo.height }}" style="max-width: {{ section.settings.footer_logo_width }}px"/>
+                <img src="{{ section.settings.footer_logo | image_url }}" loading="lazy" width="{{ section.settings.footer_logo.width }}" height="{{ section.settings.footer_logo.height }}" style="max-width: {{ section.settings.footer_logo_width }}px" class="footer-logo" />
               </div>
             {%- endif -%}
 

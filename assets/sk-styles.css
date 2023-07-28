@@ -216,6 +216,9 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.footer-logo {
+  width: 100%;
+}
 
 @media screen and (min-width: 990px) {
   .header {
