@@ -299,14 +299,16 @@ p {
   color: rgba(var(--color-button));
   border-color: rgba(var(--color-button));
 }
-#customer_login input {
+#customer_login input,
+#RecoverEmail {
   border-bottom: 1px solid #1a2320 !important;
   border-radius: 0;
   box-shadow: none !important;
   padding-left: 0;
 }
-#customer_login label {
-  left: 0;
+#customer_login label,
+.customer.login label {
+  left: 0 !important;
 }
 @media screen and (min-width: 990px) {
   .header {
