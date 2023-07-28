@@ -244,7 +244,7 @@ p {
   background-color: #ffffff;
   color: #1a2320;
   padding-left: 0.8rem !important;
-  border: none;
+  border-color: #ffffff;
   height: 100%;
 }
 .newsletter-form__field-wrapper .field__label {
