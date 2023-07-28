@@ -285,7 +285,7 @@
         "b9e0eb7f-9204-4efa-a794-19c1ec884185": {
           "type": "card",
           "settings": {
-            "card_bg_color": "",
+            "card_bg_color": "#000000",
             "card_bg": "shopify:\/\/shop_images\/anna-dudkova-md2_P9X7t4M-unsplash-1024x576.jpg",
             "image_position": "center center",
             "image_fit": "cover",
