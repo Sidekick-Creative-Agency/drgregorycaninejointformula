@@ -291,8 +291,8 @@ p {
 }
 .cart__checkout-button:hover,
 .cart__drawer__empty-content .button:hover {
-  color: rgba(var(--color-button));
-  border-color: rgba(var(--color-button));
+  color: rgba(var(--color-button)) !important;
+  border-color: rgba(var(--color-button)) !important;
 }
 @media screen and (min-width: 990px) {
   .header {
