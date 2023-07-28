@@ -290,10 +290,16 @@ p {
   aspect-ratio: 1/1;
 }
 .cart__checkout-button:hover,
-.cart-drawer__empty-content .button:hover {
+.cart__checkout-button:focus,
+.cart__checkout-button:focus-visible,
+.cart__checkout-button.focused .cart-drawer__empty-content .button:hover,
+.cart-drawer__empty-content .button:focus,
+.cart-drawer__empty-content .button:focus-visible,
+.cart-drawer__empty-content .button.focused {
   color: rgba(var(--color-button));
   border-color: rgba(var(--color-button));
 }
+
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
