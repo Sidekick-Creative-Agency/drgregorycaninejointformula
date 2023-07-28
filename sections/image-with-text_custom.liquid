@@ -255,19 +255,19 @@
   </div>
   <script>
                   document.addEventListener('DOMContentLoaded', function() {
-                  const modalButton = document.querySelector('.video-modal-button');
+                  const modalButton = 
                     const modalFrame = document.querySelector('.video-modal-container');
-                    modalButton.addEventListener('click', function() {
-                      if (modalFrame.classList.contains('open')) {
-                        modalFrame.classList.remove('open');
+                    document.querySelector('.video-modal-button').addEventListener('click', function() {
+                      if (document.querySelector('.video-modal-container').classList.contains('open')) {
+                        document.querySelector('.video-modal-container').classList.remove('open');
                       } else {
-                        modalFrame.classList.add('open');
+                        document.querySelector('.video-modal-container').classList.add('open');
                       }
                     })
-                    modalButton.addEventListener('keypress', function(event) {
+                    document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
                       if (event.key === 'Enter') {
                         event.preventDefault();
-                        modalButton.click();
+                        document.querySelector('.video-modal-button').click();
                       }
                     })
                   }) 
