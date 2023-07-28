@@ -345,8 +345,8 @@ p {
     gap: 32px;
     align-items: center;
   }
-  .footer-block::last-child {
-    margin-bottom: none;
+  .footer-block:last-child {
+    margin-bottom: none !important;
   }
 }
 @media screen and (max-width: 500px) {
