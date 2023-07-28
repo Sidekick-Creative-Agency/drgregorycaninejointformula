@@ -247,7 +247,7 @@ p {
   text-align: left;
 }
 .footer__newsletter {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 @media screen and (min-width: 990px) {
   .header {
