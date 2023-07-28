@@ -24,6 +24,9 @@
         "footer-0",
         "ec5750e8-2ed4-46d7-a768-258dde90f574"
       ],
+      "custom_css": [
+        "a {color: #ffffff;}"
+      ],
       "settings": {
         "color_scheme": "scheme-f4dd041a-b8ac-43fc-ae14-cd54d477e517",
         "footer_logo": "shopify:\/\/shop_images\/drgregory-logo-secondary-subtitle-alabaster.svg",
@@ -36,7 +39,7 @@
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
         "padding": 64,
