@@ -15,6 +15,7 @@
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}
+{%- assign videoLink = "" -%}
 
 <div class="image-text-section color-{{ section.settings.color_scheme }}">
   <div class="image-text-container {% if section.settings.order_reverse_mb %} order-reverse-mb {% endif %}" style="max-width: {{settings.page_width}}px">
@@ -91,6 +92,7 @@
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
                 {%- if section.settings.use_video_modal == true -%}
+                  {%- assign videoLink = block.settings.button_link-2 -%}
                 
                   <div
                     role="button"
@@ -178,6 +180,8 @@
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
                 {%- if section.settings.use_video_modal == true -%}
+                  {%- assign videoLink = block.settings.button_link-2 -%}
+
                   <div
                     role="button"
                     class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
