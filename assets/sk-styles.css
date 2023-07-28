@@ -252,6 +252,7 @@ p {
 }
 .newsletter-form__field-wrapper .field__button {
   background-color: #70846f !important;
+  width: 5rem;
 }
 .footer-block__heading {
   text-align: left;
