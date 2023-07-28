@@ -219,7 +219,7 @@ p {
   padding-bottom: 2rem;
 }
 .footer__content-top {
-  padding-bottom: 0 !important;
+  padding: 0 !important;
 }
 .footer-logo {
   width: 100%;
@@ -238,7 +238,7 @@ p {
   gap: 2rem !important;
 }
 .footer-block__details-content .link {
-  padding: 0;
+  padding: 0 !important;
 }
 .footer__content-bottom {
   border: none !important;
