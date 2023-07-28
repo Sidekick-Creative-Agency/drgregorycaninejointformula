@@ -296,8 +296,8 @@ p {
 .cart-drawer__empty-content .button:focus,
 .cart-drawer__empty-content .button:focus-visible,
 .cart-drawer__empty-content .button.focused {
-  color: rgba(var(--color-button));
-  border-color: rgba(var(--color-button));
+  color: rgba(var(--color-button)) !important;
+  border-color: rgba(var(--color-button)) !important;
 }
 #customer_login input,
 #create_customer input,
