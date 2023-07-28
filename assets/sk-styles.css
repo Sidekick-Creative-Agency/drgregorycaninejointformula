@@ -302,6 +302,7 @@ p {
 #customer_login input {
   border-bottom: 1px solid #1a2320 !important;
   border-radius: 0;
+  box-shadow: none !important;
 }
 @media screen and (min-width: 990px) {
   .header {
