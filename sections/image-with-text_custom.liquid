@@ -162,17 +162,32 @@
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
-                <a
-                  {% if block.settings.button_link-2 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link-2 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.button_label-2 | escape }}
-                </a>
+                {%- if block.settings.use_video_modal -%}
+                  <div class="video-modal-container">
+                    <div class="video-container">
+                      <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
+                    </div>
+                  </div>
+                  <a
+                    role="button" aria-disabled="true"
+                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </a>
+                {%- else  -%}
+                  <a
+                    {% if block.settings.button_link-2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link-2 }}"
+                    {% endif %}
+                    class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </a>
+                {%- endif -%}
               {%- endif -%}
             </div>
           {%- endcase -%}
