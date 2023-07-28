@@ -232,6 +232,7 @@ p {
 }
 .footer__content-bottom {
   border: none !important;
+  padding-top: 2rem;
 }
 @media screen and (min-width: 990px) {
   .header {
