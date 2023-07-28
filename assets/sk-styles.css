@@ -293,6 +293,7 @@ p {
 .cart__checkout-button:focus,
 .cart__checkout-button:focus-visible,
 .cart__checkout-button.focused .cart-drawer__empty-content .button:hover,
+.cart-drawer__empty-content .button:hover,
 .cart-drawer__empty-content .button:focus,
 .cart-drawer__empty-content .button:focus-visible,
 .cart-drawer__empty-content .button.focused {
