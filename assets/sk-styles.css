@@ -248,7 +248,7 @@ p {
   height: 100%;
 }
 .newsletter-form__field-wrapper .field__input::selection {
-  background-color: lightblue;
+  background-color: rgb(184, 209, 218);
 }
 .newsletter-form__field-wrapper .field__label {
   left: 0.8rem !important;
