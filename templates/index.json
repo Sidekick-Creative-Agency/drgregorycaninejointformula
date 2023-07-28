@@ -278,10 +278,23 @@
             "button_bg": "",
             "button_text_color": ""
           }
+        },
+        "b9e0eb7f-9204-4efa-a794-19c1ec884185": {
+          "type": "card",
+          "settings": {
+            "image_position": "center center",
+            "card_heading": "Heading",
+            "card_subtitle": "lorem ipsum soler dolet",
+            "button_text": "Click Here",
+            "button_link": "",
+            "button_bg": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "d97791fd-163c-4951-b583-cac5396ff754"
+        "d97791fd-163c-4951-b583-cac5396ff754",
+        "b9e0eb7f-9204-4efa-a794-19c1ec884185"
       ],
       "settings": {
         "bg_color": "",
