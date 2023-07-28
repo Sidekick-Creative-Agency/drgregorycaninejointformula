@@ -230,6 +230,9 @@ p {
 .footer-block__details-content .link {
   padding: 0;
 }
+.footer__content-bottom {
+  border: none !important;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
