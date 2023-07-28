@@ -345,8 +345,11 @@ p {
     gap: 32px;
     align-items: center;
   }
+  .footer-block {
+    margin-right: 0 !important;
+  }
   .newsletter-footer-block {
-    margin-bottom: none !important;
+    margin-bottom: 0 !important;
   }
 }
 @media screen and (max-width: 500px) {
