@@ -212,6 +212,10 @@ p {
   margin-top: 2.2rem;
   min-height: 8rem;
 }
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media screen and (min-width: 990px) {
   .header {
