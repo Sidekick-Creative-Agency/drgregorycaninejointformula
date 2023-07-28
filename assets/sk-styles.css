@@ -345,7 +345,7 @@ p {
     gap: 32px;
     align-items: center;
   }
-  .footer-block:last-child {
+  .newsletter-footer-block {
     margin-bottom: none !important;
   }
 }
