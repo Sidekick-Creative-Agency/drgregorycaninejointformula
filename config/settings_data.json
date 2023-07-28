@@ -207,17 +207,6 @@
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
-      },
-      "scheme-f8250f5b-2106-4e07-89b0-ed4cd13ce10a": {
-        "settings": {
-          "background": "#1a2320",
-          "background_gradient": "",
-          "text": "#f6f6f4",
-          "button": "#a4b494",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#f6f6f4",
-          "shadow": "#f6f6f4"
-        }
       }
     }
   },
