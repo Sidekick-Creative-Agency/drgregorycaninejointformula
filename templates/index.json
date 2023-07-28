@@ -275,10 +275,11 @@
             "image_fit": "contain",
             "card_heading": "Save 20%",
             "card_subtitle": "on your first order of Dr. Gregory’s Canine Joint Formula with code:",
+            "text_color": "#fff",
             "button_text": "CANINE23",
             "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_bg": "#3c534a",
-            "button_text_color": "#fff"
+            "button_text_color": "#ffffff"
           }
         },
         "b9e0eb7f-9204-4efa-a794-19c1ec884185": {
@@ -290,6 +291,7 @@
             "image_fit": "cover",
             "card_heading": "Natural Formula. Happy Dogs.",
             "card_subtitle": "See why dog owners are choosing Dr. Gregory’s Canine Joint Formula.",
+            "text_color": "#fff",
             "button_text": "Learn More",
             "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_bg": "",
