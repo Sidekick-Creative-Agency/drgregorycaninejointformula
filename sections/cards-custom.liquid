@@ -14,7 +14,7 @@
                     {%- endif -%}
                 </div>
                 {%- if block.settings.card_bg != blank -%}
-                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image_height }}%" />
+                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}%; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image_height }}%" />
                 {%- endif -%}
             </div>
         {%- endfor -%}
@@ -56,7 +56,7 @@
     right: 0;
     width: 100%;
     height: 100%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     z-index: 0;
 }
 .custom-card-button:hover,
