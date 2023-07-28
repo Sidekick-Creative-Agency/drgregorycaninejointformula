@@ -8,42 +8,42 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "",
+            "menu": "new-site-header-menu"
           }
         },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
+        "ec5750e8-2ed4-46d7-a768-258dde90f574": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "",
+            "subtext": "<p>PO Box 463<br\/>China Spring, Texas, 76633<br\/>USA<\/p><p><a href=\"mailto:info@caninejointsupplement.com\" title=\"mailto:info@caninejointsupplement.com\">info@caninejointsupplement.com<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "ec5750e8-2ed4-46d7-a768-258dde90f574"
+      ],
+      "custom_css": [
+        "a {color: #ffffff;}"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-f4dd041a-b8ac-43fc-ae14-cd54d477e517",
+        "footer_logo": "shopify:\/\/shop_images\/drgregory-logo-secondary-subtitle-alabaster.svg",
+        "footer_logo_link": "\/",
+        "footer_logo_link_title": "Link to homepage",
+        "footer_logo_width": 300,
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Join our maiing list",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "margin_top": 0,
+        "padding": 64,
+        "padding_mb": 24
       }
     }
   },

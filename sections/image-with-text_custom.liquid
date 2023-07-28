@@ -15,6 +15,7 @@
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}
+{%- assign videoLink = "" -%}
 
 <div class="image-text-section color-{{ section.settings.color_scheme }}">
   <div class="image-text-container {% if section.settings.order_reverse_mb %} order-reverse-mb {% endif %}" style="max-width: {{settings.page_width}}px">
@@ -23,14 +24,14 @@
         <div class="image-text-column">
           {%- if section.settings.use_custom_liquid != true -%}
           <div class="image-text-image-container">
-            <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy"/>
+            <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy" width="auto" height="auto"/>
             {%- if section.settings.show_bg_circle -%}
               <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
             {%- endif -%}
           </div>
            {%- else -%}
         {{ section.settings.custom_liquid }}
-        <img class="image-text-image hide-lg" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy"/>
+        <img class="image-text-image hide-lg" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy" width="auto" height="auto" />
         {%- if section.settings.show_bg_circle -%}
               <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
             {%- endif -%}
@@ -90,17 +91,33 @@
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
-                <a
-                  {% if block.settings.button_link-2 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link-2 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.button_label-2 | escape }}
-                </a>
+                {%- if section.settings.use_video_modal == true -%}
+                  {%- assign videoLink = block.settings.button_link-2 -%}
+                
+                  <div
+                    role="button"
+                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </div>
+
+
+                 
+
+                {%- else  -%}
+                  <a
+                    {% if block.settings.button_link-2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link-2 }}"
+                    {% endif %}
+                    class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </a>
+                {%- endif -%}
               {%- endif -%}
             </div>
           {%- endcase -%}
@@ -162,17 +179,32 @@
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
-                <a
-                  {% if block.settings.button_link-2 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link-2 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.button_label-2 | escape }}
-                </a>
+                {%- if section.settings.use_video_modal == true -%}
+                  {%- assign videoLink = block.settings.button_link-2 -%}
+
+                  <div
+                    role="button"
+                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </div>
+
+
+
+                {%- else  -%}
+                  <a
+                    {% if block.settings.button_link-2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link-2 }}"
+                    {% endif %}
+                    class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </a>
+                {%- endif -%}
               {%- endif -%}
             </div>
           {%- endcase -%}
@@ -182,7 +214,7 @@
         <div class="image-text-column">
           {%- if section.settings.use_custom_liquid != true -%}
           <div class="image-text-image-container">
-            <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy"/>
+            <img class="image-text-image" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy" width="auto" height="auto" />
             {%- if section.settings.show_bg_circle -%}
               <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
             {%- endif -%}
@@ -190,7 +222,7 @@
           {%- else -%}
         {{ section.settings.custom_liquid }}
           <div class="image-text-image-container">
-            <img class="image-text-image hide-lg" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy"/>
+            <img class="image-text-image hide-lg" src="{{section.settings.image | image_url}}" {% if section.settings.show_bg_circle %} style="border-bottom-right-radius: 50%; border-bottom-left-radius: 50%" {% endif %} loading="lazy" width="auto" height="auto" />
         {%- if section.settings.show_bg_circle -%}
               <div class="image-text-circle-bg" style="background-color: {{section.settings.circle_bg_color}}"></div>
             {%- endif -%}
@@ -201,8 +233,78 @@
     {%- endif -%}
   </div>
 </div>
+{%- if section.settings.use_video_modal == true -%}
+  <div class="video-modal-container">
+    <div class="video-container">
+      <iframe src="{{ videoLink }}" allowfullscreen="1" class="video"></iframe>
+    </div>
+    <div class="video-modal-close">
+      {% render 'icon-close' %}
+    </div>
+  </div>
+  <script>
 
+               
+                    document.querySelector('.video-modal-button').addEventListener('click', function() {
+                      if (document.querySelector('.video-modal-container').classList.contains('open')) {
+                        document.querySelector('.video-modal-container').classList.remove('open');
+                      } else {
+                        document.querySelector('.video-modal-container').classList.add('open');
+                      }
+                    })
+                    document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
+                      if (event.key === 'Enter') {
+                        event.preventDefault();
+                        document.querySelector('.video-modal-button').click();
+                      }
+                    })
+
+                  </script>
+{%- endif -%}
+
+                 
 {% style %}
+.video-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s ease;
+}
+.video-modal-container.open {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999999;
+}
+.video-container {
+  padding-bottom: 56.25%;
+  width: 75%;
+  height: 0;
+  position: relative;
+}
+.video-container .video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  box-shadow: none;
+}
+.video-modal-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
 .image-text-section {
   padding: {{section.settings.padding}}px;
 }
@@ -213,6 +315,7 @@
 }
 
 {% endstyle %}
+
 
 {% schema %}
 {
@@ -412,7 +515,13 @@
       "unit": "px",
       "label": " Mobile Padding",
       "default": 36
-    }
+    },
+    {
+          "type": "checkbox",
+          "id": "use_video_modal",
+          "default": false,
+          "label": "Use video modal for second button?"
+        }
   ],
   "blocks": [
     {

@@ -43,7 +43,7 @@
             "button_link-1": "shopify:\/\/products\/canine-joint-formula",
             "button_style_secondary-1": false,
             "button_label-2": "Watch Video",
-            "button_link-2": "shopify:\/\/products\/dr-gregorys-canine-joint-formula",
+            "button_link-2": "https:\/\/player.vimeo.com\/video\/847382279?h=a5abf80233&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
             "button_style_secondary-2": true
           }
         }
@@ -69,7 +69,8 @@
         "order_reverse_mb": false,
         "mobile_content_alignment": "left",
         "padding": 64,
-        "padding_mb": 24
+        "padding_mb": 24,
+        "use_video_modal": true
       }
     },
     "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f": {
@@ -196,7 +197,8 @@
         "order_reverse_mb": true,
         "mobile_content_alignment": "left",
         "padding": 64,
-        "padding_mb": 24
+        "padding_mb": 24,
+        "use_video_modal": false
       }
     },
     "43947498-e867-4204-bfc7-1450b92cc319": {

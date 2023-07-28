@@ -262,12 +262,21 @@ p {
 }
 .newsletter-form__field-wrapper .field__label {
   left: 0.8rem !important;
+  opacity: 0.75;
 }
 .newsletter-form__field-wrapper .field__button {
   background-color: #70846f !important;
   width: 5rem;
   height: calc(100% - 1.75px);
   margin-top: 1px;
+}
+.newsletter-form__field-wrapper .field__button svg {
+  transition: 0.2s ease;
+}
+.newsletter-form__field-wrapper .field__button:hover svg,
+.newsletter-form__field-wrapper .field__button:focus svg,
+.newsletter-form__field-wrapper .field__button:focus-visible svg {
+  transform: translateX(4px);
 }
 .footer-block__heading {
   text-align: left;
