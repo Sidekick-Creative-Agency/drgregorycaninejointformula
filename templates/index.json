@@ -271,7 +271,7 @@
           "settings": {
             "card_bg_color": "#a4b494",
             "card_bg": "shopify:\/\/shop_images\/product-jar-layout4-noBG-e1688580735994.png",
-            "image_position": "center right",
+            "image_position": 85,
             "image_fit": "contain",
             "image_height": 68,
             "image_opacity": 100,
@@ -289,7 +289,7 @@
           "settings": {
             "card_bg_color": "#000000",
             "card_bg": "shopify:\/\/shop_images\/anna-dudkova-md2_P9X7t4M-unsplash-1024x576.jpg",
-            "image_position": "center left",
+            "image_position": 35,
             "image_fit": "cover",
             "image_height": 100,
             "image_opacity": 60,
