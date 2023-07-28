@@ -247,6 +247,9 @@ p {
   border: 1px solid #ffffff !important;
   height: 100%;
 }
+.newsletter-form__field-wrapper .field__input::selection {
+  background-color: aliceblue;
+}
 .newsletter-form__field-wrapper .field__label {
   left: 0.8rem !important;
 }
