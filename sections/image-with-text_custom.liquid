@@ -252,6 +252,9 @@
                         document.querySelector('.video-modal-container').classList.add('open');
                       }
                     })
+                    document.querySelector('.video-modal-close').addEventListener('click', function() {
+                        document.querySelector('.video-modal-container').classList.remove('open');
+                    })
                     document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
                       if (event.key === 'Enter') {
                         event.preventDefault();
