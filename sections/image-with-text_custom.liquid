@@ -90,17 +90,52 @@
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
-                <a
-                  {% if block.settings.button_link-2 == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link-2 }}"
-                  {% endif %}
-                  class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.button_label-2 | escape }}
-                </a>
+                {%- if block.settings.use_video_modal == true -%}
+                  <div class="video-modal-container">
+                    <div class="video-container">
+                      <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
+                    </div>
+                  </div>
+                  <div
+                    role="button" aria-disabled="true"
+                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </div>
+
+
+                  <script>
+                    const modalButton = document.querySelector('.video-modal-button');
+                    const modalFrame = document.querySelector('.video-modal-container');
+                    modalButton.addEventListener('click', function() {
+                      if (modalFrame.classList.includes('open')) {
+                        modalFrame.classList.remove('open');
+                      } else {
+                        modalFrame.classList.add('open');
+                      }
+                    })
+                    modalButton.addEventListener('keypress', function(event) {
+                      if (event.key === 'Enter') {
+                        event.preventDefault();
+                        modalButton.click();
+                      }
+                    })
+                  </script>
+
+                {%- else  -%}
+                  <a
+                    {% if block.settings.button_link-2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link-2 }}"
+                    {% endif %}
+                    class="button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.button_label-2 | escape }}
+                  </a>
+                {%- endif -%}
               {%- endif -%}
             </div>
           {%- endcase -%}
@@ -163,7 +198,6 @@
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
                 {%- if block.settings.use_video_modal == true -%}
-                  <h1>HEY</h1>
                   <div class="video-modal-container">
                     <div class="video-container">
                       <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
@@ -197,7 +231,6 @@
                   </script>
 
                 {%- else  -%}
-                <h1>FALSE</h1>
                   <a
                     {% if block.settings.button_link-2 == blank %}
                       role="link" aria-disabled="true"
