@@ -123,24 +123,14 @@
                 "label": "Card Background Image"
             },
             {
-                "type": "select",
+                "type": "range",
                 "id": "image_position",
-                "label": "Image position",
-                "options": [
-                    {
-                        "value": "center left",
-                        "label": "center left"
-                    },
-                    {
-                        "value": "center center",
-                        "label": "center center"
-                    },
-                    {
-                        "value": "center right",
-                        "label": "center right"
-                    }
-                ],
-                "default": "center center"
+                "label": "Image Horizontal Position",
+                "min": 0,
+                "max": 100,
+                "default": 50,
+                "step": 1,
+                "unit": "%"
             },
             {
                 "type": "select",
