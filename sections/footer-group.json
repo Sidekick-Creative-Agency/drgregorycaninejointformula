@@ -16,13 +16,16 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "subtext": "<p>PO Box 463<\/p><p>China Spring, Texas, 76633<\/p><p>email@drgregorys.com<\/p>"
+            "subtext": "<p>PO Box 463<\/p><p>China Spring, Texas, 76633<\/p><p><a href=\"mailto:info@caninejointsupplement.com\" title=\"mailto:info@caninejointsupplement.com\">info@caninejointsupplement.com<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "footer-0",
         "5862b5b8-a5b8-44b0-a185-af1b29ad2b51"
+      ],
+      "custom_css": [
+        "p {margin: 0;}"
       ],
       "settings": {
         "color_scheme": "background-1",
