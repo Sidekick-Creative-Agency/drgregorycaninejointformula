@@ -328,6 +328,11 @@
         document.querySelector('.video-modal-button').click();
       }
     })
+    document.addEventListener('click', function(event) {
+      if (event.target.classList.contains('video-modal-container') {
+        document.querySelector('.video-modal-container').classList.remove('open');
+      })
+    })
   </script>
 {%- endif -%}
 
