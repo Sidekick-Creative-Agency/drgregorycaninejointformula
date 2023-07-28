@@ -299,7 +299,10 @@ p {
   color: rgba(var(--color-button));
   border-color: rgba(var(--color-button));
 }
-
+#customer_login input {
+  border-bottom: 1px solid #1a2320 !important;
+  border-radius: 0;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
