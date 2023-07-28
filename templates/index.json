@@ -44,7 +44,6 @@
             "button_style_secondary-1": false,
             "button_label-2": "Watch Video",
             "button_link-2": "https:\/\/vimeo.com\/847382279\/a5abf80233?share=copy",
-            "use_video_modal": true,
             "button_style_secondary-2": true
           }
         }
@@ -70,7 +69,8 @@
         "order_reverse_mb": false,
         "mobile_content_alignment": "left",
         "padding": 64,
-        "padding_mb": 24
+        "padding_mb": 24,
+        "use_video_modal": true
       }
     },
     "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f": {
@@ -197,7 +197,8 @@
         "order_reverse_mb": true,
         "mobile_content_alignment": "left",
         "padding": 64,
-        "padding_mb": 24
+        "padding_mb": 24,
+        "use_video_modal": false
       }
     },
     "43947498-e867-4204-bfc7-1450b92cc319": {
