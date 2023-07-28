@@ -8,21 +8,21 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "",
+            "menu": "new-site-header-menu"
           }
         },
-        "footer-1": {
-          "type": "link_list",
+        "ec5750e8-2ed4-46d7-a768-258dde90f574": {
+          "type": "text",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "",
+            "subtext": "<p>PO Box 463<br\/>China Spring, Texas, 76633<br\/>USA<\/p><p><a href=\"mailto:info@caninejointsupplement.com\" title=\"mailto:info@caninejointsupplement.com\">info@caninejointsupplement.com<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-1"
+        "ec5750e8-2ed4-46d7-a768-258dde90f574"
       ],
       "settings": {
         "color_scheme": "scheme-f4dd041a-b8ac-43fc-ae14-cd54d477e517",
