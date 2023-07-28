@@ -225,7 +225,7 @@ p {
   width: 100%;
 }
 .footer-block {
-  width: fit-content;
+  width: fit-content !important;
 }
 .footer__blocks-wrapper {
   padding-top: 2rem;
