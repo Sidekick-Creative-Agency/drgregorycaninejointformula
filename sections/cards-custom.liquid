@@ -14,7 +14,7 @@
                     {%- endif -%}
                 </div>
                 {%- if block.settings.card_bg != blank -%}
-                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image__height }}%" />
+                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image_height }}%" />
                 {%- endif -%}
             </div>
         {%- endfor -%}
