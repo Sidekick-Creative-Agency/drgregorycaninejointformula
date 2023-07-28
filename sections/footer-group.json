@@ -30,6 +30,8 @@
       "settings": {
         "color_scheme": "scheme-f8250f5b-2106-4e07-89b0-ed4cd13ce10a",
         "footer_logo": "shopify:\/\/shop_images\/drgregory-logo-secondary-subtitle-alabaster.svg",
+        "footer_logo_link": "\/",
+        "footer_logo_link_title": "Link to homepage",
         "footer_logo_width": 300,
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
