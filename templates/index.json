@@ -269,9 +269,9 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "desc_spacing": 8,
+            "title": "Stacy Clark",
+            "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
+            "desc_spacing": 15,
             "link_label": "",
             "link": ""
           }
@@ -279,9 +279,9 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "desc_spacing": 8,
+            "title": "Dr. Dodson",
+            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
+            "desc_spacing": 16,
             "link_label": "",
             "link": ""
           }
@@ -289,9 +289,9 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "desc_spacing": 8,
+            "title": "Tammy Kleine",
+            "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
+            "desc_spacing": 16,
             "link_label": "",
             "link": ""
           }
@@ -301,6 +301,14 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-1",
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-2",
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-3"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
+        ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
+        "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
+        "h2 {text-align: center;}",
+        "h3 {font-weight: 600;}",
+        "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
       ],
       "settings": {
         "title": "Hear what our customers have to say!",
