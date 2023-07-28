@@ -300,6 +300,7 @@ p {
   border-color: rgba(var(--color-button));
 }
 #customer_login input,
+#create_customer input,
 #RecoverEmail {
   border-bottom: 1px solid #1a2320 !important;
   border-radius: 0;
@@ -307,10 +308,12 @@ p {
   padding-left: 0;
 }
 #customer_login label,
+#create_customer label,
 .customer.login label {
   left: 0 !important;
 }
-#customer_login button {
+#customer_login button,
+#create_customer button {
   width: 100%;
 }
 @media screen and (min-width: 990px) {
