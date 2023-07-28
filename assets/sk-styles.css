@@ -245,6 +245,7 @@ p {
   color: #1a2320;
   padding-left: 0.8rem !important;
   border: none;
+  height: 100%;
 }
 .newsletter-form__field-wrapper .field__label {
   left: 0.8rem !important;
