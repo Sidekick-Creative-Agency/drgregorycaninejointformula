@@ -282,6 +282,9 @@ p {
   border: 1px solid #1a2320;
   border-radius: 8px;
 }
+.quantity-popover-wrapper {
+  gap: 1rem;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
