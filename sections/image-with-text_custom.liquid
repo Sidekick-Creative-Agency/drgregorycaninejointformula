@@ -248,12 +248,12 @@
   </div>
 </div>
 {%- if block.settings.use_video_modal == true -%}
-                  <div class="video-modal-container">
-                    <div class="video-container">
-                      <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
-                    </div>
-                  </div>
-                {%- endif -%}
+  <div class="video-modal-container">
+    <div class="video-container">
+      <iframe src="{{ block.settings.button_link-2 }}" allowfullscreen="1" class="video"></iframe>
+    </div>
+  </div>
+{%- endif -%}
 
                  <script>
                   document.addEventListener('DOMContentLoaded', function() {
@@ -272,8 +272,7 @@
                         modalButton.click();
                       }
                     })
-                  })
-                    
+                  }) 
                   </script>
 {% style %}
 .video-modal-container {
