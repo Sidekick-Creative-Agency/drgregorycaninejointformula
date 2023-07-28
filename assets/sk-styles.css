@@ -13,6 +13,7 @@ p {
 .header-wrapper {
   z-index: 10;
 }
+
 .list-menu {
   flex-wrap: nowrap !important;
 }
@@ -211,7 +212,7 @@ p {
   .header {
     /* grid-template-columns: 220px auto 220px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   .header__inline-menu {
     display: flex;
