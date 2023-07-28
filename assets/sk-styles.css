@@ -243,6 +243,9 @@ p {
 .newsletter-form__field-wrapper .field__input {
   background-color: #ffffff;
 }
+.footer-block__heading {
+  text-align: left;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
