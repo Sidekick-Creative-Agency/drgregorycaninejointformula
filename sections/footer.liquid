@@ -52,7 +52,9 @@
           <div class="footer-row">
             {%- if section.settings.footer_logo -%}
               <div class="footer-logo-container">
-                <img src="{{ section.settings.footer_logo | image_url }}" loading="lazy" width="{{ section.settings.footer_logo.width }}" height="auto" style="max-width: {{ section.settings.footer_logo_width }}px" class="footer-logo" />
+                <a href="{{ section.settings.footer_logo_link }}" title="{{ section.settings.footer_logo_link_title }}">
+                  <img src="{{ section.settings.footer_logo | image_url }}" loading="lazy" width="{{ section.settings.footer_logo.width }}" height="auto" style="max-width: {{ section.settings.footer_logo_width }}px" class="footer-logo" />
+                </a>
               </div>
             {%- endif -%}
             {%- if section.settings.show_social and has_social_icons -%}
