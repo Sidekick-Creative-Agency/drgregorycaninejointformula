@@ -286,7 +286,7 @@ p {
   gap: 1rem;
 }
 #CartDrawer-Remove-1 {
-  aspect-ratio: 1/1;
+  width: 53.5px;
 }
 @media screen and (min-width: 990px) {
   .header {
