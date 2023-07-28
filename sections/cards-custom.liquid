@@ -1,0 +1,228 @@
+<div class="custom-card-section">
+    <div class="custom-card-grid">
+        {%- for block in section.blocks -%}
+            <div class="custom-card" style="background-color: {{ block.settings.card_bg_color }}" >
+                <div class="custom-card-content">
+                    {%- if block.settings.card_heading != blank -%}
+                    <h2 class="custom-card-heading h1" style="color: {{ block.settings.text_color }}">{{ block.settings.card_heading }}</h2>
+                    {%- endif -%}
+                    {%- if block.settings.card_subtitle != blank -%}
+                    <p class="custom-card-subtitle" style="color: {{ block.settings.text_color }}">{{ block.settings.card_subtitle }}</p>
+                    {%- endif -%}
+                    {%- if block.settings.button_text != blank -%}
+                    <a href="{{ block.settings.button_link }}" class="button custom-card-button" role="link" style="background-color: {{ block.settings.button_bg }}; color: {{ block.settings.button_text_color }}">{{ block.settings.button_text }}</a>
+                    {%- endif -%}
+                </div>
+                {%- if block.settings.card_bg != blank -%}
+                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image_height }}%" />
+                {%- endif -%}
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+{% style %}
+
+.custom-card-section {
+    background-color: {{ section.settings.bg_color }};
+    padding: {{ section.settings.padding }}px;
+}
+.custom-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: var(--site-width);
+}
+.custom-card {
+    padding: 3rem;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.custom-card-content {
+    position: relative;
+    z-index: 1;
+    width: 66%;
+}
+.custom-card-content h2 {
+    margin-top: 0;
+}
+.custom-card-bg {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+.custom-card-button:hover,
+.custom-card-button:focus,
+.custom-card-button:focus-visible {
+    background-color: transparent !important;
+}
+
+@media screen and (max-width: 989px) {
+    .custom-card-section {
+    padding: {{ section.settings.padding_mb }}px;
+}
+    .custom-card-grid {
+    grid-template-columns: 1fr;
+}
+}
+
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Cards Custom",
+  "tag": "section",
+  "settings": [
+    {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Section Background Color"
+    },
+    {
+        "type": "range",
+        "id": "padding",
+        "label": "Padding",
+        "min": 0,
+        "max": 96,
+        "default": 64,
+        "step": 1,
+        "unit": "px"
+    },
+    {
+        "type": "range",
+        "id": "padding_mb",
+        "label": "Mobile Padding",
+        "min": 0,
+        "max": 96,
+        "default": 24,
+        "step": 1,
+        "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+            {
+                "type": "color",
+                "id": "card_bg_color",
+                "label": "Card Background Color"
+            },
+            {
+                "type": "image_picker",
+                "id": "card_bg",
+                "label": "Card Background Image"
+            },
+            {
+                "type": "select",
+                "id": "image_position",
+                "label": "Image position",
+                "options": [
+                    {
+                        "value": "center left",
+                        "label": "center left"
+                    },
+                    {
+                        "value": "center center",
+                        "label": "center center"
+                    },
+                    {
+                        "value": "center right",
+                        "label": "center right"
+                    }
+                ],
+                "default": "center center"
+            },
+            {
+                "type": "select",
+                "id": "image_fit",
+                "label": "Image fit",
+                "options": [
+                    {
+                        "value": "cover",
+                        "label": "cover"
+                    },
+                    {
+                        "value": "contain",
+                        "label": "contain"
+                    }
+                ],
+                "default": "cover"
+            },
+            {
+                "type": "range",
+                "id": "image_height",
+                "label": "Image Height",
+                "min": 0,
+                "max": 100,
+                "default": 100,
+                "unit": "%",
+                "step": 1
+            },
+            {
+                "type": "range",
+                "id": "image_opacity",
+                "label": "Image Opacity",
+                "min": 0,
+                "max": 100,
+                "default": 100,
+                "unit": "%",
+                "step": 1
+            },
+            {
+                "type": "text",
+                "id": "card_heading",
+                "label": "Card Heading",
+                "default": "Heading"
+            },
+            {
+                "type": "text",
+                "id": "card_subtitle",
+                "label": "Card Subtitle",
+                "default": "lorem ipsum soler dolet"
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "label": "Text Color"
+            },
+            {
+                "type": "text",
+                "id": "button_text",
+                "label": "Button Text",
+                "default": "Click Here"
+            },
+            {
+                "type": "url",
+                "id": "button_link",
+                "label": "Button Link"
+            },
+            {
+                "type": "color",
+                "id": "button_bg",
+                "label": "Button Background Color"
+            },
+            {
+                "type": "color",
+                "id": "button_text_color",
+                "label": "Button Text Color"
+            }
+        ]
+    }
+],
+  "presets": [
+    {
+      "name": "Cards Custom"
+    }
+  ]
+}
+{% endschema %}
