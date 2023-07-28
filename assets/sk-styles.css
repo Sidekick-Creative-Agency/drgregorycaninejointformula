@@ -246,6 +246,9 @@ p {
 .footer-block__heading {
   text-align: left;
 }
+.footer__newsletter {
+  margin-left: 0;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
