@@ -244,96 +244,95 @@
       {% render 'icon-close' %}
     </div>
   </div>
+
+  {% style %}
+    .video-modal-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0,0,0,.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: .2s ease;
+    }
+    .video-modal-container.open {
+      opacity: 1;
+      visibility: visible;
+      z-index: 999999;
+    }
+    .video-container {
+      padding-bottom: 56.25%;
+      width: 75%;
+      height: 0;
+      position: relative;
+    }
+    .video-container .video {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: none;
+      box-shadow: none;
+    }
+    .video-modal-close {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      aspect-ratio: 1/1;
+      border: 1px solid transparent;
+      transition: .2s ease;
+      padding: .8rem;
+      border-radius: 50%;
+    }
+    .video-modal-close svg {
+      color: #FFFFFF;
+      fill: #FFFFFF;
+      width: 2rem;
+      height: 2rem;
+    }
+    .video-modal-close:hover,
+    .video-modal-close:focus,
+    .video-modal-close:focus-visible {
+      border: 1px solid #ffffff;
+    }
+  {% endstyle %}
   <script>
-
-               
-                    document.querySelector('.video-modal-button').addEventListener('click', function() {
-                      if (document.querySelector('.video-modal-container').classList.contains('open')) {
-                        document.querySelector('.video-modal-container').classList.remove('open');
-                      } else {
-                        document.querySelector('.video-modal-container').classList.add('open');
-                      }
-                    })
-                    document.querySelector('.video-modal-close').addEventListener('click', function() {
-                        document.querySelector('.video-modal-container').classList.remove('open');
-                    })
-                    document.querySelector('.video-modal-close').addEventListener('keypress', function(event) {
-                      if (event.key === 'Enter') {
-                        event.preventDefault();
-                        document.querySelector('.video-modal-close').click();
-                      }
-                    })
-                    document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
-                      if (event.key === 'Enter') {
-                        event.preventDefault();
-                        document.querySelector('.video-modal-button').click();
-                      }
-                    })
-
-                  </script>
+    document.querySelector('.video-modal-button').addEventListener('click', function() {
+      if (document.querySelector('.video-modal-container').classList.contains('open')) {
+        document.querySelector('.video-modal-container').classList.remove('open');
+      } else {
+        document.querySelector('.video-modal-container').classList.add('open');
+      }
+    })
+    document.querySelector('.video-modal-close').addEventListener('click', function() {
+        document.querySelector('.video-modal-container').classList.remove('open');
+    })
+    document.querySelector('.video-modal-close').addEventListener('keypress', function(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        document.querySelector('.video-modal-close').click();
+      }
+    })
+    document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        document.querySelector('.video-modal-button').click();
+      }
+    })
+  </script>
 {%- endif -%}
 
                  
 {% style %}
-.video-modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0,0,0,.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: .2s ease;
-}
-.video-modal-container.open {
-  opacity: 1;
-  visibility: visible;
-  z-index: 999999;
-}
-.video-container {
-  padding-bottom: 56.25%;
-  width: 75%;
-  height: 0;
-  position: relative;
-}
-.video-container .video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: none;
-  box-shadow: none;
-}
-.video-modal-close {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  aspect-ratio: 1/1;
-  border: 1px solid transparent;
-  transition: .2s ease;
-  padding: .8rem;
-  border-radius: 50%;
-}
-.video-modal-close svg {
-  color: #FFFFFF;
-  fill: #FFFFFF;
-  width: 2rem;
-  height: 2rem;
-
-}
-.video-modal-close:hover,
-.video-modal-close:focus,
-.video-modal-close:focus-visible {
-  border: 1px solid #ffffff;
-}
 .image-text-section {
   padding: {{section.settings.padding}}px;
 }
