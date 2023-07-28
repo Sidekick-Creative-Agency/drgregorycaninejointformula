@@ -274,7 +274,7 @@
             "card_heading": "Save 20%",
             "card_subtitle": "on your first order of Dr. Gregory’s Canine Joint Formula with code:",
             "button_text": "CANINE23",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_bg": "",
             "button_text_color": ""
           }
@@ -283,10 +283,10 @@
           "type": "card",
           "settings": {
             "image_position": "center center",
-            "card_heading": "Heading",
-            "card_subtitle": "lorem ipsum soler dolet",
-            "button_text": "Click Here",
-            "button_link": "",
+            "card_heading": "Natural Formula. Happy Dogs.",
+            "card_subtitle": "See why dog owners are choosing Dr. Gregory’s Canine Joint Formula.",
+            "button_text": "Learn More",
+            "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_bg": "",
             "button_text_color": ""
           }
