@@ -262,6 +262,32 @@
         "padding": 64,
         "padding_mb": 24
       }
+    },
+    "ce6d0489-c387-4595-af59-8788a158451e": {
+      "type": "cards-custom",
+      "blocks": {
+        "d97791fd-163c-4951-b583-cac5396ff754": {
+          "type": "card",
+          "settings": {
+            "card_bg": "shopify:\/\/shop_images\/product-jar-layout4-noBG-e1688580735994.png",
+            "image_position": "center center",
+            "card_heading": "Save 20%",
+            "card_subtitle": "on your first order of Dr. Gregory’s Canine Joint Formula with code:",
+            "button_text": "CANINE23",
+            "button_link": "",
+            "button_bg": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "d97791fd-163c-4951-b583-cac5396ff754"
+      ],
+      "settings": {
+        "bg_color": "",
+        "padding": 64,
+        "padding_mb": 24
+      }
     }
   },
   "order": [
@@ -269,6 +295,7 @@
     "6fac245f-af7a-4c8b-b9be-b0020b2648dc",
     "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f",
     "2521f441-f335-4783-bca0-b42cd2194b05",
-    "43947498-e867-4204-bfc7-1450b92cc319"
+    "43947498-e867-4204-bfc7-1450b92cc319",
+    "ce6d0489-c387-4595-af59-8788a158451e"
   ]
 }
