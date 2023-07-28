@@ -14,7 +14,7 @@
                     {%- endif -%}
                 </div>
                 {%- if block.settings.card_bg != blank -%}
-                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}" />
+                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%" />
                 {%- endif -%}
             </div>
         {%- endfor -%}
@@ -151,7 +151,9 @@
                 "label": "Image Opacity",
                 "min": 0,
                 "max": 100,
-                "default": 100
+                "default": 100,
+                "unit": "%",
+                "step": 1
             },
             {
                 "type": "text",
