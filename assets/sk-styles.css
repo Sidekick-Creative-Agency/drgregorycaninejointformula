@@ -244,9 +244,13 @@ p {
   background-color: #ffffff;
   color: #1a2320;
   padding-left: 0.8rem !important;
+  border: none;
 }
 .newsletter-form__field-wrapper .field__label {
   left: 0.8rem !important;
+}
+.newsletter-form__field-wrapper .field__button {
+  background-color: #70846f !important;
 }
 .footer-block__heading {
   text-align: left;
