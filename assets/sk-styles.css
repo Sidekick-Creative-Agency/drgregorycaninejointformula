@@ -323,6 +323,10 @@ p {
   color: rgba(var(--color-button));
   border-color: rgba(var(--color-button));
 }
+.form__message {
+  border: none !important;
+  box-shadow: none !important;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
