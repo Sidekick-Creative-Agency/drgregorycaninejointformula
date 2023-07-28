@@ -215,6 +215,7 @@ p {
 .footer-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .footer-logo {
   width: 100%;
