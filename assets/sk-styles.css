@@ -276,7 +276,7 @@ p {
 .newsletter-form__field-wrapper .field__button:hover svg,
 .newsletter-form__field-wrapper .field__button:focus svg,
 .newsletter-form__field-wrapper .field__button:focus-visible svg {
-  transform: translateX(8px);
+  transform: translateX(4px);
 }
 .footer-block__heading {
   text-align: left;
