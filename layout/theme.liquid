@@ -77,9 +77,9 @@
         --payment-terms-background-color: rgb({{ scheme.settings.background.rgb }});
       }
       {% endfor %}
-
+      /* EDITED BY SIDEKICK AGENCY. REMOVED '0.75' FROM COLOR ATTRIBUTE OPACITY */
       {{ scheme_classes | prepend: 'body' }} {
-        color: rgba(var(--color-foreground), 0.75);
+        color: rgba(var(--color-foreground));
         background-color: rgb(var(--color-background));
       }
 
