@@ -90,7 +90,7 @@
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
-                {%- if block.settings.use_video_modal == true -%}
+                {%- if section.settings.use_video_modal == true -%}
                 
                   <div
                     role="button"
@@ -177,7 +177,7 @@
                 </a>
               {%- endif -%}
               {%- if block.settings.button_label-2 != blank -%}
-                {%- if block.settings.use_video_modal == true -%}
+                {%- if section.settings.use_video_modal == true -%}
                   <div
                     role="button"
                     class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
@@ -187,24 +187,6 @@
                   </div>
 
 
-                  <script>
-                    const modalButton = document.querySelector('.video-modal-button');
-                    const modalFrame = document.querySelector('.video-modal-container');
-                    modalButton.addEventListener('click', function() {
-                      if (modalFrame.classList.contains('open')) {
-                        alert('hello');
-                        modalFrame.classList.remove('open');
-                      } else {
-                        modalFrame.classList.add('open');
-                      }
-                    })
-                    modalButton.addEventListener('keypress', function(event) {
-                      if (event.key === 'Enter') {
-                        event.preventDefault();
-                        modalButton.click();
-                      }
-                    })
-                  </script>
 
                 {%- else  -%}
                   <a
