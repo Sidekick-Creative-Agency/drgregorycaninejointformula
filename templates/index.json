@@ -263,6 +263,70 @@
         "padding_mb": 24
       }
     },
+    "31198e7d-b70b-414c-85bb-96606ddcc25a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Stacy Clark",
+            "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
+            "desc_spacing": 15,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Dr. Dodson",
+            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
+            "desc_spacing": 16,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Tammy Kleine",
+            "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
+            "desc_spacing": 16,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-1",
+        "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-2",
+        "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-3"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
+        ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
+        "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
+        "h2 {text-align: center;}",
+        "h3 {font-weight: 600;}",
+        "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
+      ],
+      "settings": {
+        "title": "Hear what our customers have to say!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding": 64,
+        "padding_mb": 24
+      }
+    },
     "ce6d0489-c387-4595-af59-8788a158451e": {
       "type": "cards-custom",
       "blocks": {
@@ -271,7 +335,7 @@
           "settings": {
             "card_bg_color": "#a4b494",
             "card_bg": "shopify:\/\/shop_images\/product-jar-layout4-noBG-e1688580735994.png",
-            "image_position": "center right",
+            "image_position": 85,
             "image_fit": "contain",
             "image_height": 68,
             "image_opacity": 100,
@@ -289,7 +353,7 @@
           "settings": {
             "card_bg_color": "#000000",
             "card_bg": "shopify:\/\/shop_images\/anna-dudkova-md2_P9X7t4M-unsplash-1024x576.jpg",
-            "image_position": "center left",
+            "image_position": 23,
             "image_fit": "cover",
             "image_height": 100,
             "image_opacity": 60,
@@ -324,6 +388,7 @@
     "d3f9d0d9-f10c-4484-9a46-220bd37c0a0f",
     "2521f441-f335-4783-bca0-b42cd2194b05",
     "43947498-e867-4204-bfc7-1450b92cc319",
+    "31198e7d-b70b-414c-85bb-96606ddcc25a",
     "ce6d0489-c387-4595-af59-8788a158451e"
   ]
 }

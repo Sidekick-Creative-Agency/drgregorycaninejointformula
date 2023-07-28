@@ -4,7 +4,7 @@
             <div class="custom-card" style="background-color: {{ block.settings.card_bg_color }}" >
                 <div class="custom-card-content">
                     {%- if block.settings.card_heading != blank -%}
-                    <h2 class="custom-card-heading h1" style="color: {{ block.settings.text_color }}">{{ block.settings.card_heading }}</h2>
+                    <h2 class="custom-card-heading" style="color: {{ block.settings.text_color }}">{{ block.settings.card_heading }}</h2>
                     {%- endif -%}
                     {%- if block.settings.card_subtitle != blank -%}
                     <p class="custom-card-subtitle" style="color: {{ block.settings.text_color }}">{{ block.settings.card_subtitle }}</p>
@@ -14,7 +14,7 @@
                     {%- endif -%}
                 </div>
                 {%- if block.settings.card_bg != blank -%}
-                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image_height }}%" />
+                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}% 50%; object-fit: {{ block.settings.image_fit }}; opacity: {{ block.settings.image_opacity }}%; max-height: {{ block.settings.image_height }}%" />
                 {%- endif -%}
             </div>
         {%- endfor -%}
@@ -31,7 +31,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    max-width: var(--site-width);
+    max-width: var(--page-width);
 }
 .custom-card {
     padding: 3rem;
@@ -71,6 +71,11 @@
 }
     .custom-card-grid {
     grid-template-columns: 1fr;
+}
+.custom-card-content {
+    position: relative;
+    z-index: 1;
+    width: 80%;
 }
 }
 
@@ -123,24 +128,14 @@
                 "label": "Card Background Image"
             },
             {
-                "type": "select",
+                "type": "range",
                 "id": "image_position",
-                "label": "Image position",
-                "options": [
-                    {
-                        "value": "center left",
-                        "label": "center left"
-                    },
-                    {
-                        "value": "center center",
-                        "label": "center center"
-                    },
-                    {
-                        "value": "center right",
-                        "label": "center right"
-                    }
-                ],
-                "default": "center center"
+                "label": "Image Horizontal Position",
+                "min": 0,
+                "max": 100,
+                "default": 50,
+                "step": 1,
+                "unit": "%"
             },
             {
                 "type": "select",
