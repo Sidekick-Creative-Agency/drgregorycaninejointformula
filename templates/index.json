@@ -285,6 +285,7 @@
           "type": "card",
           "settings": {
             "card_bg_color": "",
+            "card_bg": "shopify:\/\/shop_images\/anna-dudkova-md2_P9X7t4M-unsplash-1024x576.jpg",
             "image_position": "center center",
             "image_fit": "cover",
             "card_heading": "Natural Formula. Happy Dogs.",
