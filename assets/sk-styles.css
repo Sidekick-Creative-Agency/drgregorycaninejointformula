@@ -224,7 +224,8 @@ p {
 .footer-logo {
   width: 100%;
 }
-.footer-block {
+.footer-block,
+.footer-block__details-content {
   width: fit-content !important;
 }
 .footer__blocks-wrapper {
