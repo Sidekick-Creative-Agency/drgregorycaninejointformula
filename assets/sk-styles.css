@@ -232,6 +232,7 @@ p {
   padding-bottom: 2rem;
   border-top: 2px solid #3c534a;
   border-bottom: 2px solid #3c534a;
+  justify-content: space-between;
 }
 .footer-block__details-content .link {
   padding: 0;
