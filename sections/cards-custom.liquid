@@ -14,7 +14,7 @@
                     {%- endif -%}
                 </div>
                 {%- if block.settings.card_bg != blank -%}
-                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}" />
+                    <img src="{{ block.settings.card_bg | image_url }}" class="custom-card-bg" width="auto" height="auto" loading="lazy" style="object-position: {{ block.settings.image_position }}; object-fit: {{ block.settings.image_fit }}" />
                 {%- endif -%}
             </div>
         {%- endfor -%}
@@ -44,7 +44,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     z-index: -1;
 }
 
@@ -119,6 +118,22 @@
                     }
                 ],
                 "default": "center center"
+            },
+            {
+                "type": "select",
+                "id": "image_fit",
+                "label": "Image fit",
+                "options": [
+                    {
+                        "value": "cover",
+                        "label": "cover"
+                    },
+                    {
+                        "value": "contain",
+                        "label": "contain"
+                    }
+                ],
+                "default": "cover"
             },
             {
                 "type": "text",
