@@ -175,6 +175,13 @@
                   >
                     {{ block.settings.button_label-2 | escape }}
                   </a>
+
+
+                  <script>
+                    const modalButton = document.querySelector('.video-modal-button');
+
+                  </script>
+
                 {%- else  -%}
                   <a
                     {% if block.settings.button_link-2 == blank %}
@@ -226,6 +233,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s ease;
 }
 .video-container {
   padding-bottom: 56.25%;
@@ -241,6 +251,7 @@
 }
 
 {% endstyle %}
+
 
 {% schema %}
 {
