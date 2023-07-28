@@ -221,6 +221,12 @@ p {
 .footer-logo {
   width: 100%;
 }
+.footer__blocks-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 2px solid #3c534a;
+  border-bottom: 2px solid #3c534a;
+}
 
 @media screen and (min-width: 990px) {
   .header {
