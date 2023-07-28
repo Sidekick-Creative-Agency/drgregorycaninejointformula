@@ -240,6 +240,9 @@ p {
 .footer__content-bottom-wrapper {
   justify-content: flex-start !important;
 }
+.newsletter-form__field-wrapper .field__input {
+  background-color: #ffffff;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
