@@ -336,6 +336,72 @@
         "padding": 64,
         "padding_mb": 24
       }
+    },
+    "8697cf52-4eef-432d-b427-c120ab1e113d": {
+      "type": "multicolumn-with-videos",
+      "blocks": {
+        "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "desc_spacing": 8,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "desc_spacing": 8,
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "desc_spacing": 8,
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-1",
+        "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-2",
+        "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-3"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
+        ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
+        ".multicolumn-card__image-wrapper {width: 128px; margin: 0 auto 8px;}",
+        "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
+        "h3 {font-weight: 600;}",
+        "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "video_src-1": "https:\/\/player.vimeo.com\/video\/847382243?h=7cd9821acb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "video_src-2": "https:\/\/player.vimeo.com\/video\/847382206?h=a9b8fbf671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding": 64,
+        "padding_mb": 24
+      }
     }
   },
   "order": [
@@ -344,6 +410,7 @@
     "b8d653cc-4353-4994-9513-139f1df7bb57",
     "57f7c980-5398-418e-9215-7bd5b51580fe",
     "7fe8a95e-3027-4cd3-8b62-81f3507906f0",
-    "7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b"
+    "7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b",
+    "8697cf52-4eef-432d-b427-c120ab1e113d"
   ]
 }
