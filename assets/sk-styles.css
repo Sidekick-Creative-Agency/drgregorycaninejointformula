@@ -273,7 +273,7 @@ p {
 }
 .newsletter-form__field-wrapper .field__label {
   left: 0.8rem !important;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 .newsletter-form__field-wrapper .field__button {
   background-color: #70846f !important;
