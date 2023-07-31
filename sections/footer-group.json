@@ -37,6 +37,7 @@
         "footer_logo_width": 300,
         "newsletter_enable": true,
         "newsletter_heading": "Join our mailing list",
+        "newsletter_text": "Get up to date information on news, discounts, and product updates.",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,

@@ -255,6 +255,7 @@ p {
 }
 .footer-block__newsletter {
   width: fit-content;
+  max-width: 33%;
 }
 .newsletter-form__field-wrapper .field__input {
   background-color: #ffffff;
