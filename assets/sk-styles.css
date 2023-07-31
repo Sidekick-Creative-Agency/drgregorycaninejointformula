@@ -469,6 +469,9 @@ p {
   .multicolumn-video-container {
     flex-direction: column;
   }
+  .multicolumn-video-item {
+    padding-bottom: 56.25%;
+  }
 }
 @media screen and (max-width: 749px) {
   .image-text-container {
