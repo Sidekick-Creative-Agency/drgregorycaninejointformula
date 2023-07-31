@@ -96,7 +96,7 @@
                 
                   <div
                     role="button"
-                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %} video-button-{{ section.id }}"
                     {{ block.shopify_attributes }}
                     tabindex="0"
                   >
@@ -237,7 +237,7 @@
   </div>
 </div>
 {%- if section.settings.use_video_modal == true -%}
-  <div class="video-modal-container">
+  <div class="video-modal-container video-modal-container-{{ section.id }}">
     <div class="video-container">
       <iframe src="{{ videoLink }}" allowfullscreen="1" class="video"></iframe>
     </div>
