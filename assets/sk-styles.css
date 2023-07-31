@@ -10,6 +10,9 @@ p {
 .subtitle p {
   line-height: 150%;
 }
+.header__menu-item {
+  font-weight: 500 !important;
+}
 .header-wrapper {
   z-index: 10;
 }
