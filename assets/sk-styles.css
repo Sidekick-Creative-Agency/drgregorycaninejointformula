@@ -259,7 +259,8 @@ p {
 .footer-block__newsletter {
   width: fit-content;
 }
-.newsletter-form__field-wrapper {
+.newsletter-form__field-wrapper,
+.newsletter-form {
   max-width: none !important;
 }
 .newsletter-form__field-wrapper .field__input {
