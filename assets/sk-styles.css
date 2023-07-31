@@ -374,7 +374,7 @@ p {
 .multicolumn-video-container {
   display: flex;
   gap: var(--grid-desktop-horizontal-spacing);
-  margin-bottom: 24px;
+  margin-top: 24px;
 }
 .multicolumn-video-item {
   padding-bottom: 28.12%;
