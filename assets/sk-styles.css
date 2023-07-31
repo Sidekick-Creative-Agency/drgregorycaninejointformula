@@ -313,6 +313,9 @@ p {
 .quantity-popover-wrapper {
   gap: 1rem;
 }
+.cart-count-bubble span {
+  font-size: 12px;
+}
 .cart-remove-button {
   /* width: 53.5px; */
   aspect-ratio: 1/1;
