@@ -289,6 +289,7 @@ p {
   height: calc(100% - 1.75px);
   margin-top: 1px;
   font-size: 18px;
+  letter-spacing: 0.006rem;
 }
 .newsletter-form__field-wrapper .field__button svg {
   transition: 0.2s ease;
