@@ -285,9 +285,10 @@ p {
 }
 .newsletter-form__field-wrapper .field__button {
   background-color: #70846f !important;
-  width: 5rem;
+  width: 7rem;
   height: calc(100% - 1.75px);
   margin-top: 1px;
+  font-size: 18px;
 }
 .newsletter-form__field-wrapper .field__button svg {
   transition: 0.2s ease;
