@@ -25,7 +25,9 @@
         "ec5750e8-2ed4-46d7-a768-258dde90f574"
       ],
       "custom_css": [
-        "a {color: #ffffff;}"
+        "a {color: #ffffff;}",
+        "a,p {font-size: 14px; font-weight: 300;}",
+        "h2 {font-family: \"Poppins\", sans-serif;}"
       ],
       "settings": {
         "color_scheme": "scheme-f4dd041a-b8ac-43fc-ae14-cd54d477e517",
