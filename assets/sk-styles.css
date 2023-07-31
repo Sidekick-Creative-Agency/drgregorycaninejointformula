@@ -373,6 +373,7 @@ p {
 }
 .multicolumn-video-container {
   display: flex;
+  gap: var(--grid-desktop-horizontal-spacing);
 }
 .multicolumn-video-item {
   padding-bottom: 56.25%;
