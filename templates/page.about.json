@@ -33,7 +33,8 @@
       "custom_css": [
         "h1 {color: #edede8;}",
         ".image-with-text {background-color: #3c534a;}",
-        "p {color: #edede8; font-size: 16px;}"
+        "p {color: #edede8; font-size: 16px;}",
+        ".image-with-text__media {padding-bottom: 100%;}"
       ],
       "settings": {
         "section_heading": "Meet Dr. Gregory",
