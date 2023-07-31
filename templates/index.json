@@ -373,8 +373,8 @@
         "b9e0eb7f-9204-4efa-a794-19c1ec884185"
       ],
       "custom_css": [
-        "p {line-height: 150%;}",
-        "h2 {margin-bottom: 16px;}"
+        "p {line-height: 150%; margin-top: 8px;}",
+        "h2 {margin-bottom: 0px;}"
       ],
       "settings": {
         "bg_color": "",
