@@ -356,10 +356,6 @@ p {
   .image-with-form {
     align-items: center;
   }
-  .multicolumn-list__item {
-    width: calc(25% - 64px * 3 / 4) !important;
-    max-width: calc(25% - 64px * 3 / 4) !important;
-  }
 }
 @media screen and (max-width: 989px) {
   .multicolumn-card__image-wrapper--third-width {
