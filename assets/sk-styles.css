@@ -10,7 +10,8 @@ p {
 .subtitle p {
   line-height: 150%;
 }
-.header__menu-item {
+.header__menu-item,
+.menu-drawer__menu-item {
   font-weight: 500 !important;
 }
 .header-wrapper {
