@@ -10,6 +10,9 @@ p {
 .subtitle p {
   line-height: 150%;
 }
+.header__heading-link {
+  padding: 0;
+}
 .header__menu-item {
   font-size: 16px;
 }
@@ -19,6 +22,7 @@ p {
 }
 .header-wrapper {
   z-index: 10;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.075);
 }
 
 .list-menu {
