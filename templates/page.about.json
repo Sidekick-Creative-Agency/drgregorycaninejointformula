@@ -33,6 +33,7 @@
       "custom_css": [
         "h1 {color: #edede8;}",
         ".image-with-text {background-color: #3c534a;}",
+        ".image-with-text__content {align-items: center; }",
         "p {color: #edede8; font-size: 16px;}",
         ".image-with-text__media {padding-bottom: 100% !important;}",
         ".image-with-text__media img {object-position: 50% 40%;}"
