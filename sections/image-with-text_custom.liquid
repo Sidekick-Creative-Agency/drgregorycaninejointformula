@@ -185,9 +185,10 @@
 
                   <div
                     role="button"
-                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %}"
+                    class="video-modal-button button{% if block.settings.button_style_secondary-2 %} button--secondary{% else %} button--primary{% endif %} video-button-{{ section.id }}"
                     {{ block.shopify_attributes }}
                     tabindex="0"
+
                   >
                     {{ block.settings.button_label-2 | escape }}
                   </div>
@@ -308,26 +309,26 @@
     }
   {% endstyle %}
   <script>
-    document.querySelector('.video-modal-button').addEventListener('click', function() {
-      if (document.querySelector('.video-modal-container').classList.contains('open')) {
-        document.querySelector('.video-modal-container').classList.remove('open');
+    document.querySelector('.video-button-{{ section.id }}').addEventListener('click', function() {
+      if (document.querySelector('.video-modal-container-{{ section.id }}').classList.contains('open')) {
+        document.querySelector('.video-modal-container-{{ section.id }}').classList.remove('open');
       } else {
-        document.querySelector('.video-modal-container').classList.add('open');
+        document.querySelector('.video-modal-container-{{ section.id }}').classList.add('open');
       }
     })
-    document.querySelector('.video-modal-close').addEventListener('click', function() {
-        document.querySelector('.video-modal-container').classList.remove('open');
+    document.querySelector('.video-modal-close-{{ section.id }}').addEventListener('click', function() {
+        document.querySelector('.video-modal-container-{{ section.id }}').classList.remove('open');
     })
-    document.querySelector('.video-modal-close').addEventListener('keypress', function(event) {
+    document.querySelector('.video-modal-close-{{ section.id }}').addEventListener('keypress', function(event) {
       if (event.key === 'Enter') {
         event.preventDefault();
-        document.querySelector('.video-modal-close').click();
+        document.querySelector('.video-modal-close-{{ section.id }}').click();
       }
     })
-    document.querySelector('.video-modal-button').addEventListener('keypress', function(event) {
+    document.querySelector('.video-button-{{ section.id }}').addEventListener('keypress', function(event) {
       if (event.key === 'Enter') {
         event.preventDefault();
-        document.querySelector('.video-modal-button').click();
+        document.querySelector('.video-button-{{ section.id }}').click();
       }
     })
     document.addEventListener('click', function(event) {
