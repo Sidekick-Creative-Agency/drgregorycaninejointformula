@@ -281,6 +281,7 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Dr. Dodson",
             "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
             "desc_spacing": 16,
@@ -291,6 +292,7 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Tammy Kleine",
             "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
             "desc_spacing": 16,
