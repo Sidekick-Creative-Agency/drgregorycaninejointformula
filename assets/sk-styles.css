@@ -260,7 +260,7 @@ p {
   width: fit-content;
 }
 .newsletter-form__field-wrapper {
-  max-width: none;
+  max-width: none !important;
 }
 .newsletter-form__field-wrapper .field__input {
   background-color: #ffffff;
