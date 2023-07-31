@@ -270,6 +270,7 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Stacy Clark",
             "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
             "desc_spacing": 15,
@@ -306,6 +307,7 @@
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
         ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
+        ".multicolumn-card__image-wrap {width: 200px;}",
         "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
         "h2 {text-align: center;}",
         "h3 {font-weight: 600;}",

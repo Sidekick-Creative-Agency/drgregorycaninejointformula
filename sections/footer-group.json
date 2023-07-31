@@ -28,7 +28,7 @@
         "a {color: #ffffff;}",
         "a,p {font-size: 14px; font-weight: 300; margin-top: 0;}",
         "h2 {font-family: \"Poppins\", sans-serif; margin-bottom: 8px; font-size: 2rem; font-weight: 500; letter-spacing: 0.006rem;}",
-        ".field__label {font-size: 16px; top: 30%; letter-spacing: .006rem;}"
+        ".field__label {font-size: 16px; top: 30%; letter-spacing: 0.006rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-f4dd041a-b8ac-43fc-ae14-cd54d477e517",
