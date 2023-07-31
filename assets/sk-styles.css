@@ -234,6 +234,7 @@ p {
 .footer-block__details-content {
   width: fit-content !important;
   flex-grow: 0;
+  max-width: 33%;
 }
 .footer__blocks-wrapper {
   padding-top: 2rem;
@@ -255,7 +256,6 @@ p {
 }
 .footer-block__newsletter {
   width: fit-content;
-  max-width: 33%;
 }
 .newsletter-form__field-wrapper .field__input {
   background-color: #ffffff;
