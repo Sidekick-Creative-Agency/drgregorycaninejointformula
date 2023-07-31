@@ -307,7 +307,7 @@
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
         ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
-        ".multicolumn-card__image-wrap {width: 200px;}",
+        ".multicolumn-card__image-wrapper {width: 128}",
         "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
         "h2 {text-align: center;}",
         "h3 {font-weight: 600;}",
