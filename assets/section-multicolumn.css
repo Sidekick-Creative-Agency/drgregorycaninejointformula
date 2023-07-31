@@ -104,9 +104,10 @@
     width: 100%;
   }
 
+  /* EDITED BY SIDEKICK AGENCY */
   .multicolumn-list:not(.slider) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
   }
 }
 
