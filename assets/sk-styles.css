@@ -52,6 +52,7 @@ p {
   border-color: rgba(var(--color-button));
   border-style: solid;
   transition: 0.1s ease;
+  text-align: center;
 }
 .button--secondary {
   border-color: rgba(var(--color-button-text));
