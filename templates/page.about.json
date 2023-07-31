@@ -108,8 +108,9 @@
         "de33c8f0-2fd6-41be-aa9e-9ae3ff03f56d"
       ],
       "custom_css": [
-        "h3 {color: #F6F6F4}",
-        "p {line-height: 150%; color: #F6F6F4;}"
+        "h3 {color: #f6f6f4; white-space: nowrap;}",
+        "p {line-height: 150%; color: #f6f6f4;}",
+        "@media screen and (min-width: 990px) {.multicolumn-list__item {width: calc(25% - 64px * 3 \/ 4) !important; max-width: calc(25% - 64px * 3 \/ 4) !important; }}"
       ],
       "settings": {
         "title": "",
@@ -176,7 +177,7 @@
         "template--16785202675957__23feaaa6-d3ad-48c3-a753-f2e27f276d26-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "See Product",
+            "button_label": "View Product",
             "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_style_secondary": false
           }

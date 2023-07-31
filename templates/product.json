@@ -152,8 +152,7 @@
         "2a8a9437-7ca2-448a-9327-78ceeeb86b65"
       ],
       "custom_css": [
-        "p {line-height: 150%;}",
-        "@media screen and (min-width: 990px) {.multicolumn-list__item {width: calc(25% - 64px * 3 \/ 4) !important; max-width: calc(25% - 64px * 3 \/ 4) !important; }}"
+        "p {line-height: 150%;}"
       ],
       "settings": {
         "title": "",
