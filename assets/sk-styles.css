@@ -218,6 +218,7 @@ p {
   margin-top: 2.2rem;
   min-height: 8rem;
 }
+
 .footer-row {
   display: flex;
   justify-content: space-between;
@@ -366,6 +367,10 @@ p {
   }
   .image-with-form {
     align-items: center;
+  }
+  .footer {
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
   }
   .footer-block {
     max-width: 33% !important;
