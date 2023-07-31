@@ -214,129 +214,6 @@
         "padding_mb": 24
       }
     },
-    "7fe8a95e-3027-4cd3-8b62-81f3507906f0": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
-            "title": "Stacy Clark",
-            "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
-            "desc_spacing": 16,
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
-            "title": "Dr. Dodson",
-            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
-            "desc_spacing": 16,
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
-            "title": "Tammy Kleine",
-            "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
-            "desc_spacing": 16,
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-1",
-        "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-2",
-        "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3"
-      ],
-      "custom_css": [
-        ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
-        ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
-        ".multicolumn-card__image-wrapper {width: 128px; margin: 0 auto 8px;}",
-        "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px * 2); }}",
-        "h3 {font-weight: 600;}",
-        "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
-      ],
-      "settings": {
-        "title": "Hear what our customers have to say!",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding": 64,
-        "padding_mb": 24
-      }
-    },
-    "7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get to know Dr. Gregory",
-            "heading_size": "h1"
-          }
-        },
-        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Meet the mastermind behind our canine joint formula! With over 40 years of experience as a licensed veterinarian, Dr. Gregory has dedicated his life to improving the lives of dogs.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/about",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-heading-1",
-        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-text-1",
-        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-button-1"
-      ],
-      "custom_css": [
-        ".image-with-text {background-color: #f6f6f4;}",
-        ".image-with-text__grid {gap: 48px;}",
-        ".image-with-text__grid .grid__item {width: calc(50% - 48px \/ 2);}",
-        ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}",
-        "@media screen and (max-width: 989px) {.image-with-text__grid {gap: 16px; } .image-with-text__grid .grid__item {width: 100%; }}"
-      ],
-      "settings": {
-        "section_heading": "",
-        "section_heading_tag": "h2",
-        "image": "shopify:\/\/shop_images\/Dr-Gregory-17_1.jpg",
-        "border-radius": 20,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding": 64,
-        "padding_mb": 24
-      }
-    },
     "8697cf52-4eef-432d-b427-c120ab1e113d": {
       "type": "multicolumn-with-videos",
       "blocks": {
@@ -405,6 +282,62 @@
         "padding": 64,
         "padding_mb": 24
       }
+    },
+    "7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get to know Dr. Gregory",
+            "heading_size": "h1"
+          }
+        },
+        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet the mastermind behind our canine joint formula! With over 40 years of experience as a licensed veterinarian, Dr. Gregory has dedicated his life to improving the lives of dogs.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/about",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-heading-1",
+        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-text-1",
+        "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-button-1"
+      ],
+      "custom_css": [
+        ".image-with-text {background-color: #f6f6f4;}",
+        ".image-with-text__grid {gap: 48px;}",
+        ".image-with-text__grid .grid__item {width: calc(50% - 48px \/ 2);}",
+        ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}",
+        "@media screen and (max-width: 989px) {.image-with-text__grid {gap: 16px; } .image-with-text__grid .grid__item {width: 100%; }}"
+      ],
+      "settings": {
+        "section_heading": "",
+        "section_heading_tag": "h2",
+        "image": "shopify:\/\/shop_images\/Dr-Gregory-17_1.jpg",
+        "border-radius": 20,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding": 64,
+        "padding_mb": 24
+      }
     }
   },
   "order": [
@@ -412,8 +345,7 @@
     "related-products",
     "b8d653cc-4353-4994-9513-139f1df7bb57",
     "57f7c980-5398-418e-9215-7bd5b51580fe",
-    "7fe8a95e-3027-4cd3-8b62-81f3507906f0",
-    "7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b",
-    "8697cf52-4eef-432d-b427-c120ab1e113d"
+    "8697cf52-4eef-432d-b427-c120ab1e113d",
+    "7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b"
   ]
 }
