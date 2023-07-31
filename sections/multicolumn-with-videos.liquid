@@ -40,20 +40,7 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
-    {%- if section.settings.video_src-1 != blank or section.settings.video_src-2 != blank -%}
-      <div class="multicolumn-video-container">
-        {%- if section.settings.video_src-1 != blank -%}
-          <div class="multicolumn-video-item">
-            <iframe src="{{section.settings.video_src-1}}" class="multicolumn-video" allowfullscreen></iframe>
-          </div>
-        {%- endif -%}
-        {%- if section.settings.video_src-2 != blank -%}
-          <div class="multicolumn-video-item">
-            <iframe src="{{section.settings.video_src-2}}" class="multicolumn-video" allowfullscreen></iframe>
-          </div>
-        {%- endif -%}
-      </div>
-    {%- endif -%}
+    
     <slider-component class="slider-mobile-gutter">
       <ul
         class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--mobile grid--peek{% endif %}"
@@ -184,6 +171,20 @@
         </div>
       {%- endif -%}
     </slider-component>
+    {%- if section.settings.video_src-1 != blank or section.settings.video_src-2 != blank -%}
+      <div class="multicolumn-video-container">
+        {%- if section.settings.video_src-1 != blank -%}
+          <div class="multicolumn-video-item">
+            <iframe src="{{section.settings.video_src-1}}" class="multicolumn-video" allowfullscreen></iframe>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.video_src-2 != blank -%}
+          <div class="multicolumn-video-item">
+            <iframe src="{{section.settings.video_src-2}}" class="multicolumn-video" allowfullscreen></iframe>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
