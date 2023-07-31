@@ -128,7 +128,8 @@
         "940cce37-d33f-43eb-980a-2b312c2d7189"
       ],
       "custom_css": [
-        "p {line-height: 150%;}"
+        "p {line-height: 150%;}",
+        "@media screen and (min-width: 990px) {.multicolumn-list__item {width: calc(25% - 64px * 3 \/ 4) !important; max-width: calc(25% - 64px * 3 \/ 4) !important; }}"
       ],
       "settings": {
         "title": "",
@@ -170,7 +171,7 @@
         "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "See Product",
+            "button_label": "View Product",
             "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_style_secondary": false
           }
@@ -184,7 +185,7 @@
       "settings": {
         "bg_color": "",
         "use_custom_liquid": true,
-        "custom_liquid": "<canvas id=\"bg\"><\/canvas>\n<script type=\"module\">\n\nimport { GLTFLoader } from 'https:\/\/cdn.skypack.dev\/three@0.133.1\/examples\/jsm\/loaders\/GLTFLoader.js';\n\nconst scene = new THREE.Scene();\t\n\nvar w = document.getElementById('bg').offsetWidth;\nvar h = document.getElementById('bg').offsetHeight;\nvar viewSize = 1000;\n\nconst camera = new THREE.OrthographicCamera( w \/ (- 2 * viewSize), w \/ (2 * viewSize), h \/ (2 * viewSize), h \/ (- 2 * viewSize), -1, 100 );\t\ncamera.zoom = document.getElementById('bg').offsetWidth \/ 1300;\nscene.add( camera );\n\t\nvar aspectRatio = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nvar originalAspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nconst canvas = document.getElementById('bg');\nconst renderer = new THREE.WebGLRenderer({\n  canvas: canvas,\n\talpha: true,\n\tantialias: true\n});\nrenderer.setPixelRatio(window.devicePixelRatio);\nrenderer.setSize(document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\nrenderer.shadowMap.enabled = true;\nrenderer.shadowMap.type = THREE.PCFSoftShadowMap;\nrenderer.outputEncoding = THREE.sRGBEncoding;\ncamera.position.set(-.55,0,0);\ncamera.lookAt(0,0,0);\ncamera.updateProjectionMatrix();\nrenderer.render(scene,camera);\nwindow.addEventListener( 'resize', onWindowResize);\nfunction onWindowResize(){\nconsole.log(document.getElementById('bg').offsetWidth);\n    var aspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\n    var change = originalAspect \/ aspect;\n    var newSize = viewSize * change;\n    camera.left = -aspect * newSize \/ 3200;\n    camera.right = aspect * newSize \/ 3200;\n    camera.top = newSize \/ 3200;\n    camera.bottom = -newSize \/ 3200;\n    camera.updateProjectionMatrix();\n    renderer.setSize( document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\n}\nvar rightLight = new THREE.DirectionalLight(0xffffff, 0.1);\nrightLight.position.set(-50,0,50);\nrightLight.target.position.set(0,0,0);\nconst directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );\ndirectionalLight.position.set(-1, 0, 0);\ndirectionalLight.target.position.set(0,0,0);\ndirectionalLight.castShadow = true;\nscene.add( directionalLight );\nconst loader = new GLTFLoader();\n\tlet product;\nloader.load( 'https:\/\/cdn.shopify.com\/s\/files\/1\/0649\/7524\/1461\/files\/dr_gregory_product_final_new.glb?v=1690469865', function ( gltf ) {\n\tproduct = gltf.scene;\n \tproduct.position.set(0,-.175,.34);\n\tscene.add( product );\n}, undefined, function ( error ) {\n\tconsole.error( error );\n} );\nfunction animate() {\n\trenderer.render( scene, camera );\n\tif (product) {\n\tproduct.rotation.y -= .005;\n\t}\n\trequestAnimationFrame( animate );\n}\nanimate();\n<\/script>",
+        "custom_liquid": "<canvas id=\"bg\"><\/canvas>\n<script type=\"module\">\n\nimport { GLTFLoader } from 'https:\/\/cdn.skypack.dev\/three@0.133.1\/examples\/jsm\/loaders\/GLTFLoader.js';\n\nconst scene = new THREE.Scene();\t\n\nvar w = document.getElementById('bg').offsetWidth;\nvar h = document.getElementById('bg').offsetHeight;\nvar viewSize = 1000;\n\nconst camera = new THREE.OrthographicCamera( w \/ (- 2 * viewSize), w \/ (2 * viewSize), h \/ (2 * viewSize), h \/ (- 2 * viewSize), -1, 100 );\t\ncamera.zoom = document.getElementById('bg').offsetWidth \/ 1300;\nscene.add( camera );\n\t\nvar aspectRatio = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nvar originalAspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\nconst canvas = document.getElementById('bg');\nconst renderer = new THREE.WebGLRenderer({\n  canvas: canvas,\n\talpha: true,\n\tantialias: true\n});\nrenderer.setPixelRatio(window.devicePixelRatio);\nrenderer.setSize(document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\nrenderer.shadowMap.enabled = true;\nrenderer.shadowMap.type = THREE.PCFSoftShadowMap;\nrenderer.outputEncoding = THREE.sRGBEncoding;\ncamera.position.set(-.55,0,0);\ncamera.lookAt(0,0,0);\ncamera.updateProjectionMatrix();\nrenderer.render(scene,camera);\nwindow.addEventListener( 'resize', onWindowResize);\nfunction onWindowResize(){\n    var aspect = document.getElementById('bg').offsetWidth \/ document.getElementById('bg').offsetHeight;\n    var change = originalAspect \/ aspect;\n    var newSize = viewSize * change;\n    camera.left = -aspect * newSize \/ 3200;\n    camera.right = aspect * newSize \/ 3200;\n    camera.top = newSize \/ 3200;\n    camera.bottom = -newSize \/ 3200;\n    camera.updateProjectionMatrix();\n    renderer.setSize( document.getElementById('bg').offsetWidth, document.getElementById('bg').offsetHeight);\n}\nvar rightLight = new THREE.DirectionalLight(0xffffff, 0.1);\nrightLight.position.set(-50,0,50);\nrightLight.target.position.set(0,0,0);\nconst directionalLight = new THREE.DirectionalLight( 0xffffff, 1 );\ndirectionalLight.position.set(-1, 0, 0);\ndirectionalLight.target.position.set(0,0,0);\ndirectionalLight.castShadow = true;\nscene.add( directionalLight );\nconst loader = new GLTFLoader();\n\tlet product;\nloader.load( 'https:\/\/cdn.shopify.com\/s\/files\/1\/0649\/7524\/1461\/files\/dr_gregory_product_final_new.glb?v=1690469865', function ( gltf ) {\n\tproduct = gltf.scene;\n \tproduct.position.set(0,-.175,.34);\n\tscene.add( product );\n}, undefined, function ( error ) {\n\tconsole.error( error );\n} );\nfunction animate() {\n\trenderer.render( scene, camera );\n\tif (product) {\n\tproduct.rotation.y -= .005;\n\t}\n\trequestAnimationFrame( animate );\n}\nanimate();\n<\/script>",
         "image": "shopify:\/\/shop_images\/dr_gregory_front_shadow-1-e1688573778463.png",
         "layout": "text_first",
         "show_bg_circle": true,
@@ -269,6 +270,7 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Stacy Clark",
             "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
             "desc_spacing": 15,
@@ -279,6 +281,7 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Dr. Dodson",
             "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
             "desc_spacing": 16,
@@ -289,6 +292,7 @@
         "template--16784424272117__31198e7d-b70b-414c-85bb-96606ddcc25a-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Tammy Kleine",
             "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
             "desc_spacing": 16,
@@ -305,8 +309,8 @@
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
         ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
+        ".multicolumn-card__image-wrapper {width: 128px; margin: 0 auto 8px;}",
         "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
-        "h2 {text-align: center;}",
         "h3 {font-weight: 600;}",
         "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
       ],
@@ -357,7 +361,7 @@
             "image_fit": "cover",
             "image_height": 100,
             "image_opacity": 60,
-            "card_heading": "Natural Formula. Happy Dogs.",
+            "card_heading": "Natural Formula.<br>Happy Dogs.",
             "card_subtitle": "See why dog owners are choosing Dr. Gregory’s Canine Joint Formula.",
             "text_color": "#ffffff",
             "button_text": "Learn More",
@@ -372,8 +376,8 @@
         "b9e0eb7f-9204-4efa-a794-19c1ec884185"
       ],
       "custom_css": [
-        "p {line-height: 150%;}",
-        "h2 {margin-bottom: 16px;}"
+        "p {line-height: 150%; margin-top: 8px;}",
+        "h2 {margin-bottom: 0px;}"
       ],
       "settings": {
         "bg_color": "",

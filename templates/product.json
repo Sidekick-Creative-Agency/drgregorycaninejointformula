@@ -152,7 +152,8 @@
         "2a8a9437-7ca2-448a-9327-78ceeeb86b65"
       ],
       "custom_css": [
-        "p {line-height: 150%;}"
+        "p {line-height: 150%;}",
+        "@media screen and (min-width: 990px) {.multicolumn-list__item {width: calc(25% - 64px * 3 \/ 4) !important; max-width: calc(25% - 64px * 3 \/ 4) !important; }}"
       ],
       "settings": {
         "title": "",
@@ -219,6 +220,7 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Stacy Clark",
             "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
             "desc_spacing": 16,
@@ -229,6 +231,7 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Dr. Dodson",
             "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
             "desc_spacing": 16,
@@ -239,6 +242,7 @@
         "template--16784424337653__7fe8a95e-3027-4cd3-8b62-81f3507906f0-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Tammy Kleine",
             "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
             "desc_spacing": 16,
@@ -255,8 +259,8 @@
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #ffffff !important; color: #1a2320 !important; padding: 32px; border-radius: 16px !important;}",
         ".multicolumn.background-primary .multicolumn-card h3 {color: #1a2320 !important;}",
+        ".multicolumn-card__image-wrapper {width: 128px; margin: 0 auto 8px;}",
         "@media screen and (min-width: 990px) {.multicolumn-list {gap: 24px; flex-wrap: nowrap; } .multicolumn-list li {width: calc(33.33% - 24px \/ 2); }}",
-        "h2 {text-align: center;}",
         "h3 {font-weight: 600;}",
         "p {font-weight: 400; line-height: 150%; text-align: left; font-size: 16px;}"
       ],

@@ -25,7 +25,10 @@
         "ec5750e8-2ed4-46d7-a768-258dde90f574"
       ],
       "custom_css": [
-        "a {color: #ffffff;}"
+        "a {color: #ffffff;}",
+        "a,p {font-size: 14px; font-weight: 300; margin-top: 0;}",
+        "h2 {font-family: \"Poppins\", sans-serif; margin-bottom: 8px; font-size: 2rem; font-weight: 500; letter-spacing: 0.006rem;}",
+        "input:not(:focus):placeholder-shown + .field__label {font-size: 16px; top: 30%; letter-spacing: 0.006rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-f4dd041a-b8ac-43fc-ae14-cd54d477e517",
@@ -34,7 +37,8 @@
         "footer_logo_link_title": "Link to homepage",
         "footer_logo_width": 300,
         "newsletter_enable": true,
-        "newsletter_heading": "Join our maiing list",
+        "newsletter_heading": "Join our mailing list",
+        "newsletter_text": "Get up to date information on news, discounts, and product updates.",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
