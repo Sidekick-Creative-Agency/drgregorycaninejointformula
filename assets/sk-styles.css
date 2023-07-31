@@ -297,6 +297,9 @@ p {
 .footer__newsletter {
   margin-left: 0 !important;
 }
+.newsletter-text {
+  text-align: left;
+}
 .field__input:-webkit-autofill ~ .field__button {
   color: #ffffffcc;
 }
