@@ -230,9 +230,7 @@ p {
 .footer-logo {
   width: 100%;
 }
-.footer-block {
-  max-width: 33%;
-}
+
 .footer-block,
 .footer-block__details-content {
   width: fit-content !important;
@@ -368,6 +366,9 @@ p {
   }
   .image-with-form {
     align-items: center;
+  }
+  .footer-block {
+    max-width: 33% !important;
   }
 }
 @media screen and (max-width: 989px) {
