@@ -175,12 +175,24 @@
             "button_link": "shopify:\/\/products\/canine-joint-formula",
             "button_style_secondary": false
           }
+        },
+        "f3527a75-d044-402b-b77d-542811da7183": {
+          "type": "double-button",
+          "settings": {
+            "button_label-1": "View Product",
+            "button_link-1": "shopify:\/\/products\/canine-joint-formula",
+            "button_style_secondary-1": false,
+            "button_label-2": "Watch Testimonial",
+            "button_link-2": "",
+            "button_style_secondary-2": true
+          }
         }
       },
       "block_order": [
         "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-heading-1",
         "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-text-1",
-        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1"
+        "template--16784424272117__2521f441-f335-4783-bca0-b42cd2194b05-button-1",
+        "f3527a75-d044-402b-b77d-542811da7183"
       ],
       "settings": {
         "bg_color": "",
