@@ -333,9 +333,9 @@
     })
     document.addEventListener('click', function(event) {
         
-      if (document.querySelector('.video-modal-container').classList.contains('open')) {
-        if (event.target.classList.contains('video-modal-container')) {
-          document.querySelector('.video-modal-container').classList.remove('open');
+      if (document.querySelector('.video-modal-container-{{ section.id }}').classList.contains('open')) {
+        if (event.target.classList.contains('video-modal-container-{{ section.id }}')) {
+          document.querySelector('.video-modal-container-{{ section.id }}').classList.remove('open');
         }
       }
       
