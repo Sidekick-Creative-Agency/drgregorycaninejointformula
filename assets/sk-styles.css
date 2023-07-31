@@ -230,11 +230,13 @@ p {
 .footer-logo {
   width: 100%;
 }
+.footer-block {
+  max-width: 33%;
+}
 .footer-block,
 .footer-block__details-content {
   width: fit-content !important;
   flex-grow: 0;
-  max-width: 33%;
 }
 .footer__blocks-wrapper {
   padding-top: 2rem;
