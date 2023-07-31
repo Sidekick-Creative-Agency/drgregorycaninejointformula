@@ -422,6 +422,10 @@ p {
   .image-with-form {
     gap: 32px !important;
   }
+  .footer {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
 }
 @media screen and (max-width: 749px) {
   .image-text-container {
