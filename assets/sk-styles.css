@@ -343,6 +343,9 @@ p {
   border: none !important;
   box-shadow: none !important;
 }
+.footer-block__details-content .list-menu__item--link {
+  font-size: 1rem;
+}
 @media screen and (min-width: 990px) {
   .header {
     /* grid-template-columns: 220px auto 220px; */
