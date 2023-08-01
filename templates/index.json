@@ -22,7 +22,7 @@
         "72d97c1c-7203-4369-8c4f-4e0283329f36": {
           "type": "heading",
           "settings": {
-            "dual_heading-1": "Give Your dog a chance to",
+            "dual_heading-1": "All your dog wants is to",
             "heading_color-1": "#edede8",
             "dual_heading-2": "walk without pain",
             "heading_color-2": "#3c534a",
@@ -216,7 +216,7 @@
           "settings": {
             "heading": "The math has been done for you",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
+            "row_content": "<p>Our formula incorporates meticulously calculated proportions for each ingredient, ensuring optimal effectiveness and safety for your canine companion. Your dog will receive precisely balanced ingredients to support their overall well-being and vitality.<\/p>",
             "page": ""
           }
         },
@@ -234,7 +234,7 @@
           "settings": {
             "heading": "High-quality ingredients supported by research",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
+            "row_content": "<p>Our formula is crafted using high-quality ingredients that have been extensively researched and proven to effectively reduce canine joint pain. Every component is chosen with care, ensuring your beloved companion receives the utmost relief and support for their joint health.<\/p>",
             "page": ""
           }
         },
@@ -243,7 +243,7 @@
           "settings": {
             "heading": "No fillers, additives, chemicals, preservatives",
             "icon": "none",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
+            "row_content": "<p>Our product is free from any fillers, additives, chemicals, or preservatives, providing your dog with a pure and natural supplement for their well-being. We prioritize clean and natural ingredients, ensuring your pet receives the best without any unnecessary or harmful substances.<\/p>",
             "page": ""
           }
         }
