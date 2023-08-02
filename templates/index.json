@@ -241,9 +241,9 @@
         "template--16784424272117__43947498-e867-4204-bfc7-1450b92cc319-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "No fillers, additives, chemicals, preservatives",
+            "heading": "No fillers, additives, sugars, chemicals, or preservatives",
             "icon": "none",
-            "row_content": "<p>Our product is free from any fillers, additives, chemicals, or preservatives, providing your dog with a pure and natural supplement for their well-being. We prioritize clean and natural ingredients, ensuring your pet receives the best without any unnecessary or harmful substances.<\/p>",
+            "row_content": "<p>Our product is free from any fillers, additives, sugars, chemicals, or preservatives, providing your dog with a pure and natural supplement for their well-being. We prioritize clean and natural ingredients, ensuring your pet receives the best without any unnecessary or harmful substances.<\/p>",
             "page": ""
           }
         }
@@ -289,7 +289,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Dr. Dodson",
-            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
+            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally anti-inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
             "desc_spacing": 16,
             "link_label": "",
             "link": ""
