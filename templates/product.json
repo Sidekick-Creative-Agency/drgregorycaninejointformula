@@ -189,7 +189,7 @@
           "settings": {
             "heading": "Directions for use",
             "icon": "none",
-            "row_content": "<p>Mix one 1.23g scoop with canned food or sprinkle directly on moistened dry food.<\/p>",
+            "row_content": "<p>Mix the appropriate number of scoops for your dog's weight with canned food or sprinkle directly on moistened dry food. See label for complete directions for use.<\/p>",
             "page": ""
           }
         }
@@ -233,7 +233,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Star_Rating.svg",
             "title": "Dr. Dodson",
-            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
+            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally anti-inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
             "desc_spacing": 16,
             "link_label": "",
             "link": ""
