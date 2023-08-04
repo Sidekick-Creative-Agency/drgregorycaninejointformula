@@ -412,9 +412,10 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".cc-btn {border-radius: 20px; border-width: 1px; cursor: pointer !important; transition: .1s ease;}",
+      ".cc-btn {border-radius: 20px; border-width: 1px; cursor: pointer !important; transition: 0.1s ease;}",
       ".cc-btn,.cc-message {font-family: Poppins, sans-serif; font-weight: 300;}",
-      ".cc-btn:hover,.cc-btn:focus,.cc-btn:focus-visible {background-color: #ffffff; color: rgb(60, 83, 74);}"
+      ".cc-btn:hover,.cc-btn:focus,.cc-btn:focus-visible {background-color: #ffffff; color: rgb(60, 83, 74);}",
+      ".cc-window {transition: opacity 0.2s ease;}"
     ]
   }
 }
