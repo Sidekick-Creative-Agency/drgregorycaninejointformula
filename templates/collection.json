@@ -16,7 +16,7 @@
         "@media screen and (max-width: 989px) {.product-grid, .facets-wrapper {padding-left: 32px; padding-right: 32px; }}"
       ],
       "settings": {
-        "products_per_page": 16,
+        "products_per_page": 8,
         "columns_desktop": 2,
         "image_ratio": "square",
         "image_shape": "default",
@@ -26,8 +26,8 @@
         "enable_quick_add": false,
         "enable_filtering": false,
         "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
+        "enable_sorting": false,
+        "columns_mobile": "1",
         "padding_top": 32,
         "padding_bottom": 32
       }
