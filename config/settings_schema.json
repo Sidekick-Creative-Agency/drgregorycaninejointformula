@@ -1450,7 +1450,7 @@
       },
       {
         "type": "url",
-        "id": "empty_keep_shopping_link",
+        "id": "keep_shopping_link",
         "label": "Keep Shopping Link",
         "info": "Visible when cart drawer is empty. Leave blank to link to All Collections"
       },
