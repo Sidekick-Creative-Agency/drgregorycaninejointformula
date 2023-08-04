@@ -50,8 +50,12 @@
 
             {%- if settings.continue_shopping_link != blank -%}
               <a href="{{ settings.continue_shopping_link }}" class="button">
-                  {{ 'general.continue_shopping' | t }}
-                </a>
+                {{ 'general.continue_shopping' | t }}
+              </a>
+            {%- else -%}
+              <a href="{{ routes.all_products_collection_url }}" class="button">
+                {{ 'general.continue_shopping' | t }}
+              </a>
             {%- endif -%}
               
             <a href="{{ routes.all_products_collection_url }}" class="button">
