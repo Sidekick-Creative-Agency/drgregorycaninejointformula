@@ -112,6 +112,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
+    "continue_shopping_link": "shopify:\/\/products\/canine-joint-formula",
     "cart_drawer_collection": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/drgregory-logo-secondary-fullcolor.svg",
     "checkout_accent_color": "#a4b494",

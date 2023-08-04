@@ -1449,6 +1449,12 @@
         "default": false
       },
       {
+        "type": "url",
+        "id": "continue_shopping_link",
+        "label": "Continue Shopping Link",
+        "info": "Visible when cart drawer is empty. Leave blank to link to All Collections"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.cart.settings.cart_drawer.header"
       },

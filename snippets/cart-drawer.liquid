@@ -39,9 +39,24 @@
               >
                 {% render 'icon-close' %}
               </button>
+              {% comment %} EDITED BY SIDEKICK AGENCY {% endcomment %}
+              {% comment %} 
+                ORIGINAL CODE BELOW 
+                
+                <a href="{{ routes.all_products_collection_url }}" class="button">
+                  {{ 'general.continue_shopping' | t }}
+                </a>
+            {% endcomment %}
+
+            {%- if settings.continue_shopping_link != blank -%}
+              <a href="{{ settings.continue_shopping_link }}" class="button">
+                {{ 'general.continue_shopping' | t }}
+              </a>
+            {%- else -%}
               <a href="{{ routes.all_products_collection_url }}" class="button">
                 {{ 'general.continue_shopping' | t }}
               </a>
+            {%- endif -%}
 
               {%- if shop.customer_accounts_enabled and customer == null -%}
                 <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p>
