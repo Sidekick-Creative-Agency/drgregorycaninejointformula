@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/drgregory-logo-secondary-fullcolor.svg",
+    "logo": "shopify://shop_images/drgregory-logo-secondary-fullcolor.svg",
     "logo_width": 220,
-    "favicon": "shopify:\/\/shop_images\/drgregory-logo-icon-sage.svg",
+    "favicon": "shopify://shop_images/drgregory-logo-icon-sage.svg",
     "type_header_font": "poppins_n4",
     "heading_scale": 140,
     "type_body_font": "poppins_n3",
@@ -96,8 +105,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https:\/\/www.facebook.com\/drgregoryscaninejointformula",
-    "social_instagram_link": "https:\/\/www.instagram.com\/drgregorys_caninejointformula\/",
+    "social_facebook_link": "https://www.facebook.com/drgregoryscaninejointformula",
+    "social_instagram_link": "https://www.instagram.com/drgregorys_caninejointformula/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -112,9 +121,9 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "continue_shopping_link": "shopify:\/\/products\/canine-joint-formula",
+    "continue_shopping_link": "shopify://products/canine-joint-formula",
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/drgregory-logo-secondary-fullcolor.svg",
+    "checkout_logo_image": "shopify://shop_images/drgregory-logo-secondary-fullcolor.svg",
     "checkout_accent_color": "#a4b494",
     "checkout_button_color": "#a4b494",
     "sections": {
@@ -131,9 +140,19 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
+    "blocks": {
+      "12198985164985445843": {
+        "type": "shopify://apps/nova-eu-cookie-bar-gdpr/blocks/app-embed/6667ecbd-70cf-4527-84a9-e6037e6ca706",
+        "disabled": false,
+        "settings": {}
+      },
+      "10436698916776057164": {
+        "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -221,14 +240,6 @@
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
-        }
-      }
-    },
-    "blocks": {
-      "12198985164985445843": {
-        "type": "shopify:\/\/apps\/nova-eu-cookie-bar-gdpr\/blocks\/app-embed\/6667ecbd-70cf-4527-84a9-e6037e6ca706",
-        "disabled": false,
-        "settings": {
         }
       }
     }
