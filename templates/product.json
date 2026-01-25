@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -17,8 +25,11 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -26,15 +37,9 @@
             "picker_type": "button"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -48,7 +53,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "heart",
-            "content": "<p>Active Ingredients Per 1.23 Grams<\/p><ul><li><em>Perna canaliculus<\/em> (Green Lipped Mussel) Powder<\/li><li>Eggshell Membrane Collagen Powder<\/li><li>Green Tea Leaf Extract<\/li><li>CurcuWIN Turmeric Root Extract<\/li><li>AvoVida Avocado Fruit\/Soy Seed Extract<\/li><li>UC-II Chicken Collagen Powder<\/li><\/ul><p>Inactive ingredients<\/p><ul><li>Natural Flavor<\/li><li>Silicon Dioxide<\/li><\/ul>",
+            "content": "<p>Active Ingredients Per 1.23 Grams</p><ul><li><em>Perna canaliculus</em> (Green Lipped Mussel) Powder</li><li>Eggshell Membrane Collagen Powder</li><li>Green Tea Leaf Extract</li><li>CurcuWIN Turmeric Root Extract</li><li>AvoVida Avocado Fruit/Soy Seed Extract</li><li>UC-II Chicken Collagen Powder</li></ul><p>Inactive ingredients</p><ul><li>Natural Flavor</li><li>Silicon Dioxide</li></ul>",
             "page": ""
           }
         }
@@ -57,8 +62,8 @@
         "title",
         "caption",
         "price",
-        "variant_picker",
         "description",
+        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0"
@@ -103,9 +108,9 @@
         "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Circle_d70cbe08-56b1-4f15-93de-abe8b2cd6b98.svg",
+            "image": "shopify://shop_images/Circle_d70cbe08-56b1-4f15-93de-abe8b2cd6b98.svg",
             "title": "Natural Ingredients",
-            "text": "<p>Packed with human-grade, natural ingredients to reduce joint pain and keep your dog happy and active<\/p>",
+            "text": "<p>Packed with human-grade, natural ingredients to reduce joint pain and keep your dog happy and active</p>",
             "desc_spacing": 4,
             "link_label": "",
             "link": ""
@@ -114,9 +119,9 @@
         "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Circle_21063c4b-716d-4126-a22e-2522f8459e67.svg",
+            "image": "shopify://shop_images/Circle_21063c4b-716d-4126-a22e-2522f8459e67.svg",
             "title": "No Preservatives",
-            "text": "<p>Contains only 6 powerful ingredients, all free from any potentially harmful inactive ingredients<\/p>",
+            "text": "<p>Contains only 6 powerful ingredients, all free from any potentially harmful inactive ingredients</p>",
             "desc_spacing": 4,
             "link_label": "",
             "link": ""
@@ -125,9 +130,9 @@
         "template--16784424337653__b8d653cc-4353-4994-9513-139f1df7bb57-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Circle_a8107bc3-f769-44ff-90ff-bf3da6e39b24.svg",
+            "image": "shopify://shop_images/Circle_a8107bc3-f769-44ff-90ff-bf3da6e39b24.svg",
             "title": "Proven by Research",
-            "text": "<p>Created with a patented blend of research-backed ingredients proven to alleviate joint pain and promote joint health in dogs​<\/p>",
+            "text": "<p>Created with a patented blend of research-backed ingredients proven to alleviate joint pain and promote joint health in dogs​</p>",
             "desc_spacing": 4,
             "link_label": "",
             "link": ""
@@ -136,9 +141,9 @@
         "2a8a9437-7ca2-448a-9327-78ceeeb86b65": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Circle_3d76b932-a693-4782-9773-2c687c9f3fb1.svg",
+            "image": "shopify://shop_images/Circle_3d76b932-a693-4782-9773-2c687c9f3fb1.svg",
             "title": "Veterinarian Backed",
-            "text": "<p>Developed by a veterinarian with over 40 years of experience, our formula meets the highest standards of safety and quality<\/p>",
+            "text": "<p>Developed by a veterinarian with over 40 years of experience, our formula meets the highest standards of safety and quality</p>",
             "desc_spacing": 8,
             "link_label": "",
             "link": ""
@@ -153,7 +158,7 @@
       ],
       "custom_css": [
         "p {line-height: 150%;}",
-        "@media screen and (min-width: 990px) {.multicolumn-list__item {width: calc(25% - 64px * 3 \/ 4) !important; max-width: calc(25% - 64px * 3 \/ 4) !important; }}"
+        "@media screen and (min-width: 990px) {.multicolumn-list__item {width: calc(25% - 64px * 3 / 4) !important; max-width: calc(25% - 64px * 3 / 4) !important; }}"
       ],
       "settings": {
         "title": "",
@@ -180,7 +185,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "row_content": "<p>Active Ingredients Per 1.23 Grams<\/p><ul><li><em>Perna canaliculus<\/em> (Green Lipped Mussel) Powder<\/li><li>Eggshell Membrane Collagen Powder<\/li><li>Green Tea Leaf Extract<\/li><li>CurcuWIN Turmeric Root Extract<\/li><li>AvoVida Avocado Fruit\/Soy Seed Extract<\/li><li>UC-II Chicken Collagen Powder<\/li><\/ul><p>Inactive ingredients<\/p><ul><li>Natural Flavor<\/li><li>Silicon Dioxide<\/li><\/ul>",
+            "row_content": "<p>Active Ingredients Per 1.23 Grams</p><ul><li><em>Perna canaliculus</em> (Green Lipped Mussel) Powder</li><li>Eggshell Membrane Collagen Powder</li><li>Green Tea Leaf Extract</li><li>CurcuWIN Turmeric Root Extract</li><li>AvoVida Avocado Fruit/Soy Seed Extract</li><li>UC-II Chicken Collagen Powder</li></ul><p>Inactive ingredients</p><ul><li>Natural Flavor</li><li>Silicon Dioxide</li></ul>",
             "page": ""
           }
         },
@@ -189,7 +194,7 @@
           "settings": {
             "heading": "Directions for use",
             "icon": "none",
-            "row_content": "<p>Mix 1.23 g scoop with canned food or sprinkle directly on moistened dry food, as shown below.<\/p><ul><li>Up to 22 lbs: 1 scoop daily<\/li><li>23-44 lbs: 2 scoops daily<\/li><li>45-66 lbs: 3 scoops daily<\/li><li>67-88 lbs: 4 scoops daily<\/li><li>89-110 lbs: 5 scoops daily<\/li><li>111-132 lbs: 6 scoops daily<\/li><li>133-154 lbs: 7 scoops daily<\/li><li>155 lbs and over: add 1 scoop for each 22 lbs body weight<\/li><\/ul>",
+            "row_content": "<p>Mix 1.23 g scoop with canned food or sprinkle directly on moistened dry food, as shown below.</p><ul><li>Up to 22 lbs: 1 scoop daily</li><li>23-44 lbs: 2 scoops daily</li><li>45-66 lbs: 3 scoops daily</li><li>67-88 lbs: 4 scoops daily</li><li>89-110 lbs: 5 scoops daily</li><li>111-132 lbs: 6 scoops daily</li><li>133-154 lbs: 7 scoops daily</li><li>155 lbs and over: add 1 scoop for each 22 lbs body weight</li></ul>",
             "page": ""
           }
         }
@@ -207,7 +212,7 @@
         "color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
         "container_color_scheme": "scheme-5b905588-b0a2-4dc4-90de-d29b6481564d",
         "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/ralu-gal-G8cB8hY3yvU-unsplash-e1688591638945.jpg",
+        "image": "shopify://shop_images/ralu-gal-G8cB8hY3yvU-unsplash-e1688591638945.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding": 64,
@@ -220,9 +225,9 @@
         "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
+            "image": "shopify://shop_images/Star_Rating.svg",
             "title": "Stacy Clark",
-            "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"<\/p>",
+            "text": "<p>\"My furry babies have seen Dr. Gregory for 30 years now so I trusted his recommendation on the canine joint supplement for my 13-year-old lab, who was having trouble getting up and down. This product worked wonderful for him, and he was able to live the last year of his life comfortably. This product is highly recommended!\"</p>",
             "desc_spacing": 16,
             "link_label": "",
             "link": ""
@@ -231,9 +236,9 @@
         "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
+            "image": "shopify://shop_images/Star_Rating.svg",
             "title": "Dr. Dodson",
-            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally anti-inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"<\/p>",
+            "text": "<p>\"As a veterinarian, I would use this product on my own dog, I would use this product in my mom's dog. What's special about this supplement is that it has a lot of ingredients that are naturally anti-inflammatory, so I think it's all about inflammation – preventing inflammation in the joints to prevent severe arthritis down the road, finding that starting joint supplements earlier is important, not just saving it for our old arthritic dogs that are already limping.\"</p>",
             "desc_spacing": 16,
             "link_label": "",
             "link": ""
@@ -242,9 +247,9 @@
         "template--16784424337653__8697cf52-4eef-432d-b427-c120ab1e113d-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Star_Rating.svg",
+            "image": "shopify://shop_images/Star_Rating.svg",
             "title": "Tammy Kleine",
-            "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"<\/p>",
+            "text": "<p>\"Within a few weeks, we could start to see a difference. He [her dog] was moving around better and just able to get up easier...we go for a walk every morning and that's important to me that he can move around and be able to go with me. We want to have quality of life and really the same for him, I want him to be able to move around and enjoy life.\"</p>",
             "desc_spacing": 8,
             "link_label": "",
             "link": ""
@@ -275,8 +280,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "accent-1",
-        "video_src-1": "https:\/\/player.vimeo.com\/video\/847382243?h=7cd9821acb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-        "video_src-2": "https:\/\/player.vimeo.com\/video\/847382206?h=a9b8fbf671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "video_src-1": "https://player.vimeo.com/video/847382243?h=7cd9821acb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "video_src-2": "https://player.vimeo.com/video/847382206?h=a9b8fbf671&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding": 64,
@@ -296,7 +301,7 @@
         "template--16784424337653__7a1b137d-45cc-41b1-90e5-fc8e0a2cdc6b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Meet the mastermind behind our canine joint formula! With over 40 years of experience as a licensed veterinarian, Dr. Gregory has dedicated his life to improving the lives of dogs.<\/p>",
+            "text": "<p>Meet the mastermind behind our canine joint formula! With over 40 years of experience as a licensed veterinarian, Dr. Gregory has dedicated his life to improving the lives of dogs.</p>",
             "text_style": "body"
           }
         },
@@ -304,7 +309,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/about",
+            "button_link": "shopify://pages/about",
             "button_style_secondary": false
           }
         }
@@ -317,14 +322,14 @@
       "custom_css": [
         ".image-with-text {background-color: #f6f6f4;}",
         ".image-with-text__grid {gap: 48px;}",
-        ".image-with-text__grid .grid__item {width: calc(50% - 48px \/ 2);}",
+        ".image-with-text__grid .grid__item {width: calc(50% - 48px / 2);}",
         ".button:hover,.button:focus-visible,.button:focus,.button.focused {border-color: rgba(var(--color-button)); color: rgba(var(--color-button));}",
         "@media screen and (max-width: 989px) {.image-with-text__grid {gap: 16px; } .image-with-text__grid .grid__item {width: 100%; }}"
       ],
       "settings": {
         "section_heading": "",
         "section_heading_tag": "h2",
-        "image": "shopify:\/\/shop_images\/Dr-Gregory-17_1.jpg",
+        "image": "shopify://shop_images/Dr-Gregory-17_1.jpg",
         "border-radius": 20,
         "height": "adapt",
         "desktop_image_width": "medium",
