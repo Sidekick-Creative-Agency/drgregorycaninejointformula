@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -39,7 +48,7 @@
         "@media screen and (max-width: 989px) {h3 {font-size: 28px; } p {font-size: 18px; }}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"contact-custom-section\">\n<div class=\"contact-custom-column\">\n<h3>Dr. Gregory's<\/h3>\n<p>PO Box 463<\/p>\n<p>China Spring, Texas, 76633<\/p>\n<p>USA<\/p><\/div>\n<div class=\"contact-custom-column icon-column\">\n  <ul class=\"list list-social list-unstyled\" role=\"list\">\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_facebook_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-facebook' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.facebook' | t }}<\/span>\n                  <\/a>\n                <\/li>\n\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_instagram_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-instagram' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.instagram' | t }}<\/span>\n                  <\/a>\n                <\/li>\n<\/ul>\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"contact-custom-section\">\n<div class=\"contact-custom-column\">\n<h3>Dr. Gregory's</h3>\n<p>China Spring, Texas, 76633</p>\n<p>USA</p></div>\n<div class=\"contact-custom-column icon-column\">\n  <ul class=\"list list-social list-unstyled\" role=\"list\">\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_facebook_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-facebook' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.facebook' | t }}</span>\n                  </a>\n                </li>\n\n                <li class=\"list-social__item\">\n                  <a href=\"{{ settings.social_instagram_link }}\" class=\"list-social__link link\">\n                    {%- render 'icon-instagram' -%}\n                    <span class=\"visually-hidden\">{{ 'general.social.links.instagram' | t }}</span>\n                  </a>\n                </li>\n</ul>\n</div>\n</div>",
         "color_scheme": "accent-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -54,7 +63,7 @@
       "settings": {
         "section_heading": "",
         "section_heading_tag": "h2",
-        "image": "shopify:\/\/shop_images\/Dr-Gregory-12-scaled-e1688668687700.jpg",
+        "image": "shopify://shop_images/Dr-Gregory-12-scaled-e1688668687700.jpg",
         "border-radius": 20,
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -79,4 +88,3 @@
     "3c96a6e8-8536-401f-a43a-e042b165ab59"
   ]
 }
-
