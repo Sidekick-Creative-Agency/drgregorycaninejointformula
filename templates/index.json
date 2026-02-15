@@ -102,10 +102,10 @@
           "type": "button",
           "settings": {
             "button_label": "eBook",
-            "button_link": "",
+            "button_link": "https://cdn.shopify.com/s/files/1/0649/7524/1461/files/The_Canine_Mobility_Guide.pdf?v=1771190095",
             "button_style_secondary": false,
             "button_label_2": "The UC-II Story",
-            "button_link_2": "",
+            "button_link_2": "https://cdn.shopify.com/s/files/1/0649/7524/1461/files/The_UC-II_Story.pdf?v=1771190135",
             "button_style_secondary_2": false
           }
         }
